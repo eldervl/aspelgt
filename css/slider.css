@@ -1,0 +1,30 @@
+
+.slider-cont{
+    display: block;
+    width: 70%;
+    height: 70%;
+    margin: auto;
+    margin-top: 150px;
+    z-index: 5;
+}
+.slidertitle{
+    color:white;
+    text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.550);
+    font-size: 3em;
+}
+.slidertitle#st1{
+    margin-top: 200px;
+}
+.slidertitle#st2{
+    text-align: right;
+}
+.sliderdesc{
+    color:white;
+    text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.550);
+}
+.sliderdesc#sd1{
+    width: 80%;
+}
+.sliderdesc#sd2{
+    text-align: right;
+}
