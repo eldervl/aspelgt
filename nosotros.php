@@ -10,7 +10,9 @@ ASPEL proyect, nosotros.php v1xx
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Aspel - Plantilla</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/normalize.css@8.0.1/normalize.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <!--<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">-->
+    <link rel="stylesheet" href="css/libraries/bootstrap.css">
+    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/base.css">
     <link rel="stylesheet" href="css/contenido.css">
 </head>
@@ -24,7 +26,7 @@ ASPEL proyect, nosotros.php v1xx
 
 <!--AREA DE CONTENIDO=====================================================-->
 
-<div class="contenedor margenes-g">
+<div class="contenedor ">
 
     <h3>Nosotros</h3>
     <section class="sector" id="sector1">

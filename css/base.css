@@ -16,6 +16,7 @@ ASPEL proyect, css/base.css v1ev
 *{
     margin: 0;
     padding: 0;
+    font-family: 'Titillium Web', sans-serif;
 }
 
 body{
@@ -23,12 +24,12 @@ body{
     width: 100%;
 }
 
+.noselect{
+    user-select: none;
+}
+
 /*AREA MARGENES Y PADDING DEFAULT ================================*/
 
-.margenes-g{
-    margin: 0 10%;
-    padding: 0;
-}
 .padding-t{
     padding: 50px 10px 10px 10px
 }
@@ -39,7 +40,6 @@ header{
     justify-content: space-between;
     align-items: center;
     background-color: var(--bgblanco2);
-    padding: 0;
     position: fixed;
     width: 100%;
     height: 90px;
@@ -53,14 +53,23 @@ header{
 }
 .header2{
     height: 120px;
-    background-color: rgba(0, 0, 0, 0.300);
+    /*background-color: rgba(0, 0, 0, 0.300);*/
 }
 img.logop{
-    width: 160px;
+    width: 130px;
+    transition-property: width;
+    transition-duration: 0.5s, 0.5s;
+    margin-right: 50px;
+    margin-left: 10%;
 }
 .header2 img.logop{
-    content:url("../img/logo2.png");
-    width: 160px;
+    /*content:url("../img/logotipos/logo2.png");*/
+    width: 170px;
+    transition-property: width;
+    transition-duration: 0.5s, 0.5s;
+}
+nav.principal{
+    margin-right: 10%;
 }
 nav.principal a{
     font-weight: 500;
@@ -70,10 +79,11 @@ nav.principal a{
     display: inline-block;
     margin: 0;
     text-decoration: none;
+    transition: background-color,color 0.1s linear;
 }
-.header2 nav.principal a{
+/*.header2 nav.principal a{
     color: white;
-}
+}*/
 
 nav.principal a:hover{
     background-color: var(--bgblanco4);
@@ -88,15 +98,16 @@ nav.principal a:hover{
     background: none;
     margin-top: 25px;
     display: none;
+    margin-right: 10%;
 }
 .active{
     border: none;
     background-color: var(--bgblanco3);
 }
-.header2 .active{
+/*.header2 .active{
     border: solid var(--bgblanco1) 1px;
     background-color: transparent;
-}
+}*/
 .openmenu{
     height: auto;
     overflow: hidden;
@@ -106,22 +117,43 @@ nav ul{
 }
 /*Formato para pantallas medianas*/
 @media only screen and (max-width: 1023px) {
-
 }
 /*Formato para pantallas pequeñas*/
-@media only screen and (max-width: 880px) {
+@media only screen and (max-width: 980px) {
+    header{
+        display: block;
+        height: 90px;
+    }
+    .header2{
+        height: 90px;
+    }
     .btnmenu{
         display: block;
     }
     .openmenu{
         height: 0;
     }
+    .menucontent{
+        width: 100%;
+        background-color: var(--bgblanco3);
+        margin-top: 90px;
+    }
+    nav.principal{
+        margin-right: 0;
+    }
     nav.principal a{
         display: block;
         padding: 7px 10%;
+        width: 100%;
     }
-    ul.margenes-g{
-        margin: 0 0;
+    img.logop{
+        float: left;
+        margin-top: 20px;
+        margin-right: 0;
+        width: 130px;
+    }
+    .header2 img.logop{
+        width: 130px;
     }
 }
 

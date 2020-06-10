@@ -10,7 +10,9 @@ ASPEL proyect, index.php v1ev
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Aspel - Plantilla</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/normalize.css@8.0.1/normalize.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <!--<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">-->
+    <link rel="stylesheet" href="css/libraries/bootstrap.css">
+    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/base.css">
     <link rel="stylesheet" href="css/contenido.css">
     <link rel="stylesheet" href="css/slider.css">
@@ -37,7 +39,7 @@ ASPEL proyect, index.php v1ev
                 <p class="sliderdesc" id="sd1">ASPEL cuentan con un servicio de capacitaciones, productos, un sistema de pólizas para la conveniencia de los clientes además de otros tipos de servicios</p>
 
             </div>
-            <img style="text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.550)" src="img/index/hero.jpg" alt="img">
+            <img style="text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.550)" src="img/slider/hero.jpg" alt="img">
             </li>
             <li>
             <div class="slider-cont">
@@ -46,7 +48,7 @@ ASPEL proyect, index.php v1ev
                 <p class="sliderdesc" id="sd2">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eligendi, delectus nesciunt placeat saepe quae tenetur totam at sed nulla repellendus aspernatur eius ut harum laboriosam ab dolor ducimus sit accusantium!</p>
 
             </div>
-            <img style="text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.550)" src="img/index/portfolio-02.jpg" alt="img">
+            <img style="text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.550)" src="img/slider/portfolio-02.jpg" alt="img">
             </li>
             <li>
             <div class="slider-cont">
@@ -55,7 +57,7 @@ ASPEL proyect, index.php v1ev
                 <p class="sliderdesc" id="sd3">prueba slider 3</p>
 
             </div>
-            <img style="text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.550)" src="img/index/xd.jpg" alt="img">
+            <img style="text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.550)" src="img/slider/xd.jpg" alt="img">
             </li>
         </ul>
         <nav class="slides-navigation">
@@ -78,51 +80,56 @@ ASPEL proyect, index.php v1ev
 
 
 
-<section class="sector" id="sector1">
-    <h3>¿Quienes somos?</h3>
-    <p>Bienvenidos a la experiencia en tecnología más revolucionaria ASPEL cuentan con un servicio de capacitaciones, productos, un sistema de pólizas para la conveniencia de los clientes además de otros tipos de servicios
-    Estamos capacitados para ofrecerles una experiencia adecuada con nuestras soluciones de desarrollo a la media además de que garantizamos nuestro trabajo con personal certificado por aspel </p>
-    <button class="btn border" onclick="location.href='nosotros.php'">Más sobre nosotros</button>
+<section class="sector">
+    <div class="seccion mt fli">
+        <h3>¿Quienes somos?</h3>
+        <p>Bienvenidos a la experiencia en tecnología más revolucionaria ASPEL cuentan con un servicio de capacitaciones, productos, un sistema de pólizas para la conveniencia de los clientes además de otros tipos de servicios
+        Estamos capacitados para ofrecerles una experiencia adecuada con nuestras soluciones de desarrollo a la media además de que garantizamos nuestro trabajo con personal certificado por aspel </p>
+        <button class="btn border" onclick="location.href='nosotros.php'">Más sobre nosotros</button>
+    </div>
+    <div class="seccion mt fld">
+        
+    </div>
+    
 </section>
+
 <section class="sector" id="sector2">
-    <div class="seccion" style="float:left">
-        <img src="img/index/programas.png" alt="">
+    <div class="seccion mt fli">
+        <img src="img/general/programas.png" alt="">
     </div>
-    <div class="seccion" style="float:right">
-        <br>
-        <h3>Nuestros servicios</h3>
-        <p>contamos con una amplia gama de servicios como nuestras capacitaciones desde los niveles basicos y avanzados ademas de nuestro
-        soporte tecnico ,nuestras polizas y nuestras soluciones de desarrollo a la medida .</p>
+    <div class="seccion mt fld">
+        <h3>Nuestros Productos</h3>
+        <p>Descripción productos</p>
     </div>
-    <div class="seccion" style="width:100%">
-    <br>
-    <br>
-    <br>
-    <div class="row" style="padding:0 50px">
+    <div class="seccion mt completo">
+        <div class="row" style="padding:0 50px">
             <div class="col-lg-4">
-                <div class="card mb-4 bg-light border-0 tarjeta" style="overflow:hidden; height:420px;border:none;" >
-                    <img src="img/SAE.JPG" class="card-img-top" alt="..." style="width:100%">
+                <div class="card mb-4 bg-light border-0 tarjeta noselect" id="t1" style="overflow:hidden; height:420px;border:none;" >
+                    <img src="img/productos/NONE.jpg" class="card-img-top" alt="..." style="width:100%">
                     <div class="card-body">
-                        <h5 class="card-title">SAE</h5>
-                        <p class="card-text">Este curso tiene como principal objetivo la capacitación del Participante para obtener los conocimientos Y herramientas que le permitan administrar el sistema</p>
+                        <h5 class="card-title">PROGRAMA</h5>
+                        <p class="card-text">Breve descripción... Lorem ipsum dolor sit, amet consectetur adipisicing elit. Porro sed voluptatibus minus quo, asperiores voluptate modi corrupti </p>
+                        <small class="texto-inferior" id="ti1">Presiona para más información</small>
                     </div>
                 </div>
             </div>
             <div class="col-lg-4">
-                <div class="card mb-4 bg-light border-0 tarjeta" style="overflow:hidden; height:420px;border:none;" >
-                    <img src="img/COI.JPG" class="card-img-top" alt="..." style="width:100%">
+                <div class="card mb-4 bg-light border-0 tarjeta noselect" id="t2" style="overflow:hidden; height:420px;border:none;" >
+                    <img src="img/productos/NONE.jpg" class="card-img-top" alt="..." style="width:100%">
                     <div class="card-body">
-                        <h5 class="card-title">COI</h5>
-                        <p class="card-text">el usuario tendrá los conocimientos y herramientas que le permitirán administrar la información modificación y eliminación de los datos en los catálogos del sistema</p>
+                        <h5 class="card-title">PROGRAMA</h5>
+                        <p class="card-text">Breve descripción... Lorem ipsum dolor sit, amet consectetur adipisicing elit. Porro sed voluptatibus minus quo, asperiores voluptate modi corrupti </p>
+                        <small class="texto-inferior" id="ti2">Presiona para más información</small>
                     </div>
                 </div>
             </div>
             <div class="col-lg-4">
-                <div class="card mb-4 bg-light border-0 tarjeta" style="overflow:hidden; height:420px;border:none;" >
-                    <img src="img/NOI.JPG" class="card-img-top" alt="..." style="width:100%">
+                <div class="card mb-4 bg-light border-0 tarjeta noselect" id="t3" style="overflow:hidden; height:420px;border:none;" >
+                    <img src="img/productos/NONE.jpg" class="card-img-top" alt="..." style="width:100%">
                     <div class="card-body">
-                        <h5 class="card-title">NOI</h5>
-                        <p class="card-text">Implementación de Aspel-NOI, desde la instalación y Configuración, la captura de la información de los trabajadores e incidencias de un período de nómina,para facilitar la toma de decisiones en las empresas</p>
+                        <h5 class="card-title">PROGRAMA</h5>
+                        <p class="card-text">Breve descripción... Lorem ipsum dolor sit, amet consectetur adipisicing elit. Porro sed voluptatibus minus quo, asperiores voluptate modi corrupti </p>
+                        <small class="texto-inferior" id="ti3">Presiona para más información</small>
                     </div>
                 </div>
             </div>
@@ -151,11 +158,16 @@ ASPEL proyect, index.php v1ev
 
 
 
+    <!--
     <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    -->
+    <script src="js/jquery-3.4.1.js"></script>
+    <script src="js/bootstrap.js"></script>
     <script src="js/jquery.superslides.js"></script>
     <script src="js/jquery.scrollUp.js"></script>
     <script src="js/header.js"></script>
+    <script src="js/tarjetas.js"></script>
     <script>
         $(function(){
             $.scrollUp();
@@ -183,7 +195,7 @@ ASPEL proyect, index.php v1ev
         </button>
       </div>
       <div class="modal-body">
-        <img src="img/slider/modal.jpeg" style="width:100%" alt="">
+        <img src="img/general/modal.jpeg" style="width:100%" alt="">
       </div>
     </div>
   </div>

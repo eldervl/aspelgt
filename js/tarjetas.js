@@ -1,0 +1,27 @@
+$(document).ready(function(){
+  $("#ti1").hide();
+  $("#t1").mouseover(function(){
+      $("#ti1").show();
+  })
+  $("#t1").mouseleave(function(){
+      $("#ti1").hide();
+  })
+})
+$(document).ready(function(){
+  $("#ti2").hide();
+  $("#t2").mouseover(function(){
+      $("#ti2").show();
+  })
+  $("#t2").mouseleave(function(){
+      $("#ti2").hide();
+  })
+})
+$(document).ready(function(){
+  $("#ti3").hide();
+  $("#t3").mouseover(function(){
+      $("#ti3").show();
+  })
+  $("#t3").mouseleave(function(){
+      $("#ti3").hide();
+  })
+})

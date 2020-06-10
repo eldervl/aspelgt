@@ -1,15 +1,15 @@
 $(document).ready(function(){
-if($page == 1){
-	$('header').addClass('header2');
- 
-	$(window).scroll(function(){
-		if( $(this).scrollTop() > 0 ){
-			$('header').removeClass('header2');
-		} else {
-			$('header').addClass('header2');
-		}
-	});
-}
+	/*if($page == 1){*/
+		$('header').addClass('header2');
+		
+		$(window).scroll(function(){
+			if( $(this).scrollTop() > 0 ){
+				$('header').removeClass('header2');
+			} else {
+				$('header').addClass('header2');
+			}
+		});
+	/*}*/
 });
 
 $(document).ready(function(){
