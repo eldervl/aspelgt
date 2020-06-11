@@ -10,8 +10,7 @@ ASPEL proyect, index.php v1ev
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Aspel - Plantilla</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/normalize.css@8.0.1/normalize.css">
-    <!--<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">-->
-    <link rel="stylesheet" href="css/libraries/bootstrap.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/base.css">
     <link rel="stylesheet" href="css/contenido.css">
@@ -80,7 +79,7 @@ ASPEL proyect, index.php v1ev
 
 
 
-<section class="contenedor" id="seccion1">
+<section class="contenedor" id="seccion-info">
     <div class="row">
         <div class="col-xl-6">
           <h3>¿Quienes somos?</h3>
@@ -94,7 +93,7 @@ ASPEL proyect, index.php v1ev
     </div>
 </section>
 
-<section class="contenedor" id="seccion2">
+<section class="contenedor" id="seccion-programas">
     <div class="row">
         <div class="col-xl-6">
             <img src="img/general/programas.png" alt="">
@@ -108,7 +107,7 @@ ASPEL proyect, index.php v1ev
         <div class="mt-5" style="width:100%;"></div>
         <div class="col-xl-12">
             <div class="row" style="padding:0 50px">
-                <div class="col-lg-4">
+                <div class="col-md-4">
                     <div class="card mb-4 bg-light border-0 tarjeta noselect" id="t1" style="overflow:hidden; height:420px;border:none;" >
                         <img src="img/productos/NONE.jpg" class="card-img-top" alt="..." style="width:100%">
                         <div class="card-body">
@@ -118,7 +117,7 @@ ASPEL proyect, index.php v1ev
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4">
+                <div class="col-md-4">
                     <div class="card mb-4 bg-light border-0 tarjeta noselect" id="t2" style="overflow:hidden; height:420px;border:none;" >
                         <img src="img/productos/NONE.jpg" class="card-img-top" alt="..." style="width:100%">
                         <div class="card-body">
@@ -128,7 +127,7 @@ ASPEL proyect, index.php v1ev
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4">
+                <div class="col-md-4">
                     <div class="card mb-4 bg-light border-0 tarjeta noselect" id="t3" style="overflow:hidden; height:420px;border:none;" >
                         <img src="img/productos/NONE.jpg" class="card-img-top" alt="..." style="width:100%">
                         <div class="card-body">

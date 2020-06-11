@@ -34,6 +34,10 @@ $(document).ready(function(){
 			recolor();	
 			$('#hp5').addClass('active');
 			break;
+		case 6:
+			recolor();	
+			$('#hp6').addClass('active');
+			break;
 		default:
 		  //Declaraciones ejecutadas cuando ninguno de los valores coincide con el valor de la expresión
 		  break;

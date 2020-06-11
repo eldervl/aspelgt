@@ -10,8 +10,7 @@ ASPEL proyect, productos.php v1er
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Aspel - Plantilla</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/normalize.css@8.0.1/normalize.css">
-    <!--<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">-->
-    <link rel="stylesheet" href="css/libraries/bootstrap.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/base.css">
     <link rel="stylesheet" href="css/contenido.css">
@@ -25,803 +24,179 @@ ASPEL proyect, productos.php v1er
 
 <!--AREA DE CONTENIDO=====================================================-->
 
-
-  
-<section class="" id="">
-    <div class="seccion" style="float:left">
-    <br>
-        <h3 class="mx-1">Servicios Aspel</h3>
-        <p class="mx-1">contamos con una amplia gama de servicios como lo son nuestras capacitaciones en un nivel basico y avanzado para el personal de tu empresa ademas de nuestras polizas de diferentes tipos de necesidades ,ta,mbien esta nuestro soporte tecnicon y soportes a solicitud de los clientes ademas del sistema de solucion y desarrollo a la medida </p>
-        <button type="button" class="btn btn-outline-light m-1" onclick="location.href='#software'">Capacitaciones</button>
-        <button type="button" class="btn btn-outline-light m-1" onclick="location.href='#capacitaciones'">Pólizas</button>
-    </div>
-    <div class="">
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/roKHuM5P4fU?controls=0" frameborder="0" allow="autoplay; encrypted-media; gyroscope;" allowfullscreen></iframe>
-    </div>
-</section>
-
-
-    <div class="" id="">
-
-        <section class="sector" id="sector5">
-            <div class="seccion" style="float:left">
-                <h3z>Capacitaciones</h3>
-                <p class="mx-1">Nuestra  capacitación es personalizada, ofreciendo la ventaja de ser impartida en nuestras oficinas o en sus instalaciones, trabajando con información real de su empresa; enviamos cronogramas previamente pactados</p>
-            </div>
-        </section>
-
-
-        <div class="p-1 container">
-        
-        <br>
-        <div class="row">
-            <div class="col-lg-4">
-                <div class="card mb-4  border-0 tarjeta" style="overflow:hidden; height:420px;" >
-                    <img src="img/productos/SAE.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">SAE</h5>
-                        <p class="card-text">Controla todo el ciclo de todas las operaciones de compra-venta de la empresa, como inventarios, clientes, facturación, cuentas por cobrar, vendedores, compras, proveedores y cuentas por pagar, automatizando eficientemente los procesos administrativos</p>
-                        <a href="#ventana1" class="btn btn-primary" data-toggle="modal" style="float:right;margin-right:10px;margin-bottom:10px">Mas Informacion</a>
-                 <div class="modal fade" id="ventana1">
-                  <div class="modal-dialog">
-                    <div class="modal-content">
-                      <div class="modal-header">
-                        <h2 class="modal-title" style="color: royalblue;">Informacion de curso</h2>
-                         <p class="card-text">Este curso tiene como principal objetivo la capacitación del Participante para obtener los conocimientos Y herramientas que le permitan administrar el sistema, esto es, Configurarlo para adaptarlo a las necesidades de la empresa</p>
-                         <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-                      </div>
-                      <div class="modal-body">
-                        
-<table class="table table-striped">
-  <thead>
-    <tr>
-
-      <th scope="col">Nivel</th>
-      <th scope="col">Duracion</th>
-        <th scope="col">Temario</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Basico</td>
-      <td>20 Hrs.</td>
-          <td>TEMARIO ASPEL Aspel SAE .docx</td>
-      
-    </tr>
-    <tr>
-      <td>Avanzado</td>
-      <td>10 Hrs.</td>
-          <td>TEMARIO ASPEL Aspel SAE avanzado.docx </td>
-    </tr>
-  </tbody>
-</table>
-                      </div>
-                      <div class="modal-footer">
-                        <button type="button" class="btn btn-primary" data-dismiss="modal">Cerrar</button>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4">
-                <div class="card mb-4  border-0 tarjeta" style="overflow:hidden; height:420px;" >
-                    <img src="img/productos/COI.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">COI</h5>
-                        <p class="card-text">Automatiza los procesos administrativos de tu empresa sin elevar los costos.Procesa, integra y mantiene actualizada la información contable y fiscal de la empresa en forma segura y confiable.</p>
-                        <a href="#ventana1" class="btn btn-primary" data-toggle="modal" style="float:right;margin-right:10px;margin-bottom:10px">Mas Informacion</a>
-                 <div class="modal fade" id="ventana1">
-                  <div class="modal-dialog">
-                    <div class="modal-content">
-                      <div class="modal-header">
-                        <h2 class="modal-title" style="color: royalblue;">Informacion de curso</h2>
-                        <p class="card-text">Al término de este curso el usuario tendrá los conocimientos y herramientas que le permitirán administrar la información además conocimientos necesarios para realizar la captura, modificación y eliminación de los datos en los catálogos del sistema</p>
-                         <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-                      </div>
-                      <div class="modal-body">
-                        
-<table class="table table-striped">
-  <thead>
-    <tr>
-
-      <th scope="col">Nivel</th>
-      <th scope="col">Duracion</th>
-        <th scope="col">Temario</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Basico</td>
-      <td>15 Hrs.</td>
-          <td>TEMARIO ASPEL COI.docx  </td>
-      
-    </tr>
-    <tr>
-      <td>Avanzado</td>
-      <td>10 Hrs.</td>
-          <td>TEMARIO ASPEL COI Avanzado.docx </td>
-    </tr>
-  </tbody>
-</table>
-                      </div>
-                      <div class="modal-footer">
-                        <button type="button" class="btn btn-primary" data-dismiss="modal">Cerrar</button>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4">
-                <div class="card mb-4  border-0 tarjeta" style="overflow:hidden; height:420px;" >
-                    <img src="img/productos/NOI.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">NOI</h5>
-                        <p class="card-text">Automatiza el control de la nómina. Ofrece un cálculo exacto de las percepciones y deducciones de los trabajadores de acuerdo con las disposiciones fiscales y laborales vigentes.Genera y entrega a tus trabajadores los Comprobantes Fiscales Digitales por Internet (CFDI) de los recibos de nómina y cumple en segundos con la Reforma Fiscal vigente.</p>
-                       <a href="#ventana1" class="btn btn-primary" data-toggle="modal" style="float:right;margin-right:10px;margin-bottom:10px">Mas Informacion</a>
-                 <div class="modal fade" id="ventana1">
-                  <div class="modal-dialog">
-                    <div class="modal-content">
-                      <div class="modal-header">
-                        <h2 class="modal-title" style="color: royalblue;">Informacion de curso</h2>
-                         <p class="card-text">El participante conocerá Implementación de Aspel-NOI, desde la instalación y Configuración, la captura de la información de los trabajadores e incidencias de un período de nómina, información necesaria y relevante para facilitar la toma de decisiones en las empresas</p>
-                         <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-                      </div>
-                      <div class="modal-body">
-                        
-<table class="table table-striped">
-  <thead>
-    <tr>
-
-      <th scope="col">Nivel</th>
-      <th scope="col">Duracion</th>
-        <th scope="col">Temario</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Basico</td>
-      <td>15 Hrs.</td>
-          <td>TEMARIO ASPEL NOI.docx </td>
-      
-    </tr>
-  </tbody>
-</table>
-                      </div>
-                      <div class="modal-footer">
-                        <button type="button" class="btn btn-primary" data-dismiss="modal">Cerrar</button>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4">
-                <div class="card mb-4  border-0 tarjeta" style="overflow:hidden; height:420px;" >
-                    <img src="img/productos/CAJA.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">CAJA</h5>
-                        <p class="card-text">Controla, administra y agiliza las operaciones de ventas, facturación e inventarios de uno o varios comercios, convirtiendo una computadora en un punto de venta capaz de operar con impresoras de tickets tu negocio es más eficiente y productivo, ahora puedes emitir Facturas Electrónicas 3.3 en tu punto de venta.</p>
-                        <a href="#ventana1" class="btn btn-primary" data-toggle="modal" style="float:right;margin-right:10px;margin-bottom:10px">Mas Informacion</a>
-                 <div class="modal fade" id="ventana1">
-                  <div class="modal-dialog">
-                    <div class="modal-content">
-                      <div class="modal-header">
-                        <h2 class="modal-title" style="color: royalblue;">Informacion de curso</h2>
-                         <p class="card-text">Conocimientos necesarios para la instalación del sistema, el manejo de los procesos de captura de datos, como: líneas, departamentos, impuestos, configuración de dispositivos así Como emisión de documentos de venta digitales e impresos.</p>
-                         <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-                      </div>
-                      <div class="modal-body">
-                        
-<table class="table table-striped">
-  <thead>
-    <tr>
-
-      <th scope="col">Nivel</th>
-      <th scope="col">Duracion</th>
-        <th scope="col">Temario</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Basico</td>
-      <td>10 Hrs.</td>
-    </tr>
-  </tbody>
-</table>
-                      </div>
-                      <div class="modal-footer">
-                        <button type="button" class="btn btn-primary" data-dismiss="modal">Cerrar</button>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4">
-                <div class="card mb-4  border-0 tarjeta" style="overflow:hidden; height:420px;" >
-                    <img src="img/productos/BANCO.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">BANCO</h5>
-                         <p class="card-text">Controla eficientemente los movimientos de cualquier cuenta bancaria, en moneda nacional y extranjera Todos los movimientos bancarios se contabilizan automáticamente a través de su interfaz permite la afectación simultánea de las cuentas por cobrar y/o por pagar al registrar los movimientos bancarios</p>
-                        <a href="#ventana1" class="btn btn-primary" data-toggle="modal" style="float:right;margin-right:10px;margin-bottom:10px">Mas Informacion</a>
-                 <div class="modal fade" id="ventana1">
-                  <div class="modal-dialog">
-                    <div class="modal-content">
-                      <div class="modal-header">
-                        <h2 class="modal-title" style="color: royalblue;">Informacion del curso</h2>
-                         <p class="card-text">El alumno tendrá los conocimientos necesarios para el manejo y la administración del sistema, la configuración de Aspel-BANCO; conocerá la estructura general del sistema, comenzando por sus catálogos</p>
-                         <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-                      </div>
-                      <div class="modal-body">
-                        
-<table class="table table-striped">
-  <thead>
-    <tr>
-      <th scope="col">Nivel</th>
-      <th scope="col">Duracion</th>
-        <th scope="col">Temario</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Basico</td>
-      <td>15 Hrs.</td>
-          <td>TEMARIO ASPEL BANCO .docx</td>
-      
-    </tr>
-    <tr>
-      <td>Avanzado</td>
-      <td>10 Hrs.</td>
-          <td>TEMARIO ASPEL BANCOAvanzado.docx</td> 
-    </tr>
-  </tbody>
-</table>
-                      </div>
-                      <div class="modal-footer">
-                        <button type="button" class="btn btn-primary" data-dismiss="modal">Cerrar</button>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4">
-                <div class="card mb-4  border-0 tarjeta" style="overflow:hidden; height:420px;" >
-                    <img src="img/productos/PROD.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">PROD</h5>
-                        <p class="card-text">Es el Sistema que controla y administra los procesos de fabricación, desde materias primas hasta productos terminados permite la planeación y control de los procesos de fabricación de la empresa, asegurando una óptima administración de inventarios y costos y, posteriormente, actualizar el inventario con los productos terminados</p>
-                        <a href="#ventana1" class="btn btn-primary" data-toggle="modal" style="float:right;margin-right:10px;margin-bottom:10px">Mas Informacion</a>
-                 <div class="modal fade" id="ventana1">
-                  <div class="modal-dialog">
-                    <div class="modal-content">
-                      <div class="modal-header">
-                        <h2 class="modal-title" style="color: royalblue;">Informacion del curso</h2>
-                         <p class="card-text">Este curso el usuario conocerá la estructura general del sistema y su operación e interacción con Aspel-SAE. Se analizará los catálogos de información el manejo de los Seguimientos de Producción tales como: Fabricación Directa, Registro Automático de Órdenes,</p>
-                         <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-                      </div>
-                      <div class="modal-body">
-                        
-<table class="table table-striped">
-  <thead>
-    <tr>
- <th scope="col">Nivel</th>
-      <th scope="col">Duracion</th>
-        <th scope="col">Temario</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Basico</td>
-      <td>15 Hrs.</td>
-          <td>TEMARIO ASPEL PROD BASICO.docx</td>
-      
-    </tr>
-    <tr>
-      <td>Avanzado</td>
-      <td>10 Hrs.</td>
-          <td>TEMARIO ASPEL PROD Avanzado.docx </td> 
-    </tr>
-  </tbody>
-</table>
-                      </div>
-                      <div class="modal-footer">
-                        <button type="button" class="btn btn-primary" data-dismiss="modal">Cerrar</button>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                    </div>
-                </div>
-            </div>
-          <!--  <div class="col-lg-4">
-                <div class="card mb-4  border-0 tarjeta" style="overflow:hidden; height:420px;" >
-                    <img src="img/productos/ADM.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">AMD</h5>
-                        <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eveniet, hic quo accusamus ad atque consequatur quod. Labore nisi adipisci quae neque nesciunt sunt ad maiores harum dignissimos? Adipisci, magnam mollitia?</p>
-                        <a href="#" class="btn btn-primary" style="position: absolute; bottom: 15px;">Mas Informacion</a>
-                    </div>
-                </div>
-            </div> -->
-        </div>
-
-    </div>
     
+    <div class="precontenedor"></div>
 
-<hr>
-
-    <div class="sec-capacitaciones" id="capacitaciones">
-
-        <section class="sector" id="sector6">
-            <div class="seccion" style="float:left">
-                <h3>Pólizas</h3>
-                <p class="mx-1">nuestra empresa cuenta con polizas de soporte tecnico los virus y la falta de back-up's actualizados provoquen que cada dia mas clientes requieran de nuestros servicios este tipo de contratos busca como fin el mantener en optimas condiciones de funcionamiento,los sistemas Aspel que utilizan.Solo Aspel cuenta con una Poliza de Asesoria que te brinda tantos beneficios respaldando la compra de tu sistema Aspel.Por ello pone a tu disposicion el mejor programa de Servicio y Asesoria con el apoyo de la empresa lider </p>
-            </div>
-        </section>
-
-
-        <div class="p-1 mb-5 container">
-
-        <br>
+    <section class="contenedor noselect" id="seccion-infoprods">
+        
         <div class="row">
-            <div class="col-lg-4">
-                <div class="card mb-4  border-0 tarjeta" style="overflow:hidden; height:420px;" >
-                    <img src="img/productos/SAE.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h4 class="card-title" style="color:royalblue;text-align: center;">Poliza No.1</h4>
-                <p class="card-text" style="text-align:center;">Asesoría via char, correo electonico o Telefonico</p>
-                        <a href="#ventana1" class="btn btn-primary" data-toggle="modal" style="float:right;margin-right:10px;margin-bottom:10px">Mas Informacion</a>
-                 <div class="modal fade" id="ventana1">
-                  <div class="modal-dialog">
-                    <div class="modal-content">
-                      <div class="modal-header">
-                        <h2 class="modal-title" style="color: royalblue;">Poliza No.1</h2>
-                         <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-                      </div>
-                      <div class="modal-body">
-                        <p> Cualquier problema o duda del cliente relacionado con el funcionamiento y operación de los sistemas Aspel, pudiendo implicar una o varias consultas.Todos se programan por medio de asignación de tareas, máximo de atención cliente con póliza de soporte vigente 04 horas.</p>
-<table class="table table-striped">
-  <thead>
-    <tr>
-
-      <th scope="col">Categorias</th>
-      <th scope="col">Informacion</th>
-        <th scope="col">Costo</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Especial</td>
-      <td>Sin limite de Eventos</td>
-          <td>Q2,530.00 - Q230.00</td>
-      
-    </tr>
-    <tr>
-      <td>Tipica</td>
-      <td>10 Eventos</td>
-          <td>Q1,440.00 - Q240.00</td>
-    </tr>
-    <tr>
-      <td>Remota</td>
-      <td>05 Eventos</td>
-          <td>Q900.00 - Q225.00</td>
-    </tr>
-     <tr>
-      <td>Anual</td>
-      <td>05 Eventos</td>  
-          <td>Q1,125.00 - Q225.00</td> 
-    </tr>
-     <tr>
-      <td>Personalizada</td>
-      <td>Sin limite de Eventos</td> 
-    </tr>
-  </tbody>
-</table>
-                      </div>
-                      <div class="modal-footer">
-                        <button type="button" class="btn btn-primary" data-dismiss="modal">Cerrar</button>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                    </div>
-                </div>
+            <div class="col-sm-6">
+                <br>
+                <h2>Productos</h2>
+                <p>Descripcion sobre productos</p>
             </div>
-            <div class="col-lg-4">
-                <div class="card mb-4  border-0 tarjeta" style="overflow:hidden; height:420px;" >
-                    <img src="img/productos/COI.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h4 class="card-title"style="color:royalblue;text-align: center;">Poliza No.2</h4>
-                 <p class="card-text"style="text-align:center;">Asesoria por conexion remota o personalizada</p>
-                 <a href="#ventana2" class="btn btn-primary" data-toggle="modal" style="float:right;margin-right:10px;margin-bottom:10px">Mas Informacion</a>
-                 <div class="modal fade" id="ventana2">
-                  <div class="modal-dialog">
-                    <div class="modal-content">
-                      <div class="modal-header">
-                        <h2 class="modal-title" style="color: royalblue;">Poliza No.2</h2>
-                         <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-                      </div>
-                      <div class="modal-body">
-                         <p>se trata cualquier tipo de inconveniente en base de datos,
-modificación, mantenimientos, instalaciones, revisiones de requerimientos. Se descuenta
-mínimo 0.5 horas de su póliza de soporte vigente.</p>
-<table class="table table-striped">
-  <thead>
-    <tr>
-
-      <th scope="col">Categorias</th>
-      <th scope="col">Informacion</th>
-        <th scope="col">Costo</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Especial</td>
-      <td>11 horas</td>
-          <td>Q2,530.00 - Q230.00</td>
-      
-    </tr>
-    <tr>
-      <td>Tipica</td>
-      <td> 06 horas</td>
-          <td>Q1,440.00 - Q240.00</td>
-    </tr>
-    <tr>
-      <td>Remota</td>
-      <td>04 horas</td>
-          <td>Q900.00 - Q225.00</td>
-    </tr>
-     <tr>
-      <td>Anual</td>
-      <td>05 horas</td>  
-          <td>Q1,125.00 - Q225.00</td> 
-    </tr>
-     <tr>
-      <td>Personalizada</td>
-      <td>50 horas</td> 
-    </tr>
-  </tbody>
-</table>
-                      </div>
-                      <div class="modal-footer">
-                        <button type="button" class="btn btn-primary" data-dismiss="modal">Cerrar</button>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4">
-                <div class="card mb-4  border-0 tarjeta" style="overflow:hidden; height:420px;" >
-                    <img src="img/productos/NOI.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h4 class="card-title"style="color:royalblue;text-align: center;">Poliza No.3</h4>
-                <p class="card-text"style="text-align:center;">Asesoria de Respaldo de datos Aspel</p>
-                <a href="#ventana3" class="btn btn-primary" data-toggle="modal" style="float:right;margin-right:10px;margin-bottom:10px">Mas Informacion</a>
-                 <div class="modal fade" id="ventana3">
-                  <div class="modal-dialog">
-                    <div class="modal-content">
-                      <div class="modal-header">
-                        <h2 class="modal-title" style="color: royalblue;">Poliza No.3</h2>
-                         <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-                      </div>
-                      <div class="modal-body">
-                        <p></p>
-<table class="table table-striped">
-  <thead>
-    <tr>
-
-      <th scope="col">Categorias</th>
-      <th scope="col">Informacion</th>
-        <th scope="col">Costo</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Especial</td>
-      <td>04 backup</td>
-          <td>Q2,530.00 - Q230.00</td>
-      
-    </tr>
-    <tr>
-      <td>Tipica</td>
-      <td>04 backup</td>
-          <td>Q1,440.00 - Q240.00</td>
-    </tr>
-    <tr>
-      <td>Remota</td>
-      <td>1 backup</td>
-          <td>Q900.00 - Q225.00</td>
-    </tr>
-     <tr>
-      <td>Anual</td>
-      <td>No incluido</td>  
-          <td>Q1,125.00 - Q225.00</td> 
-    </tr>
-     <tr>
-      <td>Personalizada</td>
-      <td>Configuracion y datos adicionales de usuario</td> 
-    </tr>
-  </tbody>
-</table>
-                      </div>
-                      <div class="modal-footer">
-                        <button type="button" class="btn btn-primary" data-dismiss="modal">Cerrar</button>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4">
-                <div class="card mb-4  border-0 tarjeta" style="overflow:hidden; height:420px;" >
-                    <img src="img/productos/PROD.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h4 class="card-title"style="color:royalblue;text-align: center;">Poliza No.4</h4>
-                <p class="card-text"style="text-align:center;">Mantenimiento preventivo de Equipos bimensual</p>
-                 <a href="#ventana4" class="btn btn-primary" data-toggle="modal" style="float:right;margin-right:10px;margin-bottom:10px">Mas Informacion</a>
-                 <div class="modal fade" id="ventana4">
-                  <div class="modal-dialog">
-                    <div class="modal-content">
-                      <div class="modal-header">
-                        <h2 class="modal-title" style="color: royalblue;">Poliza No.4</h2>
-                         <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-                      </div>
-                      <div class="modal-body">
-<table class="table table-striped">
-  <thead>
-    <tr>
-
-      <th scope="col">Categorias</th>
-      <th scope="col">Informacion</th>
-      
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Especial</td>
-      <td>no incluye</td>
-         
-      
-    </tr>
-    <tr>
-      <td>Tipica</td>
-     <td>no incluye</td>
-         
-    </tr>
-    <tr>
-      <td>Remota</td>
-     <td>no incluye</td>
-    </tr>
-     <tr>
-      <td>Anual</td>
-      <td>no incluido</td>  
-         
-    </tr>
-     <tr>
-      <td>Personalizada</td>
-      <td>1 a 7 equipos en horas presenciales</td> 
-    </tr>
-  </tbody>
-</table>
-                      </div>
-                      <div class="modal-footer">
-                        <button type="button" class="btn btn-primary" data-dismiss="modal">Cerrar</button>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4">
-                <div class="card mb-4  border-0 tarjeta" style="overflow:hidden; height:420px;" >
-                    <img src="img/productos/CAJA.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h4 class="card-title"style="color:royalblue;text-align: center;">Poliza No.5</h4>
-                <p class="card-text"style="text-align:center;">Descuentos en servicios adicionales en las instalaciones</p>
-                 <a href="#ventana5" class="btn btn-primary" data-toggle="modal" style="float:right;margin-right:10px;margin-bottom:10px">Mas Informacion</a>
-                 <div class="modal fade" id="ventana5">
-                  <div class="modal-dialog">
-                    <div class="modal-content">
-                      <div class="modal-header">
-                        <h2 class="modal-title" style="color: royalblue;">Poliza No.5</h2>
-                         <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-                      </div>
-                      <div class="modal-body">
-<table class="table table-striped">
-  <thead>
-    <tr>
-
-      <th scope="col">Categorias</th>
-      <th scope="col">Informacion</th>
-        <th scope="col">Costo</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Especial</td>
-      <td>no incluye</td>
-       
-      
-    </tr>
-    <tr>
-      <td>Tipica</td>
-      <td>no incluye</td>
-         
-    </tr>
-    <tr>
-      <td>Remota</td>
-      <td>10%</td>
-          <td>Q900.00 - Q225.00</td>
-    </tr>
-     <tr>
-      <td>Anual</td>
-      <td>no incluido</td>  
-          
-    </tr>
-     <tr>
-      <td>Personalizada</td>
-      <td>no incluye</td> 
-    </tr>
-  </tbody>
-</table>
-                      </div>
-                      <div class="modal-footer">
-                        <button type="button" class="btn btn-primary" data-dismiss="modal">Cerrar</button>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4">
-                <div class="card mb-4  border-0 tarjeta" style="overflow:hidden; height:420px;" >
-                    <img src="img/productos/BANCO.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h4 class="card-title" style="color:royalblue;text-align: center;">Poliza No.6</h4>
-                <p class="card-text" style="text-align:center;">Descuento especial en implementacion de facturas</p>
-
-                 <a href="#ventana6" class="btn btn-primary" data-toggle="modal" style="float:right;margin-right:10px;margin-bottom:10px">Mas Informacion</a>
-                 <div class="modal fade" id="ventana6">
-                  <div class="modal-dialog">
-                    <div class="modal-content">
-                      <div class="modal-header">
-                        <h2 class="modal-title" style="color: royalblue;">Poliza No.6</h2>
-                        
-                         <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-                      </div>
-                      <div class="modal-body">
-<table class="table table-striped">
-  <thead>
-    <tr>
-
-      <th scope="col">Categorias</th>
-      <th scope="col">Informacion</th>
-        <th scope="col">Costo</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Especial</td>
-      <td>10%</td>
-          <td>Q2,530.00 - Q230.00</td>
-      
-    </tr>
-    <tr>
-      <td>Tipica</td>
-      <td>8%</td>
-          <td>Q1,440.00 - Q240.00</td>
-    </tr>
-    <tr>
-      <td>Remota</td>
-      <td>no incluye</td>
-        
-    </tr>
-     <tr>
-      <td>Anual</td>
-      <td>no inlcuida</td>  
-        
-    </tr>
-     <tr>
-      <td>Personalizada</td>
-      <td>12%</td> 
-    </tr>
-  </tbody>
-</table>
-                      </div>
-                      <div class="modal-footer">
-                        <button type="button" class="btn btn-primary" data-dismiss="modal">Cerrar</button>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4">
-                <div class="card mb-4  border-0 tarjeta" style="overflow:hidden; height:420px;" >
-                    <img src="img/productos/BANCO.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h4 class="card-title" style="color:royalblue;text-align: center;">Poliza No.7</h4>
-                <p class="card-text"style="text-align:center;">Cursos presenciales o por video conferencias</p>
-        
-                 <a href="#ventana7" class="btn btn-primary" data-toggle="modal" style="float:right;margin-right:10px;margin-bottom:10px">Mas Informacion</a>
-                 <div class="modal fade" id="ventana7">
-                  <div class="modal-dialog">
-                    <div class="modal-content">
-                      <div class="modal-header">
-                        <h2 class="modal-title" style="color: royalblue;">Poliza No.7</h2>
-                        
-                         <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-                      </div>
-                      <div class="modal-body">
-                        <p>se descuenta de su póliza 2 horas de soporte,ya sea utilice dos horas o fracción. Horas adicionales se tienen que coordinar según agenda establecida. (El cliente propone la agenda a tratar)</p>
-<table class="table table-striped">
-  <thead>
-    <tr>
-
-      <th scope="col">Categorias</th>
-      <th scope="col">Informacion</th>
-        <th scope="col">Costo</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Especial</td>
-      <td>11 horas</td>
-          <td>Q2,530.00 - Q230.00</td>
-      
-    </tr>
-    <tr>
-      <td>Tipica</td>
-      <td> 06 horas</td>
-          <td>Q1,440.00 - Q240.00</td>
-    </tr>
-    <tr>
-      <td>Remota</td>
-      <td>04 horas</td>
-          <td>Q900.00 - Q225.00</td>
-    </tr>
-     <tr>
-      <td>Anual</td>
-      <td>05 horas</td>  
-          <td>Q1,125.00 - Q225.00</td> 
-    </tr>
-     <tr>
-      <td>Personalizada</td>
-      <td>50 horas</td> 
-    </tr>
-  </tbody>
-</table>
-                      </div>
-                      <div class="modal-footer">
-                        <button type="button" class="btn btn-primary" data-dismiss="modal">Cerrar</button>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
-                    </div>
-                </div>
+            <div class="col-sm-6">
+                <img src="img/general/programas2.png" alt="">
             </div>
         </div>
 
-    </div>
+    </section>
 
-<!--======================================================================-->
+    <section class="contenedor noselect">
 
+            <nav id="navbar-areasprogramas" class="navbar navbar-light bg-light">
+                <ul class="nav nav-pills">
+                    <li class="nav-item" onclick="verComercial();">
+                      <a class="nav-link" id="linkComercial" >Área Comercial</a>
+                    </li>
+                    <li class="nav-item" onclick="verAdmin();">
+                      <a class="nav-link" id="linkAdmin" >Área Administrativa</a>
+                    </li>
+                    <li class="nav-item" onclick="verProduccion();">
+                      <a class="nav-link" id="linkProduccion" >Área Producción</a>
+                    </li>
+                    <li class="nav-item" onclick="verOtros();">
+                      <a class="nav-link" id="linkOtros" >Otros Productos</a>
+                    </li>
+                    <li class="nav-item" onclick="verNube();">
+                      <a class="nav-link" id="linkNube" >Servicios en la nube</a>
+                    </li>
+                    <li class="nav-item" onclick="verCompatibilidad();">
+                      <a class="nav-link" id="linkCompatibilidad" >Compatibilidad</a>
+                    </li>
+                   </ul>
+            </nav>
+
+            <br>
+            <br>
+
+
+            <div class="cont-area" id="areaComercial">
+
+                <div class="row">
+                    <div class="col-lg-4">
+                        <div class="card mb-4  border-0 tarjeta" style="overflow:hidden; height:420px;" >
+                            <img src="img/productos/SAE.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">SAE</h5>
+                                <p class="card-text">Controla todo el ciclo de todas las operaciones de compra-venta de la empresa, como inventarios, clientes, facturación, cuentas por cobrar, vendedores, compras, proveedores y cuentas por pagar, automatizando eficientemente los procesos administrativos</p>
+                                <a href="#ventana1" class="btn btn-primary btn-tarjeta" data-toggle="modal" style="float:right;margin-right:10px;margin-bottom:10px">Mas Informacion</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="card mb-4  border-0 tarjeta" style="overflow:hidden; height:420px;" >
+                            <img src="img/productos/CAJA.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">CAJA</h5>
+                                <p class="card-text">Controla, administra y agiliza las operaciones de ventas, facturación e inventarios de uno o varios comercios, convirtiendo una computadora en un punto de venta capaz de operar con impresoras de tickets tu negocio es más eficiente y productivo, ahora puedes emitir Facturas Electrónicas 3.3 en tu punto de venta.</p>
+                                <a href="#ventana1" class="btn btn-primary btn-tarjeta" data-toggle="modal" style="float:right;margin-right:10px;margin-bottom:10px">Mas Informacion</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div>FACTURE?</div>
+                </div>
+
+            </div>
+
+            <div class="cont-area" id="areaAdmin">
+
+                <div class="row">
+                    <div class="col-lg-4">
+                        <div class="card mb-4  border-0 tarjeta" style="overflow:hidden; height:420px;" >
+                            <img src="img/productos/COI.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">COI</h5>
+                                <p class="card-text">Automatiza los procesos administrativos de tu empresa sin elevar los costos.Procesa, integra y mantiene actualizada la información contable y fiscal de la empresa en forma segura y confiable.</p>
+                                <a href="#ventana1" class="btn btn-primary btn-tarjeta" data-toggle="modal" style="float:right;margin-right:10px;margin-bottom:10px">Mas Informacion</a>
+                          </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="card mb-4  border-0 tarjeta" style="overflow:hidden; height:420px;" >
+                            <img src="img/productos/NOI.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">NOI</h5>
+                                <p class="card-text">Automatiza el control de la nómina. Ofrece un cálculo exacto de las percepciones y deducciones de los trabajadores de acuerdo con las disposiciones fiscales y laborales vigentes.Genera y entrega a tus trabajadores los Comprobantes Fiscales Digitales por Internet (CFDI) de los recibos de nómina y cumple en segundos con la Reforma Fiscal vigente.</p>
+                               <a href="#ventana1" class="btn btn-primary btn-tarjeta" data-toggle="modal" style="float:right;margin-right:10px;margin-bottom:10px">Mas Informacion</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="card mb-4  border-0 tarjeta" style="overflow:hidden; height:420px;" >
+                            <img src="img/productos/BANCO.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">BANCO</h5>
+                                 <p class="card-text">Controla eficientemente los movimientos de cualquier cuenta bancaria, en moneda nacional y extranjera Todos los movimientos bancarios se contabilizan automáticamente a través de su interfaz permite la afectación simultánea de las cuentas por cobrar y/o por pagar al registrar los movimientos bancarios</p>
+                                <a href="#ventana1" class="btn btn-primary btn-tarjeta" data-toggle="modal" style="float:right;margin-right:10px;margin-bottom:10px">Mas Informacion</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="cont-area" id="areaProduccion">
+
+                <div class="row">
+                    <div class="col-lg-4">
+                        <div class="card mb-4  border-0 tarjeta" style="overflow:hidden; height:420px;" >
+                            <img src="img/productos/PROD.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">PROD</h5>
+                                <p class="card-text">Es el Sistema que controla y administra los procesos de fabricación, desde materias primas hasta productos terminados permite la planeación y control de los procesos de fabricación de la empresa, asegurando una óptima administración de inventarios y costos y, posteriormente, actualizar el inventario con los productos terminados</p>
+                                <a href="#ventana1" class="btn btn-primary btn-tarjeta" data-toggle="modal" style="float:right;margin-right:10px;margin-bottom:10px">Mas Informacion</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="cont-area" id="areaOtros">
+
+                <div class="row">
+
+                    <div>PENDIENTE</div>
+
+                </div>
+            
+            </div>
+
+            <div class="cont-area" id="areaNube">
+
+                <div class="row">
+
+                    <div>NOI ASISTENTE?</div>
+                    <br>
+                    <div>SERVICIOS NUBE?</div>
+                    <br>
+                    <div>ADM MMOVIL?</div>
+                    <br>
+                    <div>CONTA ASISTENTE?</div>
+                    <br>
+                    <div>ESPACIO?</div>
+                    <br>
+                    <div>DFDI?</div>
+                    <br>
+                    <div>ADM TIENDA?</div>
+                    <br>
+                    
+                </div>
+
+            </div>
+
+            <div class="cont-area" id="areaCompatibilidad">
+
+                <div>PENDIENTE</div>
+
+            </div>
+
+    </section>
+
+                          
+  
+        
 
 <?php
     include("parts/footer.php")
@@ -832,6 +207,7 @@ mínimo 0.5 horas de su póliza de soporte vigente.</p>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
     <script src="js/jquery.scrollUp.js"></script>
     <script src="js/header.js"></script>
+    <script src="js/verarea.js"></script>
     <script>
         $(function(){
             $.scrollUp();

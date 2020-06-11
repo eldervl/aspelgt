@@ -15,21 +15,39 @@ ASPEL proyect, css/contenido.css v1td
 
 /* INDEX ==========================================================*/
 
+div.precontenedor{
+    display: block;
+    width: 100%;
+    height: 90px;
+}
 section.contenedor{
     padding: 100px 10%;
 }
 section.contenedor#seccion1{
 
 }
-section.contenedor#seccion2{
+section.contenedor#seccion-programas{
     background-color: rgb(209, 220, 235);
 }
-section.contenedor#seccion2 img{
+section.contenedor#seccion-programas img{
     width: 90%;
 }
 
-
-
+/*Formato para pantallas medianas*/
+@media only screen and (max-width: 1023px) {
+    section.contenedor{
+        padding: 90px 8%;
+    }
+    section.contenedor#seccion2 img{
+        width: 100%;
+    }
+}
+/*Formato para pantallas pequeñas*/
+@media only screen and (max-width: 800px) {
+    section.contenedor{
+        padding: 40px 5%;
+    }
+}
 
 /* PRODUCTOS =======================================================*/
 
@@ -38,10 +56,7 @@ section.contenedor#seccion2 img{
     padding: 0;
     width: 95%;
 }
-.nav{
-    background: #009c8c; 
-    height: 150px;
-}
+
 .card{
     height: 400px;
 }
@@ -55,6 +70,7 @@ small.texto-inferior{
     text-align: center;
     margin-bottom: 25px;
 }
+
 .tarjeta{
     background-color: var(--bgblanco2);
     transition: transform 0.2s;
@@ -67,47 +83,57 @@ small.texto-inferior{
     transform: translateY(-10px);
     transition: transform 0.2s;
 }
-section#sector4{
-    padding-top: 150px;
-    background-color: rgb(48, 69, 97);
-    color: white;
-    overflow: hidden;
-}
-section#sector4 .seccion{
-    width: 48%;
-    overflow: hidden;
-    display: block;
+.tarjeta .btn-tarjeta{
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
 }
 
-section#sector5{
-    overflow: hidden;
-    background-image: url("../img/index/programas2.png") ;
-    background-position-x: 80%;
-    background-repeat: no-repeat;
-    background-size: 450px;
+.nav-link{
+    margin-right: 5px;
 }
-section#sector5 .seccion{
-    width: 50%;
-    display: block;
-}
-section#sector5 img{
-    width: 90%;
-}
-section#sector6{
-    overflow: hidden;
-    background-image: url("https://blog.teachlr.com/wp-content/uploads/2019/04/xmen-1979261_1920-960x540.jpg.pagespeed.ic.peWwv3zor8.jpg") ;
-    background-position-x: 80%;
-    background-repeat: no-repeat;
-    background-size: 450px;
-}
-section#sector6 .seccion{
-    width: 50%;
-    display: block;
-}
-section#sector6 img{
-    width: 90%;
+.nav-link:hover{
+    background-color: var(--bgblanco2);
 }
 
+#seccion-infoprods,#seccion-infocaps{
+    background-color: rgb(209, 220, 235);
+    z-index: 1;
+}
+
+#seccion-infoprods img, #seccion-infocaps img{
+    width: 90%;
+    position: absolute;
+    margin-top: -85px;
+    z-index: 0;
+}
+
+/*Formato para pantallas medianas*/
+@media only screen and (max-width: 1023px) {
+    #seccion-infoprods img, #seccion-infocaps img{
+        margin-top: -90px;
+    }
+}
+/*Formato para pantallas pequeñas*/
+@media only screen and (max-width: 800px) {
+    #seccion-infoprods img, #seccion-infocaps img{
+        display: none;
+    }
+    section.contenedor#seccion-infoprods{
+        background-image: url(../img/general/programas2.png);
+        background-repeat: no-repeat;
+        background-size: 60%;
+        background-position-x: right;
+        background-position-y: -0;
+    }
+    section.contenedor#seccion-infocaps{
+        background-image: url(../img/general/videos.png);
+        background-repeat: no-repeat;
+        background-size: 60%;
+        background-position-x: right;
+        background-position-y: -0;
+    }
+}
 
 /*CAPACITACION ====================================================*/
 
