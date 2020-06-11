@@ -11,48 +11,27 @@ ASPEL proyect, css/contenido.css v1td
     --azul1: rgb(70, 129, 240); /*Azul base*/
 }
 
-/*INDEX ==========================================================*/
+/* GENERAL ==========================================================*/
 
+/* INDEX ==========================================================*/
 
-section.slider{
-    
+section.contenedor{
+    padding: 100px 10%;
 }
-section.sector{
-    padding: 85px 150px;
-    overflow: hidden;
+section.contenedor#seccion1{
+
 }
-div.mt{
-    width: 50%;
-}
-.fld{
-    float: right;
-    overflow: hidden;
-}
-.fli{
-    float: left;
-    overflow: hidden;
-}
-.completo{
-    display: block;
-    width: 100%;
-}
-section#sector2{
+section.contenedor#seccion2{
     background-color: rgb(209, 220, 235);
-    overflow: hidden;
 }
-section#sector2 .seccion{
-    width: 50%;
-    overflow: hidden;
-    display: block;
-}
-section#sector2 img{
+section.contenedor#seccion2 img{
     width: 90%;
 }
 
 
 
 
-/*PRODUCTOS =======================================================*/
+/* PRODUCTOS =======================================================*/
 
 #container{
     margin: auto;

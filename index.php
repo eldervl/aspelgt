@@ -80,69 +80,72 @@ ASPEL proyect, index.php v1ev
 
 
 
-<section class="sector">
-    <div class="seccion mt fli">
-        <h3>¿Quienes somos?</h3>
-        <p>Bienvenidos a la experiencia en tecnología más revolucionaria ASPEL cuentan con un servicio de capacitaciones, productos, un sistema de pólizas para la conveniencia de los clientes además de otros tipos de servicios
-        Estamos capacitados para ofrecerles una experiencia adecuada con nuestras soluciones de desarrollo a la media además de que garantizamos nuestro trabajo con personal certificado por aspel </p>
-        <button class="btn border" onclick="location.href='nosotros.php'">Más sobre nosotros</button>
-    </div>
-    <div class="seccion mt fld">
+<section class="contenedor" id="seccion1">
+    <div class="row">
+        <div class="col-xl-6">
+          <h3>¿Quienes somos?</h3>
+          <p>Bienvenidos a la experiencia en tecnología más revolucionaria ASPEL cuentan con un servicio de capacitaciones, productos, un sistema de pólizas para la conveniencia de los clientes además de otros tipos de servicios
+          Estamos capacitados para ofrecerles una experiencia adecuada con nuestras soluciones de desarrollo a la media además de que garantizamos nuestro trabajo con personal certificado por aspel </p>
+          <button class="btn border" onclick="location.href='nosotros.php'">Más sobre nosotros</button>
+        </div>
+        <div class="col-xl-6">
         
+        </div>
     </div>
-    
 </section>
 
-<section class="sector" id="sector2">
-    <div class="seccion mt fli">
-        <img src="img/general/programas.png" alt="">
-    </div>
-    <div class="seccion mt fld">
-        <h3>Nuestros Productos</h3>
-        <p>Descripción productos</p>
-    </div>
-    <div class="seccion mt completo">
-        <div class="row" style="padding:0 50px">
-            <div class="col-lg-4">
-                <div class="card mb-4 bg-light border-0 tarjeta noselect" id="t1" style="overflow:hidden; height:420px;border:none;" >
-                    <img src="img/productos/NONE.jpg" class="card-img-top" alt="..." style="width:100%">
-                    <div class="card-body">
-                        <h5 class="card-title">PROGRAMA</h5>
-                        <p class="card-text">Breve descripción... Lorem ipsum dolor sit, amet consectetur adipisicing elit. Porro sed voluptatibus minus quo, asperiores voluptate modi corrupti </p>
-                        <small class="texto-inferior" id="ti1">Presiona para más información</small>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4">
-                <div class="card mb-4 bg-light border-0 tarjeta noselect" id="t2" style="overflow:hidden; height:420px;border:none;" >
-                    <img src="img/productos/NONE.jpg" class="card-img-top" alt="..." style="width:100%">
-                    <div class="card-body">
-                        <h5 class="card-title">PROGRAMA</h5>
-                        <p class="card-text">Breve descripción... Lorem ipsum dolor sit, amet consectetur adipisicing elit. Porro sed voluptatibus minus quo, asperiores voluptate modi corrupti </p>
-                        <small class="texto-inferior" id="ti2">Presiona para más información</small>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4">
-                <div class="card mb-4 bg-light border-0 tarjeta noselect" id="t3" style="overflow:hidden; height:420px;border:none;" >
-                    <img src="img/productos/NONE.jpg" class="card-img-top" alt="..." style="width:100%">
-                    <div class="card-body">
-                        <h5 class="card-title">PROGRAMA</h5>
-                        <p class="card-text">Breve descripción... Lorem ipsum dolor sit, amet consectetur adipisicing elit. Porro sed voluptatibus minus quo, asperiores voluptate modi corrupti </p>
-                        <small class="texto-inferior" id="ti3">Presiona para más información</small>
-                    </div>
-                </div>
-            </div>
+<section class="contenedor" id="seccion2">
+    <div class="row">
+        <div class="col-xl-6">
+            <img src="img/general/programas.png" alt="">
         </div>
-        <br>
-        <div class="text-center">
+        <div class="col-xl-6">
+            <h3>Nuestros Productos</h3>
+            <p>Descripción productos</p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="mt-5" style="width:100%;"></div>
+        <div class="col-xl-12">
+            <div class="row" style="padding:0 50px">
+                <div class="col-lg-4">
+                    <div class="card mb-4 bg-light border-0 tarjeta noselect" id="t1" style="overflow:hidden; height:420px;border:none;" >
+                        <img src="img/productos/NONE.jpg" class="card-img-top" alt="..." style="width:100%">
+                        <div class="card-body">
+                            <h5 class="card-title">PROGRAMA</h5>
+                            <p class="card-text">Breve descripción... Lorem ipsum dolor sit, amet consectetur adipisicing elit. Porro sed voluptatibus minus quo, asperiores voluptate modi corrupti </p>
+                            <small class="texto-inferior" id="ti1">Presiona para más información</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="card mb-4 bg-light border-0 tarjeta noselect" id="t2" style="overflow:hidden; height:420px;border:none;" >
+                        <img src="img/productos/NONE.jpg" class="card-img-top" alt="..." style="width:100%">
+                        <div class="card-body">
+                            <h5 class="card-title">PROGRAMA</h5>
+                            <p class="card-text">Breve descripción... Lorem ipsum dolor sit, amet consectetur adipisicing elit. Porro sed voluptatibus minus quo, asperiores voluptate modi corrupti </p>
+                            <small class="texto-inferior" id="ti2">Presiona para más información</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="card mb-4 bg-light border-0 tarjeta noselect" id="t3" style="overflow:hidden; height:420px;border:none;" >
+                        <img src="img/productos/NONE.jpg" class="card-img-top" alt="..." style="width:100%">
+                        <div class="card-body">
+                            <h5 class="card-title">PROGRAMA</h5>
+                            <p class="card-text">Breve descripción... Lorem ipsum dolor sit, amet consectetur adipisicing elit. Porro sed voluptatibus minus quo, asperiores voluptate modi corrupti </p>
+                            <small class="texto-inferior" id="ti3">Presiona para más información</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <div class="text-center">
             <button class="btn btn-primary" onclick="location.href='servicios.php'">Todos nuestros servicios</button>
         </div>
     </div>
 </section>
-<section class="sector" id="sector3">
 
-</section>
 
 
 

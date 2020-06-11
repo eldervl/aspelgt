@@ -3,7 +3,7 @@ ASPEL proyect, productos.php v1er
 -->
 
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -36,8 +36,8 @@ ASPEL proyect, productos.php v1er
                 <div class="card mb-4  border-0 tarjeta" style="overflow:hidden; height:420px;" >
                     <img src="img/productos/SAE.JPG" class="card-img-top" alt="...">
                     <div class="card-body">
-                        <h5 class="card-title">TITULO</h5>
-                        <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eveniet, hic quo accusamus ad atque consequatur quod. Labore nisi adipisci quae neque nesciunt sunt ad maiores harum dignissimos? Adipisci, magnam mollitia?</p>
+                        <h5 class="card-title">SAE</h5>
+                        <p class="card-text">Controla todo el ciclo de todas las operaciones de compra-venta de la empresa, como inventarios, clientes, facturación, cuentas por cobrar, vendedores, compras, proveedores y cuentas por pagar, automatizando eficientemente los procesos administrativos.</p>
                         <a href="#" class="btn btn-primary" style="position: absolute; bottom: 15px;">Mas Informacion</a>
                     </div>
                 </div>
@@ -46,8 +46,8 @@ ASPEL proyect, productos.php v1er
                 <div class="card mb-4  border-0 tarjeta" style="overflow:hidden; height:420px;" >
                     <img src="img/productos/SAE.JPG" class="card-img-top" alt="...">
                     <div class="card-body">
-                        <h5 class="card-title">TITULO</h5>
-                        <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eveniet, hic quo accusamus ad atque consequatur quod. Labore nisi adipisci quae neque nesciunt sunt ad maiores harum dignissimos? Adipisci, magnam mollitia?</p>
+                        <h5 class="card-title">NOI</h5>
+                        <p class="card-text">automatiza el control de la nómina. Ofrece un cálculo exacto de las percepciones y deducciones de los trabajadores de acuerdo con las disposiciones fiscales y laborales vigentes.Genera y entrega a tus trabajadores los Comprobantes Fiscales Digitales por Internet (CFDI) de los recibos de nómina y cumple en segundos con la Reforma Fiscal vigente.</p>
                         <a href="#" class="btn btn-primary" style="position: absolute; bottom: 15px;">Mas Informacion</a>
                     </div>
                 </div>
@@ -56,8 +56,8 @@ ASPEL proyect, productos.php v1er
                 <div class="card mb-4  border-0 tarjeta" style="overflow:hidden; height:420px;" >
                     <img src="img/productos/SAE.JPG" class="card-img-top" alt="...">
                     <div class="card-body">
-                        <h5 class="card-title">TITULO</h5>
-                        <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eveniet, hic quo accusamus ad atque consequatur quod. Labore nisi adipisci quae neque nesciunt sunt ad maiores harum dignissimos? Adipisci, magnam mollitia?</p>
+                        <h5 class="card-title">CAJA</h5>
+                        <p class="card-text">tu negocio es más eficiente y productivo, ahora puedes emitir Facturas Electrónicas 3.3 en tu punto de venta.controla, administra y agiliza las operaciones de ventas, facturación e inventarios de uno o varios comercios, convirtiendo una computadora en un punto de venta capaz de operar con impresoras de tickets</p>
                         <a href="#" class="btn btn-primary" style="position: absolute; bottom: 15px;">Mas Informacion</a>
                     </div>
                 </div>
@@ -66,8 +66,8 @@ ASPEL proyect, productos.php v1er
                 <div class="card mb-4  border-0 tarjeta" style="overflow:hidden; height:420px;" >
                     <img src="img/productos/SAE.JPG" class="card-img-top" alt="...">
                     <div class="card-body">
-                        <h5 class="card-title">TITULO</h5>
-                        <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eveniet, hic quo accusamus ad atque consequatur quod. Labore nisi adipisci quae neque nesciunt sunt ad maiores harum dignissimos? Adipisci, magnam mollitia?</p>
+                        <h5 class="card-title">BANCO</h5>
+                        <p class="card-text">Controla eficientemente los movimientos de cualquier cuenta bancaria, en moneda nacional y extranjera Todos los movimientos bancarios se contabilizan automáticamente a través de su interfaz permite la afectación simultánea de las cuentas por cobrar y/o por pagar al registrar los movimientos bancarios</p>
                         <a href="#" class="btn btn-primary" style="position: absolute; bottom: 15px;">Mas Informacion</a>
                     </div>
                 </div>
@@ -76,8 +76,8 @@ ASPEL proyect, productos.php v1er
                 <div class="card mb-4  border-0 tarjeta" style="overflow:hidden; height:420px;" >
                     <img src="img/productos/SAE.JPG" class="card-img-top" alt="...">
                     <div class="card-body">
-                        <h5 class="card-title">TITULO</h5>
-                        <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eveniet, hic quo accusamus ad atque consequatur quod. Labore nisi adipisci quae neque nesciunt sunt ad maiores harum dignissimos? Adipisci, magnam mollitia?</p>
+                        <h5 class="card-title">PROD</h5>
+                        <p class="card-text">Es el Sistema que controla y administra los procesos de fabricación, desde materias primas hasta productos terminados permite la planeación y control de los procesos de fabricación de la empresa, asegurando una óptima administración de inventarios y costos y, posteriormente, actualizar el inventario con los productos terminados</p>
                         <a href="#" class="btn btn-primary" style="position: absolute; bottom: 15px;">Mas Informacion</a>
                     </div>
                 </div>
@@ -86,8 +86,8 @@ ASPEL proyect, productos.php v1er
                 <div class="card mb-4  border-0 tarjeta" style="overflow:hidden; height:420px;" >
                     <img src="img/productos/SAE.JPG" class="card-img-top" alt="...">
                     <div class="card-body">
-                        <h5 class="card-title">TITULO</h5>
-                        <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eveniet, hic quo accusamus ad atque consequatur quod. Labore nisi adipisci quae neque nesciunt sunt ad maiores harum dignissimos? Adipisci, magnam mollitia?</p>
+                        <h5 class="card-title">COI</h5>
+                        <p class="card-text">Automatiza los procesos administrativos de tu empresa sin elevar los costos.Procesa, integra y mantiene actualizada la información contable y fiscal de la empresa en forma segura y confiable.</p>
                         <a href="#" class="btn btn-primary" style="position: absolute; bottom: 15px;">Mas Informacion</a>
                     </div>
                 </div>
@@ -96,8 +96,8 @@ ASPEL proyect, productos.php v1er
                 <div class="card mb-4  border-0 tarjeta" style="overflow:hidden; height:420px;" >
                     <img src="img/productos/SAE.JPG" class="card-img-top" alt="...">
                     <div class="card-body">
-                        <h5 class="card-title">TITULO</h5>
-                        <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eveniet, hic quo accusamus ad atque consequatur quod. Labore nisi adipisci quae neque nesciunt sunt ad maiores harum dignissimos? Adipisci, magnam mollitia?</p>
+                        <h5 class="card-title">ADM</h5>
+                        <p class="card-text">gestiona las principales operaciones de compra-venta desde cualquier lugar y en todo momento de manera fácil, eficiente y segurarevoluciona el control administrativo de las empresas desde la nube</p>
                         <a href="#" class="btn btn-primary" style="position: absolute; bottom: 15px;">Mas Informacion</a>
                     </div>
                 </div>

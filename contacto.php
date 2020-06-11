@@ -3,7 +3,7 @@ ASPEL proyect, contacto.php v1es
 -->
 
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -26,7 +26,7 @@ ASPEL proyect, contacto.php v1es
 
 <!--AREA DE CONTENIDO=====================================================-->
 
-<div class="contenedor ">
+<div class="container ">
 
 <h3>Contacto</h3>
 <!--

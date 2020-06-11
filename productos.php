@@ -3,7 +3,7 @@ ASPEL proyect, productos.php v1er
 -->
 
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -27,7 +27,7 @@ ASPEL proyect, productos.php v1er
 
 
   
-<section class="sector" id="sector4">
+<section class="" id="">
     <div class="seccion" style="float:left">
     <br>
         <h3 class="mx-1">Servicios Aspel</h3>
@@ -35,38 +35,39 @@ ASPEL proyect, productos.php v1er
         <button type="button" class="btn btn-outline-light m-1" onclick="location.href='#software'">Capacitaciones</button>
         <button type="button" class="btn btn-outline-light m-1" onclick="location.href='#capacitaciones'">Pólizas</button>
     </div>
-    <div class="seccion" style="float:right">
+    <div class="">
     <iframe width="560" height="315" src="https://www.youtube.com/embed/roKHuM5P4fU?controls=0" frameborder="0" allow="autoplay; encrypted-media; gyroscope;" allowfullscreen></iframe>
     </div>
 </section>
 
 
-    <div class="sec-software" id="software">
+    <div class="" id="">
 
         <section class="sector" id="sector5">
             <div class="seccion" style="float:left">
-                <h3>Capacitaciones</h3>
+                <h3z>Capacitaciones</h3>
                 <p class="mx-1">Nuestra  capacitación es personalizada, ofreciendo la ventaja de ser impartida en nuestras oficinas o en sus instalaciones, trabajando con información real de su empresa; enviamos cronogramas previamente pactados</p>
             </div>
         </section>
 
 
-        <div class="p-1 ">
+        <div class="p-1 container">
         
         <br>
         <div class="row">
             <div class="col-lg-4">
                 <div class="card mb-4  border-0 tarjeta" style="overflow:hidden; height:420px;" >
-                    <img src="img/SAE.JPG" class="card-img-top" alt="...">
+                    <img src="img/productos/SAE.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h5 class="card-title">SAE</h5>
-                        <p class="card-text">Este curso tiene como principal objetivo la capacitación del Participante para obtener los conocimientos Y herramientas que le permitan administrar el sistema, esto es, Configurarlo para adaptarlo a las necesidades de la empresa</p>
+                        <p class="card-text">Controla todo el ciclo de todas las operaciones de compra-venta de la empresa, como inventarios, clientes, facturación, cuentas por cobrar, vendedores, compras, proveedores y cuentas por pagar, automatizando eficientemente los procesos administrativos</p>
                         <a href="#ventana1" class="btn btn-primary" data-toggle="modal" style="float:right;margin-right:10px;margin-bottom:10px">Mas Informacion</a>
                  <div class="modal fade" id="ventana1">
                   <div class="modal-dialog">
                     <div class="modal-content">
                       <div class="modal-header">
-                        <h2 class="modal-title" style="color: royalblue;">Informacion</h2>
+                        <h2 class="modal-title" style="color: royalblue;">Informacion de curso</h2>
+                         <p class="card-text">Este curso tiene como principal objetivo la capacitación del Participante para obtener los conocimientos Y herramientas que le permitan administrar el sistema, esto es, Configurarlo para adaptarlo a las necesidades de la empresa</p>
                          <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
                       </div>
                       <div class="modal-body">
@@ -106,16 +107,17 @@ ASPEL proyect, productos.php v1er
             </div>
             <div class="col-lg-4">
                 <div class="card mb-4  border-0 tarjeta" style="overflow:hidden; height:420px;" >
-                    <img src="img/COI.JPG" class="card-img-top" alt="...">
+                    <img src="img/productos/COI.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h5 class="card-title">COI</h5>
-                        <p class="card-text">Al término de este curso el usuario tendrá los conocimientos y herramientas que le permitirán administrar la información además conocimientos necesarios para realizar la captura, modificación y eliminación de los datos en los catálogos del sistema</p>
+                        <p class="card-text">Automatiza los procesos administrativos de tu empresa sin elevar los costos.Procesa, integra y mantiene actualizada la información contable y fiscal de la empresa en forma segura y confiable.</p>
                         <a href="#ventana1" class="btn btn-primary" data-toggle="modal" style="float:right;margin-right:10px;margin-bottom:10px">Mas Informacion</a>
                  <div class="modal fade" id="ventana1">
                   <div class="modal-dialog">
                     <div class="modal-content">
                       <div class="modal-header">
-                        <h2 class="modal-title" style="color: royalblue;">Informacion</h2>
+                        <h2 class="modal-title" style="color: royalblue;">Informacion de curso</h2>
+                        <p class="card-text">Al término de este curso el usuario tendrá los conocimientos y herramientas que le permitirán administrar la información además conocimientos necesarios para realizar la captura, modificación y eliminación de los datos en los catálogos del sistema</p>
                          <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
                       </div>
                       <div class="modal-body">
@@ -155,16 +157,17 @@ ASPEL proyect, productos.php v1er
             </div>
             <div class="col-lg-4">
                 <div class="card mb-4  border-0 tarjeta" style="overflow:hidden; height:420px;" >
-                    <img src="img/NOI.JPG" class="card-img-top" alt="...">
+                    <img src="img/productos/NOI.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h5 class="card-title">NOI</h5>
-                        <p class="card-text">El participante conocerá Implementación de Aspel-NOI, desde la instalación y Configuración, la captura de la información de los trabajadores e incidencias de un período de nómina, información necesaria y relevante para facilitar la toma de decisiones en las empresas</p>
+                        <p class="card-text">Automatiza el control de la nómina. Ofrece un cálculo exacto de las percepciones y deducciones de los trabajadores de acuerdo con las disposiciones fiscales y laborales vigentes.Genera y entrega a tus trabajadores los Comprobantes Fiscales Digitales por Internet (CFDI) de los recibos de nómina y cumple en segundos con la Reforma Fiscal vigente.</p>
                        <a href="#ventana1" class="btn btn-primary" data-toggle="modal" style="float:right;margin-right:10px;margin-bottom:10px">Mas Informacion</a>
                  <div class="modal fade" id="ventana1">
                   <div class="modal-dialog">
                     <div class="modal-content">
                       <div class="modal-header">
-                        <h2 class="modal-title" style="color: royalblue;">Informacion</h2>
+                        <h2 class="modal-title" style="color: royalblue;">Informacion de curso</h2>
+                         <p class="card-text">El participante conocerá Implementación de Aspel-NOI, desde la instalación y Configuración, la captura de la información de los trabajadores e incidencias de un período de nómina, información necesaria y relevante para facilitar la toma de decisiones en las empresas</p>
                          <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
                       </div>
                       <div class="modal-body">
@@ -199,16 +202,17 @@ ASPEL proyect, productos.php v1er
             </div>
             <div class="col-lg-4">
                 <div class="card mb-4  border-0 tarjeta" style="overflow:hidden; height:420px;" >
-                    <img src="img/CAJA.JPG" class="card-img-top" alt="...">
+                    <img src="img/productos/CAJA.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
-                        <h5 class="card-title">caja</h5>
-                        <p class="card-text">Conocimientos necesarios para la instalación del sistema, el manejo de los procesos de captura de datos, como: líneas, departamentos, impuestos, configuración de dispositivos así Como emisión de documentos de venta digitales e impresos.</p>
+                        <h5 class="card-title">CAJA</h5>
+                        <p class="card-text">Controla, administra y agiliza las operaciones de ventas, facturación e inventarios de uno o varios comercios, convirtiendo una computadora en un punto de venta capaz de operar con impresoras de tickets tu negocio es más eficiente y productivo, ahora puedes emitir Facturas Electrónicas 3.3 en tu punto de venta.</p>
                         <a href="#ventana1" class="btn btn-primary" data-toggle="modal" style="float:right;margin-right:10px;margin-bottom:10px">Mas Informacion</a>
                  <div class="modal fade" id="ventana1">
                   <div class="modal-dialog">
                     <div class="modal-content">
                       <div class="modal-header">
-                        <h2 class="modal-title" style="color: royalblue;">Informacion</h2>
+                        <h2 class="modal-title" style="color: royalblue;">Informacion de curso</h2>
+                         <p class="card-text">Conocimientos necesarios para la instalación del sistema, el manejo de los procesos de captura de datos, como: líneas, departamentos, impuestos, configuración de dispositivos así Como emisión de documentos de venta digitales e impresos.</p>
                          <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
                       </div>
                       <div class="modal-body">
@@ -241,16 +245,17 @@ ASPEL proyect, productos.php v1er
             </div>
             <div class="col-lg-4">
                 <div class="card mb-4  border-0 tarjeta" style="overflow:hidden; height:420px;" >
-                    <img src="img/BANCO.JPG" class="card-img-top" alt="...">
+                    <img src="img/productos/BANCO.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h5 class="card-title">BANCO</h5>
-                        <p class="card-text">El alumno tendrá los conocimientos necesarios para el manejo y la administración del sistema, la configuración de Aspel-BANCO; conocerá la estructura general del sistema, comenzando por sus catálogos</p>
+                         <p class="card-text">Controla eficientemente los movimientos de cualquier cuenta bancaria, en moneda nacional y extranjera Todos los movimientos bancarios se contabilizan automáticamente a través de su interfaz permite la afectación simultánea de las cuentas por cobrar y/o por pagar al registrar los movimientos bancarios</p>
                         <a href="#ventana1" class="btn btn-primary" data-toggle="modal" style="float:right;margin-right:10px;margin-bottom:10px">Mas Informacion</a>
                  <div class="modal fade" id="ventana1">
                   <div class="modal-dialog">
                     <div class="modal-content">
                       <div class="modal-header">
-                        <h2 class="modal-title" style="color: royalblue;">Informacion</h2>
+                        <h2 class="modal-title" style="color: royalblue;">Informacion del curso</h2>
+                         <p class="card-text">El alumno tendrá los conocimientos necesarios para el manejo y la administración del sistema, la configuración de Aspel-BANCO; conocerá la estructura general del sistema, comenzando por sus catálogos</p>
                          <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
                       </div>
                       <div class="modal-body">
@@ -289,16 +294,17 @@ ASPEL proyect, productos.php v1er
             </div>
             <div class="col-lg-4">
                 <div class="card mb-4  border-0 tarjeta" style="overflow:hidden; height:420px;" >
-                    <img src="img/PROD.JPG" class="card-img-top" alt="...">
+                    <img src="img/productos/PROD.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h5 class="card-title">PROD</h5>
-                        <p class="card-text">Este curso el usuario conocerá la estructura general del sistema y su operación e interacción con Aspel-SAE. Se analizará los catálogos de información el manejo de los Seguimientos de Producción tales como: Fabricación Directa, Registro Automático de Órdenes,</p>
+                        <p class="card-text">Es el Sistema que controla y administra los procesos de fabricación, desde materias primas hasta productos terminados permite la planeación y control de los procesos de fabricación de la empresa, asegurando una óptima administración de inventarios y costos y, posteriormente, actualizar el inventario con los productos terminados</p>
                         <a href="#ventana1" class="btn btn-primary" data-toggle="modal" style="float:right;margin-right:10px;margin-bottom:10px">Mas Informacion</a>
                  <div class="modal fade" id="ventana1">
                   <div class="modal-dialog">
                     <div class="modal-content">
                       <div class="modal-header">
-                        <h2 class="modal-title" style="color: royalblue;">Informacion</h2>
+                        <h2 class="modal-title" style="color: royalblue;">Informacion del curso</h2>
+                         <p class="card-text">Este curso el usuario conocerá la estructura general del sistema y su operación e interacción con Aspel-SAE. Se analizará los catálogos de información el manejo de los Seguimientos de Producción tales como: Fabricación Directa, Registro Automático de Órdenes,</p>
                          <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
                       </div>
                       <div class="modal-body">
@@ -337,7 +343,7 @@ ASPEL proyect, productos.php v1er
             </div>
           <!--  <div class="col-lg-4">
                 <div class="card mb-4  border-0 tarjeta" style="overflow:hidden; height:420px;" >
-                    <img src="img/ADM.JPG" class="card-img-top" alt="...">
+                    <img src="img/productos/ADM.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h5 class="card-title">AMD</h5>
                         <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eveniet, hic quo accusamus ad atque consequatur quod. Labore nisi adipisci quae neque nesciunt sunt ad maiores harum dignissimos? Adipisci, magnam mollitia?</p>
@@ -362,13 +368,13 @@ ASPEL proyect, productos.php v1er
         </section>
 
 
-        <div class="p-1  mb-5">
+        <div class="p-1 mb-5 container">
 
         <br>
         <div class="row">
             <div class="col-lg-4">
                 <div class="card mb-4  border-0 tarjeta" style="overflow:hidden; height:420px;" >
-                    <img src="img/SAE.JPG" class="card-img-top" alt="...">
+                    <img src="img/productos/SAE.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h4 class="card-title" style="color:royalblue;text-align: center;">Poliza No.1</h4>
                 <p class="card-text" style="text-align:center;">Asesoría via char, correo electonico o Telefonico</p>
@@ -431,7 +437,7 @@ ASPEL proyect, productos.php v1er
             </div>
             <div class="col-lg-4">
                 <div class="card mb-4  border-0 tarjeta" style="overflow:hidden; height:420px;" >
-                    <img src="img/COI.JPG" class="card-img-top" alt="...">
+                    <img src="img/productos/COI.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h4 class="card-title"style="color:royalblue;text-align: center;">Poliza No.2</h4>
                  <p class="card-text"style="text-align:center;">Asesoria por conexion remota o personalizada</p>
@@ -496,7 +502,7 @@ mínimo 0.5 horas de su póliza de soporte vigente.</p>
             </div>
             <div class="col-lg-4">
                 <div class="card mb-4  border-0 tarjeta" style="overflow:hidden; height:420px;" >
-                    <img src="img/NOI.JPG" class="card-img-top" alt="...">
+                    <img src="img/productos/NOI.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h4 class="card-title"style="color:royalblue;text-align: center;">Poliza No.3</h4>
                 <p class="card-text"style="text-align:center;">Asesoria de Respaldo de datos Aspel</p>
@@ -559,7 +565,7 @@ mínimo 0.5 horas de su póliza de soporte vigente.</p>
             </div>
             <div class="col-lg-4">
                 <div class="card mb-4  border-0 tarjeta" style="overflow:hidden; height:420px;" >
-                    <img src="img/PROD.JPG" class="card-img-top" alt="...">
+                    <img src="img/productos/PROD.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h4 class="card-title"style="color:royalblue;text-align: center;">Poliza No.4</h4>
                 <p class="card-text"style="text-align:center;">Mantenimiento preventivo de Equipos bimensual</p>
@@ -620,7 +626,7 @@ mínimo 0.5 horas de su póliza de soporte vigente.</p>
             </div>
             <div class="col-lg-4">
                 <div class="card mb-4  border-0 tarjeta" style="overflow:hidden; height:420px;" >
-                    <img src="img/CAJA.JPG" class="card-img-top" alt="...">
+                    <img src="img/productos/CAJA.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h4 class="card-title"style="color:royalblue;text-align: center;">Poliza No.5</h4>
                 <p class="card-text"style="text-align:center;">Descuentos en servicios adicionales en las instalaciones</p>
@@ -682,7 +688,7 @@ mínimo 0.5 horas de su póliza de soporte vigente.</p>
             </div>
             <div class="col-lg-4">
                 <div class="card mb-4  border-0 tarjeta" style="overflow:hidden; height:420px;" >
-                    <img src="img/BANCO.JPG" class="card-img-top" alt="...">
+                    <img src="img/productos/BANCO.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h4 class="card-title" style="color:royalblue;text-align: center;">Poliza No.6</h4>
                 <p class="card-text" style="text-align:center;">Descuento especial en implementacion de facturas</p>
@@ -746,7 +752,7 @@ mínimo 0.5 horas de su póliza de soporte vigente.</p>
             </div>
             <div class="col-lg-4">
                 <div class="card mb-4  border-0 tarjeta" style="overflow:hidden; height:420px;" >
-                    <img src="img/BANCO.JPG" class="card-img-top" alt="...">
+                    <img src="img/productos/BANCO.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h4 class="card-title" style="color:royalblue;text-align: center;">Poliza No.7</h4>
                 <p class="card-text"style="text-align:center;">Cursos presenciales o por video conferencias</p>
