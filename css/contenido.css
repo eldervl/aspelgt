@@ -89,6 +89,10 @@ small.texto-inferior{
     right: 10px;
 }
 
+.minitarjeta svg{
+    width: 100px;
+}
+
 .nav-link{
     margin-right: 5px;
 }

@@ -64,6 +64,6 @@ ASPEL proyect, nosotros.php v1xx
         });
     </script> 
     <script>
-        $page = 3;
+        $page = 5;
     </script> 
 </html>

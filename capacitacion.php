@@ -32,7 +32,7 @@ ASPEL proyect, productos.php v1er
         <div class="row">
             <div class="col-sm-6">
                 <br>
-                <h2>Productos</h2>
+                <h2>Capacitaciones</h2>
                 <p>Descripcion sobre productos</p>
             </div>
             <div class="col-sm-6">
