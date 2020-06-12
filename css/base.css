@@ -8,7 +8,7 @@ ASPEL proyect, css/base.css v1ev
     --bgblanco3: rgb(226, 226, 226); /*Fondo nav*/
     --bgblanco4: rgb(218, 218, 218); /*Fondo hover nav*/
     --txtgris1: rgb(75, 75, 75); /*Gris para texto*/
-    --azul1: rgb(70, 129, 240); /*Azul base*/
+    --azul1: #0b7ac9; /*Azul base*/
 }
 
 /*AREA PRINCIPAL ================================================*/
@@ -45,9 +45,9 @@ header{
     height: 90px;
     z-index: 100;
     opacity: 1;
-    -webkit-box-shadow: 0px 3px 10px 0px rgba(0,0,0,0.2);
-    -moz-box-shadow: 0px 3px 10px 0px rgba(0,0,0,0.2);
-    box-shadow: 0px 3px 10px 0px rgba(0,0,0,0.2);
+    -webkit-box-shadow: 0px 0px 19px 0px rgba(0,0,0,0.15);
+    -moz-box-shadow: 0px 0px 19px 0px rgba(0,0,0,0.15);
+    box-shadow: 0px 0px 19px 0px rgba(0,0,0,0.15);
     transition-property: opacity, height;
     transition-duration: 0.5s, 0.5s;
 }

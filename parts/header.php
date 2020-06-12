@@ -11,7 +11,7 @@ ASPEL proyect, parts/header.php v1ev
                     <a class="rounded" id="hp1" href="index.php">Inicio</a>
                     <a class="rounded" id="hp2" href="productos.php">Productos</a>
                     <a class="rounded" id="hp3" href="capacitacion.php">Capacitación</a>
-                    <a class="rounded" id="hp4" href="soporte.php">Soporte y descargas</a>
+                    <a class="rounded" id="hp4" href="soporte.php">Soporte</a>
                     <a class="rounded" id="hp5" href="nosotros.php">Nosotros</a>
                     <a class="rounded" id="hp6" href="contacto.php">Contacto</a>
                 </div>
