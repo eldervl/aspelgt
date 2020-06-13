@@ -100,11 +100,11 @@ nav.principal a:hover{
     display: none;
     margin-right: 10%;
 }
-.active{
+.area-activa{
     border: none;
     background-color: var(--bgblanco3);
 }
-/*.header2 .active{
+/*.header2 .area-activa{
     border: solid var(--bgblanco1) 1px;
     background-color: transparent;
 }*/
