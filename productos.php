@@ -19,6 +19,7 @@ ASPEL proyect, productos.php v1er
 <body>
     
 <?php
+    include("parts/preloader.php");
     include("parts/header.php");
     include("parts/social.php");
 ?>
@@ -206,6 +207,7 @@ ASPEL proyect, productos.php v1er
 </body>
     <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    <script src="js/preloader.js"></script>
     <script src="js/jquery.scrollUp.js"></script>
     <script src="js/header.js"></script>
     <script src="js/verarea.js"></script>

@@ -173,33 +173,35 @@ img.logof{
     width: 160px;
 }
 
-
-/*AREA CONTENEDOR CUERPO =========================================*/
-
-div.contenedor{
-    padding-top: 150px;
-    padding-bottom: 50px;
-    min-height: 1vh;
-}
-
-/*Formato para pantallas medianas*/
-@media only screen and (max-width: 1023px) {
-
-}
-
-/*Formato para pantallas pequeñas*/
-@media only screen and (max-width: 767px) {
-
-}
-
 /*AREA FORMATO DE TEXTO ==========================================*/
 
 h2{
     color: var(--txtgris1);
 }
 
-/*AREA DE CONTROLES ==============================================*/
+/*AREA DE PRELOADEER =============================================*/
 
+div.cont-preloader{
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    opacity: 0.9;
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: fixed;
+    z-index: 2000;
+    transition:all .3s ease;
+}
+
+div.cont-preloader img{
+    display: block;
+    width: 80px;
+    margin: auto;
+    margin-top: calc(25% - 40px);
+}
+
+/*AREA DE MODAL ==================================================*/
 
 
 

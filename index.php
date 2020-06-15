@@ -21,8 +21,9 @@ ASPEL proyect, index.php v1ev
 <body>
 
 <?php
+    include("parts/preloader.php");
     include("parts/header.php");
-    //include("parts/social.php");;
+    //include("parts/social.php");
 ?>
 
 
@@ -77,7 +78,6 @@ ASPEL proyect, index.php v1ev
         <button class="btn position-absolute mx-auto text-white" style="top:80%; width:120px; left: calc(50% - 60px); z-index: 5;" onclick="location.href='#sector1'"><u>Vamos!</u></button>
     </div>
 </section>
-
 
 
 <section class="contenedor" id="seccion-info">
@@ -160,13 +160,9 @@ ASPEL proyect, index.php v1ev
 </body>
 
 
-
-    <!--
     <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
-    -->
-    <script src="js/jquery-3.4.1.js"></script>
-    <script src="js/bootstrap.js"></script>
+    <script src="js/preloader.js"></script>
     <script src="js/jquery.superslides.js"></script>
     <script src="js/jquery.scrollUp.js"></script>
     <script src="js/header.js"></script>
@@ -189,7 +185,7 @@ ASPEL proyect, index.php v1ev
 
 
 
-<div class="modal" tabindex="-1" role="dialog" id="modal-inicio">
+<div class="modal mimodal" tabindex="-1" role="dialog" id="modal-inicio">
   <div class="modal-dialog  modal-dialog-centered" style="overflow: hidden;">
     <div class="modal-content">
       <div class="modal-header">
