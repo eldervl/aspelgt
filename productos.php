@@ -35,7 +35,7 @@ ASPEL proyect, productos.php v1er
             <div class="col-sm-6">
                 <br>
                 <h2>Productos</h2>
-                <p>Descripcion sobre productos</p>
+                <p>Contamos con una amplia gamade productos todo lo necesario para poder controlar, administra todas las operaciones de tu empresa tomando en cuenta que muchos de nuestros productos van a otros asociados para tener un mejor funcionamiento aumentando la eficacia de la empresa</p>
             </div>
             <div class="col-sm-6">
                 <img src="img/general/programas2.png" alt="">
@@ -96,7 +96,16 @@ ASPEL proyect, productos.php v1er
                             </div>
                         </div>
                     </div>
-                    <div>FACTURE?</div>
+                     <div class="col-lg-4">
+                        <div class="card mb-4 bg-white tarjeta" style="overflow:hidden; height:420px;" >
+                            <img src="img/productos/FACTURE.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">FACTURE</h5>
+                                <p class="card-text">Genera de forma segura y en segundos Comprobantes Fiscales Digitales por Internet 3.3 (CFDI) de acuerdo con las disposiciones fiscales vigentes, independientemente de tu profesión, giro comercial o si eres persona física o moral.</p>
+                                <a href="productos/pFACTURA.php" class="btn btn-primary btn-tarjeta" style="float:right;margin-right:10px;margin-bottom:10px">Mas Informacion</a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
 
             </div>
@@ -159,7 +168,7 @@ ASPEL proyect, productos.php v1er
 
                 <div class="row">
 
-                    <div>PENDIENTE</div>
+                    
 
                 </div>
             
@@ -169,20 +178,7 @@ ASPEL proyect, productos.php v1er
 
                 <div class="row">
 
-                    <div>NOI ASISTENTE?</div>
-                    <br>
-                    <div>SERVICIOS NUBE?</div>
-                    <br>
-                    <div>ADM MMOVIL?</div>
-                    <br>
-                    <div>CONTA ASISTENTE?</div>
-                    <br>
-                    <div>ESPACIO?</div>
-                    <br>
-                    <div>DFDI?</div>
-                    <br>
-                    <div>ADM TIENDA?</div>
-                    <br>
+      
                     
                 </div>
 
@@ -190,7 +186,7 @@ ASPEL proyect, productos.php v1er
 
             <div class="cont-area" id="areaCompatibilidad">
 
-                <div>PENDIENTE</div>
+                
 
             </div>
 

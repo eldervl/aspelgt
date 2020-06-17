@@ -38,7 +38,7 @@ ASPEL proyect, index.php v1ev
     <div class="row">
         <div class="col-md-3">
             <div class="nav flex-column nav-pills">
-                <a class="nav-link" href="admin-general.php">General</a>
+                <!--<a class="nav-link" href="admin-general.php">General</a>-->
                 <a class="nav-link active" href="admin-index.php">Página inicio</a>
                 <a class="nav-link" href="admin-faqs.php">Preguntas frecuentes</a>
                 <a class="nav-link" href="admin-contacto.php">Contacto</a>
@@ -48,9 +48,31 @@ ASPEL proyect, index.php v1ev
             <div class="tab-content">
 
             <h2 class="font-weight-bold text-primary">Página de inicio</h2>
+
+                <!--Modal-->
                 <div class="bg-light border rounded w-100 my-3 mx-auto p-4">
                 
-                    <h4 class="float-left">Preguntas</h4>
+                    <h4 class="float-left">Modal</h4>
+                    <button class="btn btn-primary float-right ml-1 mb-3" style="overflow:hidden;" onclick="location.href='editor-slider.php'">Cambia imagen</button>
+                    <button class="btn btn-danger float-right ml-1 mb-3" style="overflow:hidden;" onclick="location.href='editor-slider.php'">Eliminar</button>
+
+                    <div style="display:block; width:100%; height:40px"></div>
+                   
+                    <div class="row w-100 mx-0">
+
+                        <div class="col-xl-4">
+                            <div class="border rounded cont-imgmodal mb-2">
+                                <img class="imgmodal" src="../img/general/noimagen.png" alt="imagen">
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+
+                <!--Slider-->
+                <div class="bg-light border rounded w-100 my-3 mx-auto p-4">
+                
+                    <h4 class="float-left">Carrousel</h4>
                     <button class="btn btn-primary float-right mb-3" style="overflow:hidden;" onclick="location.href='editor-slider.php'">Añadir</button>
 
                     <div style="display:block; width:100%; height:40px"></div>
@@ -64,8 +86,8 @@ ASPEL proyect, index.php v1ev
                                         <img class="imgcard" src="../img/general/noimagen.png" alt="imagen">
                                     </div>
                                     <small>Identificador: x</small>
-                                    <h5 class="card-title mt-2">Pregunta frecuente</h5>
-                                    <p class="card-text">Respuesta</p>
+                                    <h5 class="card-title mt-2">Titulo</h5>
+                                    <p class="card-text">Texto</p>
                                     <a class="card-link" href="editor-faqs.php">Editar</a>
                                     <a class="card-link text-danger" href="editor-faqs.php">Eliminar</a>
                                 </div>
@@ -73,21 +95,9 @@ ASPEL proyect, index.php v1ev
                         </div>
                         
                     </div>
-
-                    <script>
-                        function countChars(obj){
-                            var maxLength = 800;
-                            var strLength = obj.value.length;
-                            var charRemain = (maxLength - strLength);
-
-                            if(charRemain < 0){
-                                document.getElementById("charNum").innerHTML = '<span style="color: red;">You have exceeded the limit of '+maxLength+' characters</span>';
-                            }else{
-                                document.getElementById("charNum").innerHTML = charRemain+' caracteres restantes';
-                            }
-                        }
-                    </script>
                 </div>
+
+
              </div>
         </div>
     </div>

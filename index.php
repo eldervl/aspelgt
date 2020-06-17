@@ -46,7 +46,7 @@ ASPEL proyect, index.php v1ev
             <div class="slider-cont">
 
                 <h1 class="slidertitle" id="st2">Expertos en administración</h1>
-                <p class="sliderdesc" id="sd2">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eligendi, delectus nesciunt placeat saepe quae tenetur totam at sed nulla repellendus aspernatur eius ut harum laboriosam ab dolor ducimus sit accusantium!</p>
+                <p class="sliderdesc" id="sd2">nuestros servicios de análisis administrativos en el proceso de implementación y seguimiento de sus sistemas Administrativos contables!</p>
 
             </div>
             <img style="text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.550)" src="img/slider/portfolio-02.jpg" alt="img">
@@ -54,8 +54,8 @@ ASPEL proyect, index.php v1ev
             <li>
             <div class="slider-cont">
 
-                <h1 class="slidertitle" id="st3">Otro titulo</h1>
-                <p class="sliderdesc" id="sd3">prueba slider 3</p>
+                <h1 class="slidertitle" id="st3">Nuestro Soporte Tecnico</h1>
+                <p class="sliderdesc" id="sd3">mantenimiento informático para su empresa, desde reparar los ordenadores hasta controlar la seguridad de los servidores, ofreciendo una revisión periódica de los equipo</p>
 
             </div>
             <img style="text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.550)" src="img/slider/xd.jpg" alt="img">
@@ -101,7 +101,7 @@ ASPEL proyect, index.php v1ev
         </div>
         <div class="col-xl-6">
             <h3>Nuestros Productos</h3>
-            <p>Descripción productos</p>
+            <p>Contamos con una amplia gamade productos todo lo necesario para poder controlar, administra todas las operaciones de tu empresa tomando en cuenta que muchos de nuestros productos van a otros asociados para tener un mejor funcionamiento aumentando la eficacia de la empresa</p>
         </div>
     </div>
     <div class="row">
@@ -109,31 +109,31 @@ ASPEL proyect, index.php v1ev
         <div class="col-xl-12">
             <div class="row" style="padding:0 50px">
                 <div class="col-md-4">
-                    <div class="card mb-4 bg-whitebg-light border-0 tarjeta noselect" id="t1" style="overflow:hidden; height:420px;border:none;" >
-                        <img src="../img/productos/NONE.jpg" class="card-img-top" alt="..." style="width:100%">
+                    <div class="card mb-4 bg-whitebg-light border-0 tarjeta noselect" id="t1" style="overflow:hidden; height:420px;border:none;" onclick="location.href='productos/pSAE.php'" >
+                        <img src="img/productos/SAE.jpg" class="card-img-top" alt="..." style="width:100%">
                         <div class="card-body">
-                            <h5 class="card-title">PROGRAMA</h5>
-                            <p class="card-text">Breve descripción... Lorem ipsum dolor sit, amet consectetur adipisicing elit. Porro sed voluptatibus minus quo, asperiores voluptate modi corrupti </p>
+                            <h5 class="card-title">Aspel SAE </h5>
+                            <p class="card-text">Controla todo el ciclo de todas las operaciones de compra-venta de la empresa, como inventarios, clientes, facturación, cuentas por cobrar, vendedores, compras, proveedores y cuentas por pagar, automatizando eficientemente los procesos administrativos</p>
                             <small class="texto-inferior" id="ti1">Presiona para más información</small>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-4">
-                    <div class="card mb-4 bg-whitebg-light border-0 tarjeta noselect" id="t2" style="overflow:hidden; height:420px;border:none;" >
-                        <img src="../img/productos/NONE.jpg" class="card-img-top" alt="..." style="width:100%">
+                    <div class="card mb-4 bg-whitebg-light border-0 tarjeta noselect" id="t2" style="overflow:hidden; height:420px;border:none;"onclick="location.href='productos/pCOI.php'">
+                        <img src="img/productos/COI.jpg" class="card-img-top" alt="..." style="width:100%">
                         <div class="card-body">
-                            <h5 class="card-title">PROGRAMA</h5>
-                            <p class="card-text">Breve descripción... Lorem ipsum dolor sit, amet consectetur adipisicing elit. Porro sed voluptatibus minus quo, asperiores voluptate modi corrupti </p>
+                            <h5 class="card-title">Aspel COI</h5>
+                            <p class="card-text">Automatiza los procesos administrativos de tu empresa sin elevar los costos.Procesa, integra y mantiene actualizada la información contable y fiscal de la empresa en forma segura y confiable </p>
                             <small class="texto-inferior" id="ti2">Presiona para más información</small>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-4">
-                    <div class="card mb-4 bg-whitebg-light border-0 tarjeta noselect" id="t3" style="overflow:hidden; height:420px;border:none;" onclick="location.href='pagina.php'">
-                        <img src="../img/productos/NONE.jpg" class="card-img-top" alt="..." style="width:100%">
+                    <div class="card mb-4 bg-whitebg-light border-0 tarjeta noselect" id="t3" style="overflow:hidden; height:420px;border:none;" onclick="location.href='productos/pCAJA.php'" >
+                        <img src="img/productos/CAJA.jpg" class="card-img-top" alt="..." style="width:100%">
                         <div class="card-body">
-                            <h5 class="card-title">PROGRAMA</h5>
-                            <p class="card-text">Breve descripción... Lorem ipsum dolor sit, amet consectetur adipisicing elit. Porro sed voluptatibus minus quo, asperiores voluptate modi corrupti </p>
+                            <h5 class="card-title">Aspel CAJA</h5>
+                            <p class="card-text">Controla, administra y agiliza las operaciones de ventas, facturación e inventarios de uno o varios comercios, convirtiendo una computadora en un punto de venta capaz de operar con impresoras de tickets tu negocio es más eficiente y productivo, ahora puedes emitir Facturas Electrónicas 3.3 en tu punto de venta. </p>
                             <small class="texto-inferior" id="ti3">Presiona para más información</small>
                         </div>
                     </div>
@@ -146,7 +146,19 @@ ASPEL proyect, index.php v1ev
     </div>
 </section>
 
+<section class="contenedor">
 
+    <h2 class="text-center">Nuestros colaboradores</h2>
+
+    <div class="contcolabs">
+        <div class="colab"><img src="img/logotipos/logo1.png" alt=""></div>
+        <div class="colab"><img src="img/logotipos/logo1.png" alt=""></div>
+        <div class="colab"><img src="img/logotipos/logo1.png" alt=""></div>
+        <div class="colab"><img src="img/logotipos/logo1.png" alt=""></div>
+        <div class="colab"><img src="img/logotipos/logo1.png" alt=""></div>
+    </div>
+
+</section>
 
 
 <!--======================================================================-->
@@ -163,11 +175,12 @@ ASPEL proyect, index.php v1ev
     <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
     <script src="js/preloader.js"></script>
-    <script src="js/animaciones.js"></script>
     <script src="js/jquery.superslides.js"></script>
     <script src="js/jquery.scrollUp.js"></script>
     <script src="js/header.js"></script>
     <script src="js/tarjetas.js"></script>
+    <script src="js/jquery.counterup.js"></script>
+    <script src="js/jquery.waypoints.min.js"></script>
     <script>
         $(function(){
             $.scrollUp();

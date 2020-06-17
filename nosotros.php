@@ -32,14 +32,14 @@ ASPEL proyect, base-capacitacion.php v1er
     <section class="contenedor noselect">
 
     <div class="row">
-        <div class="col-3">
+        <div class="col-md-3">
             <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
                 <a class="nav-link active" id="v-pills-a1-tab" data-toggle="pill" href="#v-pills-a1" role="tab" aria-controls="v-pills-a1" aria-selected="true">Quienes somos</a>
                 <a class="nav-link" id="v-pills-a2-tab" data-toggle="pill" href="#v-pills-a2" role="tab" aria-controls="v-pills-a2" aria-selected="false">Historias de exito</a>
                 <a class="nav-link" id="v-pills-a3-tab" data-toggle="pill" href="#v-pills-a3" role="tab" aria-controls="v-pills-a3" aria-selected="false">Oficinas</a>
             </div>
         </div>
-        <div class="col-9">
+        <div class="col-md-9">
             <div class="tab-content" id="v-pills-tabContent">
                 <div class="tab-pane fade show active" id="v-pills-a1" role="tabpanel" aria-labelledby="v-pills-a1-tab">
                     
@@ -49,12 +49,15 @@ ASPEL proyect, base-capacitacion.php v1er
 
                     <h2 class="font-weight-bold text-primary">Quienes somos</h2>
                     <p>
+                    Aspel es una empresa 100% mexicana con 39 años de experiencia, líder en el mercado de software y soluciones administrativas. Automatiza los procesos de las micro, pequeñas y medianas empresas, favoreciendo la correcta toma de decisiones de manera sencilla, eficiente y productiva. Sus Sistemas facilitan el cumplimiento de las obligaciones fiscales electrónicas incluyendo facturación, contabilidad y nómina. Aspel actualmente atiende a más de 1 millón de empresas en México y Latinoamérica. Aspel se encuentra integrada por un equipo apasionado de colaboradores expertos en su ramo y cuenta con oficinas en las principales ciudades de la República Mexicana. Su red calificada de más de 6,500 Distribuidores garantiza un servicio profesional, de alto nivel y cercano.
                     </p>
                     <h2 class="font-weight-bold text-primary">Misión</h2>
                     <p>
+                    Ser la empresa líder que soluciona las necesidades de automatización administrativa de nuestros clientes, desarrollando software de vanguardia que aporte a su éxito, gracias a nuestro equipo de profesionales apasionados por su trabajo, éticos y con alta calidad humana.
                     </p>
                     <h2 class="font-weight-bold text-primary">Visión</h2>
                     <p>
+                    Automatizar la administración de las pequeñas y medianas empresas,  profesionistas y emprendedores de Latinoamérica, con los mejores Sistemas y servicios en Internet.
                     </p>
 
                 </div>
@@ -110,6 +113,6 @@ ASPEL proyect, base-capacitacion.php v1er
         });
     </script> 
     <script>
-        $page = 2;
+        $page = 5;
     </script> 
 </html>

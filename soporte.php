@@ -34,8 +34,8 @@ ASPEL proyect, capacitaciones.php v1er
         <div class="row">
             <div class="col-sm-6">
                 <br>
-                <h2>Productos</h2>
-                <p>Descripcion sobre productos</p>
+                <h2>Soporte</h2>
+                <p>Nos preocupamos por mantenerte informado y de resolver tus dudas. Consulta las opciones de soporte que tenemos para ti</p>
             </div>
             <div class="col-sm-6">
                 <img src="" alt="">
@@ -47,17 +47,48 @@ ASPEL proyect, capacitaciones.php v1er
     <section class="contenedor noselect">
 
         <div class="row">
-            <div class="col-lg-4">
+            <div class="col-lg-3">
                 <div class="card mb-4 bg-white tarjeta" style="overflow:hidden; height:420px;" >
-                    <img src="../img/productos/PROD.jpg" class="card-img-top" alt="...">
+                    <img src="img/soporte/2.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
-                        <h5 class="card-title">Nombre de la capacitacionxd</h5>
-                        <p class="card-text">Breve resumen de la capacitacion</p>
-                        <a href="base-capacitacion.php" class="btn btn-primary btn-tarjeta" style="float:right;margin-right:10px;margin-bottom:10px">Mas Informacion</a>
+                        <h5 class="card-title">Capacitaciones</h5>
+                        <p class="card-text">Gozamos de un exelente nivel en nuestras capacitaciones dando una asesoria perzonalizada a nuestros cientes</p>
+                        <a href="capacitaciones.php" class="btn btn-primary" style="position:absolute;bottom:20px;width:calc(100% - 40px);">Contactanos</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3">
+                <div class="card mb-4 bg-white tarjeta" style="overflow:hidden; height:420px;" >
+                    <img src="img/soporte/3.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Preguntas Frecuentes</h5>
+                        <p class="card-text">Aquí podras resolver tus dudas acerca de nuestros servicios que tenemos para ti, contactanos</p>
+                        <a href="faqs.php" class="btn btn-primary" style="position:absolute;bottom:20px;width:calc(100% - 40px);">Preguntas frecuentes</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3">
+                <div class="card mb-4 bg-white tarjeta" style="overflow:hidden; height:420px;" >
+                    <img src="img/soporte/1.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Contacto</h5>
+                        <p class="card-text">Comunicate con nuestro directemente para obtener mayor información sobre nuestros servicios</p>
+                        <a href="Contacto.php" class="btn btn-primary" style="position:absolute;bottom:20px;width:calc(100% - 40px);">Capacitaciónes</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3">
+                <div class="card mb-4 bg-white tarjeta" style="overflow:hidden; height:420px;" >
+                    <img src="img/soporte/5.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Suegerencias al soporte técnico</h5>
+                        <p class="card-text">Ayudanos a mejorar nuestros servicios, manda tus sugerencias y con gusto las atenderemos</p>
+                        <a href="contacto.php" class="btn btn-primary" style="position:absolute;bottom:20px;width:calc(100% - 40px);">Enviar</a>
                     </div>
                 </div>
             </div>
         </div>
+        
 
     </section>
 

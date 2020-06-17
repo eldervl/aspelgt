@@ -36,7 +36,7 @@ ASPEL proyect, index.php v1ev
     <div class="row">
         <div class="col-md-3">
             <div class="nav flex-column nav-pills">
-                <a class="nav-link" href="admin-general.php">General</a>
+                <!--<a class="nav-link" href="admin-general.php">General</a>-->
                 <a class="nav-link" href="admin-index.php">Página inicio</a>
                 <a class="nav-link active" href="admin-faqs.php">Preguntas frecuentes</a>
                 <a class="nav-link" href="admin-contacto.php">Contacto</a>

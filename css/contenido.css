@@ -48,6 +48,54 @@ section.contenedor#seccion-programas img{
         padding: 40px 5%;
     }
 }
+/*Colaboradores*/
+div.contcolabs{
+    width: 100%;
+    min-height: 220px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+div.colab{
+    display: block;
+    position: relative;
+    width: 210px;
+    height: 100px;
+    overflow: hidden;
+    background-color: transparent;
+    margin: 15px;
+    border-radius: 4px;
+    -webkit-box-shadow: 0px 0px 42px 1px rgba(0,0,0,0.07);
+    -moz-box-shadow: 0px 0px 42px 1px rgba(0,0,0,0.07);
+    box-shadow: 0px 0px 42px 1px #00000012;
+    transition: width,height 0.2 ease-in;
+    transition: width 0.2s, height 0.2s;
+}
+div.colab:hover{
+    width: 220px;
+    height: 110px;
+    -webkit-box-shadow: 0px 0px 42px 1px rgba(0,0,2,0.10);
+    -moz-box-shadow: 0px 0px 42px 1px rgba(0,0,2,0.10);
+    box-shadow: 0px 0px 42px 1px rgba(0,0,2,0.10);
+    transition: width 0.2s, height 0.2s;
+}
+div.colab:hover img{
+    filter: grayscale(0);
+}
+div.colab img{
+    position: absolute;
+    top:0;
+    bottom:0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    height: 50px;
+    margin: auto;
+    filter: grayscale(1);
+    transition-property: filter;
+    transition-duration: 0.2s;    
+}
 
 /* PRODUCTOS =======================================================*/
 

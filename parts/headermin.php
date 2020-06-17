@@ -7,9 +7,9 @@ ASPEL proyect, parts/header.php v1ev
         <button class="btnmenu  border" id="btnmenu" onclick="btnmenu()"><img src="https://img.icons8.com/ios-glyphs/24/000000/menu.png"></button>
         <nav class="principal openmenu " id="nav-principal">
             <ul class="">
-                <div class="menucontent">
-                    <a class="rounded" id="hp1" href="../index.php">Regresar a Inicio</a>
-                    <a class="rounded text-danger" id="hp2" href="../desconexion.php">Cerrar sesión</a>
+                <div class="menucontent p-1">
+                    <a class="btnheader btn" id="hp1" href="../index.php">Regresar a Inicio</a>
+                    <a class="btnheader btn text-danger" id="hp2" href="../desconexion.php">Cerrar sesión</a>
                 </div>
             </ul>
         </nav>

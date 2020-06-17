@@ -47,14 +47,14 @@ ASPEL proyect, base-capacitacion.php v1er
     <section class="contenedor noselect">
 
     <div class="row">
-        <div class="col-3">
+        <div class="col-md-3">
             <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
                 <a class="nav-link active" id="v-pills-a1-tab" data-toggle="pill" href="#v-pills-a1" role="tab" aria-controls="v-pills-a1" aria-selected="true">ASPEL SAE</a>
                 <a class="nav-link" id="v-pills-a2-tab" data-toggle="pill" href="#v-pills-a2" role="tab" aria-controls="v-pills-a2" aria-selected="false">ASPEL COI</a>
                 <a class="nav-link" id="v-pills-a3-tab" data-toggle="pill" href="#v-pills-a3" role="tab" aria-controls="v-pills-a3" aria-selected="false">ASPEL BANCO</a>
             </div>
         </div>
-        <div class="col-9">
+        <div class="col-md-9">
             <div class="tab-content" id="v-pills-tabContent">
                 <div class="tab-pane fade show active" id="v-pills-a1" role="tabpanel" aria-labelledby="v-pills-a1-tab">
                     
