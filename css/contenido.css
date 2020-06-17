@@ -57,12 +57,6 @@ section.contenedor#seccion-programas img{
     width: 95%;
 }
 
-.card{
-    height: 400px;
-}
-.card-body{
-    height: 400px;
-}
 small.texto-inferior{
     position: absolute;
     bottom: 0;
@@ -78,6 +72,7 @@ small.texto-inferior{
     border: 1px solid transparent;
 }
 .tarjeta:hover{
+    height: 400px;
     transform: translateY(-5px);
     transition: transform 0.2s;
     border: 1px solid rgb(221, 221, 221);
@@ -103,7 +98,7 @@ small.texto-inferior{
     background-color: var(--bgblanco2);
 }
 
-#seccion-infoprods,#seccion-infocaps,#seccion-infogrm{
+#seccion-infoprods,#seccion-infocaps,#seccion-infogrm,#seccion-infosoporte{
     padding-top: 75px;
     padding-bottom: 50px;
     background-color: rgb(209, 220, 235);

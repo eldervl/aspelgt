@@ -1,41 +1,62 @@
-<!doctype html>
-<html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<!--
+ASPEL proyect, capacitaciones.php v1er
+-->
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Aspel - Plantilla</title>
+    <link rel="icon" href="img/favicon.ico" type="image/png" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/normalize.css@8.0.1/normalize.css">
+    <link rel="stylesheet" href="css/libraries/bootstrap.css">
+    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/contenido.css">
+</head>
+<body>
+    
+<?php
+    include("parts/preloader.php");
+    include("parts/header.php");
+    include("parts/social.php");
+?>
 
-    <title>Aspel - Faqs</title>
-  </head>
-  <body>
+<!--AREA DE CONTENIDO=====================================================-->
 
-    <br><br>    
+    
+    <div class="precontenedor"></div>
 
-    <div class="container">
-    <br>
-                <h3>FAQS</br>
-                <hr>
-                <input class="form-control" type="text" name="" placeholder="Realiza una pregunta">
-                <br>
-                
-                    <div class="card">
-                        <div class="card-body">
-                            <h5 class="card-title">Titulo</h5>
-                            <hr>
-                            <h6>Descripccion</h6>
-                            
-                        </div>
-                    </div> 
+    <section class="contenedor noselect">
+    
         
-    </div>
 
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    </section>
+
+                          
+  
+        
+
+<?php
+    include("parts/footer.php")
+?>
+
+</body>
+    <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
-  </body>
+    <script src="js/preloader.js"></script>
+    <script src="js/animaciones.js"></script>
+    <script src="js/jquery.scrollUp.js"></script>
+    <script src="js/header.js"></script>
+    <script src="js/verarea.js"></script>
+    <script>
+        $(function(){
+            $.scrollUp();
+        });
+    </script> 
+    <script>
+        $page = 4;
+    </script> 
 </html>

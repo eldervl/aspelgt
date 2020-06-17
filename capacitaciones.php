@@ -1,5 +1,5 @@
 <!--
-ASPEL proyect, productos.php v1er
+ASPEL proyect, capacitaciones.php v1er
 -->
 
 <!DOCTYPE html>
@@ -46,10 +46,23 @@ ASPEL proyect, productos.php v1er
 
     <section class="contenedor noselect">
 
-        <div>PENDIENTE</div>
+        <div class="row">
+            <div class="col-lg-4">
+                <div class="card mb-4 bg-white tarjeta" style="overflow:hidden; height:420px;" >
+                    <img src="../img/productos/PROD.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Nombre de la capacitacionxd</h5>
+                        <p class="card-text">Breve resumen de la capacitacion</p>
+                        <a href="base-capacitacion.php" class="btn btn-primary btn-tarjeta" style="float:right;margin-right:10px;margin-bottom:10px">Mas Informacion</a>
+                    </div>
+                </div>
+            </div>
+        </div>
 
-    </section>                          
+    </section>
 
+                          
+  
         
 
 <?php
@@ -60,6 +73,7 @@ ASPEL proyect, productos.php v1er
     <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
     <script src="js/preloader.js"></script>
+    <script src="js/animaciones.js"></script>
     <script src="js/jquery.scrollUp.js"></script>
     <script src="js/header.js"></script>
     <script src="js/verarea.js"></script>

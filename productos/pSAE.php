@@ -9,19 +9,19 @@ ASPEL proyect, productos.php v1er
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Aspel - Plantilla</title>
-    <link rel="icon" href="img/favicon.ico" type="image/png" />
+    <link rel="icon" href="../img/favicon.ico" type="image/png" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/normalize.css@8.0.1/normalize.css">
-    <link rel="stylesheet" href="css/libraries/bootstrap.css">
+    <link rel="stylesheet" href="../css/libraries/bootstrap.css">
     <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/base.css">
-    <link rel="stylesheet" href="css/contenido.css">
+    <link rel="stylesheet" href="../css/base.css">
+    <link rel="stylesheet" href="../css/contenido.css">
 </head>
 <body>
     
 <?php
-    include("parts/preloader.php");
-    include("parts/header.php");
-    include("parts/social.php");
+    include("../parts/preloader.php");
+    include("../parts/header2.php");
+    include("../parts/social.php");
 ?>
 
 <!--AREA DE CONTENIDO=====================================================-->
@@ -33,11 +33,11 @@ ASPEL proyect, productos.php v1er
         
         <div class="row">
             <div class="col-lg-6">
-                <img src="img/productos/logos-ext/sae.png" alt="none">
+                <img src="../img/productos/logos-prod/sae.png" alt="none">
                 <br>
                 <br>
-                <p>Controla todo el ciclo de todas las operaciones de compra-venta de la empresa, como inventarios, clientes, facturación, cuentas por cobrar, vendedores, compras, proveedores y cuentas por pagar, automatizando eficientemente los procesos administrativos. Ofrece movilidad a las empresas conectando las sucursales remotamente, por medio de dispositivos móviles </p>
-                <p>Consulta más información en el <a href="#">Sitio oficial</a></p>
+                <p>Administra todas las operaciones del ciclo de compra - venta de la empresa </p>
+                <p>Consulta más información en el <a href="https://www.aspel.com.mx/productos/sae/presentacion.html">Sitio oficial</a></p>
             </div>
             <div class="col-lg-6">
                 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/iVSCG9wmhJw?controls=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -66,10 +66,24 @@ ASPEL proyect, productos.php v1er
                     -->
 
                     <h2 class="font-weight-bold text-primary">aspel SAE</h2>
-                    <h4>Manejo y control del inventario de productos y servicios</h4>
-                    <p>-Fotografías y claves de identificación por producto, servicio, kit y/o grupo de productos. <br>
-                       -Manejo de lotes, pedimentos y números de serie. <br>
-                        -Tallas y colores para un control administrativo eficiente en el punto de venta.</p>
+                    <p> te ayuda a emitir Comprobantes Fiscales Digitales por Internet Controla todo el ciclo de todas las operaciones de compra-venta de la empresa, como inventarios, clientes, facturación, cuentas por cobrar, vendedores, compras, proveedores y cuentas por pagar, automatizando eficientemente los procesos administrativos. Ofrece movilidad a las empresas conectando las sucursales remotamente y por medio de dispositivos móviles; permite el acceso a la información comercial y administrativa, brindando una integración total.
+
+                    Relacionar los folios fiscales de los Comprobantes Fiscales Digitales a las pólizas, de acuerdo con los requerimientos de la Contabilidad Electrónica
+                    </p>
+                     <br>
+                  <h4 class="font-weight-bold text-primary" style="top:right">Contabilidad Electrónica más fácil</h4>
+                  <p style="top:right">Cumple fácilmente con los requisitos de la Contabilidad Electrónica, al realizar la interfaz con Aspel COI, en las pólizas de ventas y compras, automáticamente se relacionan los folios fiscales de los CFDI. ¡Trabaja menos con las interfaces Aspel!</p>
+                  <img src="../img/productos/prod/sae 1.0.png" width="150" height="100" alt="none">
+                  <br>
+                  <br>
+                  <h4 class="font-weight-bold text-primary" style="top:right">Aplicación SAE Móvils</h4>
+                  <p style="top:right">Levanta pedidos, da de alta clientes, consulta los inventarios y sus existencias, en el momento y en el lugar en el que te encuentres, a través de un cliente web y/o dispositivos móviles. ¡Y actualiza automáticamente Aspel SAE 7.0 en línea!</p>
+                  <img src="../img/productos/prod/sae 2.0.png" width="150" height="100" alt="none">
+                  <br>
+                  <br>
+                  <h4 class="font-weight-bold text-primary" style="top:right">Interfaces Sistemas Aspel</h4>
+                  <p style="top:right">Aspel SAE 7.0 tiene interfaz con los Sistemas: Aspel COI, Aspel BANCO, Aspel PROD y Aspel CAJA. Aprovecha todas las interfaces y haz mejores negocios.</p>
+                  <img src="../img/productos/prod/sae 3.0.png" width="150" height="150" alt="none">
                 </div>
 
                 <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab">
@@ -80,9 +94,11 @@ ASPEL proyect, productos.php v1er
                     -->
 
                     <h2 class="font-weight-bold text-primary">SAE Móvil</h2>
-                    <h4>Sincronizate con Aspel SAE para controlar desde cualquier lugar las operaciones de tu empresa.</h4>
-                    <p>La App SAE Móvil te permite acceder y actualizar en línea información de Aspel SAE como: generar pedidos, cotizaciones, consultar clientes e inventarios, todo desde la practicidad de tu smartphone o tablet.
-                    Disfruta de una agradable experiencia de navegación con su práctico menú para localizar información en menor tiempo.</p>
+                    <p>Sincronizate con Aspel SAE para controlar desde cualquier lugar las operaciones de tu empresa SAE Móvil te permite acceder y actualizar en línea información de Aspel SAE como: generar pedidos, cotizaciones, consultar clientes e inventarios, todo desde la practicidad de tu smartphone o tablet.
+
+                    Disfruta de una agradable experiencia de navegación con su práctico menú para localizar información en menor tiempo Ingresa a tu App mediante el código de bloqueo o a través de tu huella digital registrado en tu dispositivo móvilDesde tu Sistema Aspel SAE genera un código para que los usuarios accedan al servidor de forma más rápida, en tu app registra el acceso</p>
+
+                   
                 </div>
                 
                 <div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab">
@@ -106,16 +122,16 @@ ASPEL proyect, productos.php v1er
         
 
 <?php
-    include("parts/footer.php")
+    include("../parts/footer.php")
 ?>
 
 </body>
     <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
-    <script src="js/preloader.js"></script>
-    <script src="js/jquery.scrollUp.js"></script>
-    <script src="js/header.js"></script>
-    <script src="js/verarea.js"></script>
+    <script src="../js/preloader.js"></script>
+    <script src="../js/jquery.scrollUp.js"></script>
+    <script src="../js/header.js"></script>
+    <script src="../js/verarea.js"></script>
     <script>
         $(function(){
             $.scrollUp();

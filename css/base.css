@@ -7,6 +7,8 @@ ASPEL proyect, css/base.css v1ev
     --bgblanco2: rgb(241, 241, 241); /*Fondo header*/
     --bgblanco3: rgb(226, 226, 226); /*Fondo nav*/
     --bgblanco4: rgb(218, 218, 218); /*Fondo hover nav*/
+    --bgblanco5: rgb(209, 209, 209); /*Fondo pag actual*/
+    --bgblanco6: rgb(204, 204, 204); /*Fondo activos*/
     --txtgris1: rgb(75, 75, 75); /*Gris para texto*/
     --azul1: #0b7ac9; /*Azul base*/
 }
@@ -71,7 +73,7 @@ img.logop{
 nav.principal{
     margin-right: 10%;
 }
-nav.principal a{
+nav.principal a.btnheader{
     font-weight: 500;
     color: var(--txtgris1);
     padding: 7px 9px;
@@ -80,17 +82,23 @@ nav.principal a{
     margin: 0;
     text-decoration: none;
     transition: background-color,color 0.1s linear;
+    outline: none !important;
 }
-/*.header2 nav.principal a{
-    color: white;
-}*/
-
-nav.principal a:hover{
+nav.principal a.btnheader:hover{
     background-color: var(--bgblanco4);
     transition: background-color,color 0.1s linear;
-}
-nav.principal a:hover{
     color: var(--azul1);
+}
+nav.principal a.btnheader:active{
+    background-color: var(--bgblanco6);
+    transition: background-color,color 0.1s linear;
+}
+nav.principal a.btnheader.active{
+    background-color: var(--bgblanco5);
+}
+nav.principal a.btnheader:focus{
+    outline: none;
+    box-shadow: none;
 }
 .btnmenu{
     float: right;
@@ -141,11 +149,6 @@ nav ul{
     nav.principal{
         margin-right: 0;
     }
-    nav.principal a{
-        display: block;
-        padding: 7px 10%;
-        width: 100%;
-    }
     img.logop{
         float: left;
         margin-top: 20px;
@@ -182,14 +185,11 @@ h2{
 /*AREA DE PRELOADEER =============================================*/
 
 div.cont-preloader{
+    position: fixed;
     width: 100%;
     height: 100%;
     background-color: white;
     opacity: 0.9;
-    position: absolute;
-    top: 0;
-    right: 0;
-    display: fixed;
     z-index: 2000;
     transition:all .3s ease;
 }
@@ -207,9 +207,11 @@ div.cont-preloader img{
 
 
 
+/*AREA DE CONTROLES ===============================================*/
 
-
-
+a.btn:focus {
+    outline: none !important;
+}
 
 
 
@@ -233,6 +235,7 @@ div.cont-preloader img{
     background-position-y: 5px;
     background-position-x: 4px;
     border-radius: 50%;
+    z-index: 1000;
 }
 
 
@@ -243,7 +246,7 @@ div.cont-preloader img{
 	position: fixed; 
 	left: 0; 
 	top: 200px; 
-	z-index: 2000; 
+	z-index: 1000; 
 }
  
 	.social ul {

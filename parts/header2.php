@@ -11,12 +11,12 @@ ASPEL proyect, parts/header.php v1ev
         <nav class="principal openmenu " id="nav-principal">
             <ul class="">
                 <div class="menucontent p-1">
-                    <a class="btnheader btn" id="hp1" href="index.php">Inicio</a>
-                    <a class="btnheader btn" id="hp2" href="productos.php">Productos</a>
-                    <a class="btnheader btn" id="hp3" href="capacitaciones.php">Capacitación</a>
-                    <a class="btnheader btn" id="hp4" href="soporte.php">Soporte</a>
-                    <a class="btnheader btn" id="hp5" href="nosotros.php">Nosotros</a>
-                    <a class="btnheader btn" id="hp6" href="contacto.php">Contacto</a>
+                    <a class="btnheader btn" id="hp1" href="../index.php">Inicio</a>
+                    <a class="btnheader btn" id="hp2" href="../productos.php">Productos</a>
+                    <a class="btnheader btn" id="hp3" href="../capacitaciones.php">Capacitación</a>
+                    <a class="btnheader btn" id="hp4" href="../soporte.php">Soporte</a>
+                    <a class="btnheader btn" id="hp5" href="../nosotros.php">Nosotros</a>
+                    <a class="btnheader btn" id="hp6" href="../contacto.php">Contacto</a>
                     <a class="btn btn-outline-primary" href="productos/cotizaciones.php">ADQUIRIR</a>
                     <?php  
                 if(isset($_SESSION['username']))  

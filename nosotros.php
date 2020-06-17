@@ -1,5 +1,5 @@
 <!--
-ASPEL proyect, nosotros.php v1xx
+ASPEL proyect, base-capacitacion.php v1er
 -->
 
 <!DOCTYPE html>
@@ -24,32 +24,74 @@ ASPEL proyect, nosotros.php v1xx
     include("parts/social.php");
 ?>
 
-
 <!--AREA DE CONTENIDO=====================================================-->
 
-<div class="contenedor ">
+    
+    <div class="precontenedor"></div>
 
-    <h3>Nosotros</h3>
-    <section class="sector" id="sector1">
-    <h3>¿Quienes somos?</h3>
-    <p>somos una empresa dedicada ala revolucion en tecnologua ASPEL cuenta con una amplia gama de servicios somos los representantes de estos en guatemala con un personal altamente capacitado dispuesto a responder las preguntas sobre nuetra forma de trabajo</p>
-</section>
-<section class="sector" id="sector2">
-    <div class="seccion" style="float:left">
-        <img src="img/index/programas.png" alt="">
+    <section class="contenedor noselect">
+
+    <div class="row">
+        <div class="col-3">
+            <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                <a class="nav-link active" id="v-pills-a1-tab" data-toggle="pill" href="#v-pills-a1" role="tab" aria-controls="v-pills-a1" aria-selected="true">Quienes somos</a>
+                <a class="nav-link" id="v-pills-a2-tab" data-toggle="pill" href="#v-pills-a2" role="tab" aria-controls="v-pills-a2" aria-selected="false">Historias de exito</a>
+                <a class="nav-link" id="v-pills-a3-tab" data-toggle="pill" href="#v-pills-a3" role="tab" aria-controls="v-pills-a3" aria-selected="false">Oficinas</a>
+            </div>
+        </div>
+        <div class="col-9">
+            <div class="tab-content" id="v-pills-tabContent">
+                <div class="tab-pane fade show active" id="v-pills-a1" role="tabpanel" aria-labelledby="v-pills-a1-tab">
+                    
+                    <!--
+                        ÁREA 1
+                    -->
+
+                    <h2 class="font-weight-bold text-primary">Quienes somos</h2>
+                    <p>
+                    </p>
+                    <h2 class="font-weight-bold text-primary">Misión</h2>
+                    <p>
+                    </p>
+                    <h2 class="font-weight-bold text-primary">Visión</h2>
+                    <p>
+                    </p>
+
+                </div>
+
+                <div class="tab-pane fade" id="v-pills-a2" role="tabpanel" aria-labelledby="v-pills-a2-tab">
+                    
+                    <!--
+                        ÁREA 2
+                    -->
+
+                    <h2 class="font-weight-bold text-primary">Historias de exito</h2>
+                    <p>
+                    </p>
+
+                </div>
+                
+                <div class="tab-pane fade" id="v-pills-a3" role="tabpanel" aria-labelledby="v-pills-a3-tab">
+                    
+                    <!--
+                        ÁREA 3
+                    -->
+
+                    <h2 class="font-weight-bold text-primary">Oficinas</h2>
+                    <p>
+                        Encuentra esta información en la sección de <a href="contacto.php">contacto</a>
+                    </p>
+
+                </div>
+            </div>
+        </div>
     </div>
-    <h3>Nuestro objetivo</h3>
-    <p>tenemos como objetivo principal brindar nuestro conocimiento adquirido y certificado atraves de las capacitaciones y otros tipos de servicios los cuales estan en la pagina ademas de un servicio de ventas he infomacion capacitado para atenderles </p>
-    </section>
-    <section class="sector" id="sector1">
-    <h3>Sobre la empresa</h3>
-    <p>esta empresa es muy dedicada a lo que hace ademas de que contamos con socios tales como lo es ADTEC nuestro proposito es poder expandirnos y darnos a conocer como uno de los representantes de ASPEL en guatemala mas capacitado para ofrecer nuestros servicios </p>
+
     </section>
 
-</div>
-
-<!--======================================================================-->
-
+                          
+  
+        
 
 <?php
     include("parts/footer.php")
@@ -61,12 +103,13 @@ ASPEL proyect, nosotros.php v1xx
     <script src="js/preloader.js"></script>
     <script src="js/jquery.scrollUp.js"></script>
     <script src="js/header.js"></script>
+    <script src="js/verarea.js"></script>
     <script>
         $(function(){
             $.scrollUp();
         });
     </script> 
     <script>
-        $page = 5;
+        $page = 2;
     </script> 
 </html>

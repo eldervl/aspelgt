@@ -1,0 +1,9 @@
+div.cont-imgcard{
+    height: 100px;
+    overflow: hidden;
+}
+img.imgcard{
+    height: 100%;
+    display: block;
+    margin: auto;
+}

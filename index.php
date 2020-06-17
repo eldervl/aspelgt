@@ -110,7 +110,7 @@ ASPEL proyect, index.php v1ev
             <div class="row" style="padding:0 50px">
                 <div class="col-md-4">
                     <div class="card mb-4 bg-whitebg-light border-0 tarjeta noselect" id="t1" style="overflow:hidden; height:420px;border:none;" >
-                        <img src="img/productos/NONE.jpg" class="card-img-top" alt="..." style="width:100%">
+                        <img src="../img/productos/NONE.jpg" class="card-img-top" alt="..." style="width:100%">
                         <div class="card-body">
                             <h5 class="card-title">PROGRAMA</h5>
                             <p class="card-text">Breve descripción... Lorem ipsum dolor sit, amet consectetur adipisicing elit. Porro sed voluptatibus minus quo, asperiores voluptate modi corrupti </p>
@@ -120,7 +120,7 @@ ASPEL proyect, index.php v1ev
                 </div>
                 <div class="col-md-4">
                     <div class="card mb-4 bg-whitebg-light border-0 tarjeta noselect" id="t2" style="overflow:hidden; height:420px;border:none;" >
-                        <img src="img/productos/NONE.jpg" class="card-img-top" alt="..." style="width:100%">
+                        <img src="../img/productos/NONE.jpg" class="card-img-top" alt="..." style="width:100%">
                         <div class="card-body">
                             <h5 class="card-title">PROGRAMA</h5>
                             <p class="card-text">Breve descripción... Lorem ipsum dolor sit, amet consectetur adipisicing elit. Porro sed voluptatibus minus quo, asperiores voluptate modi corrupti </p>
@@ -129,8 +129,8 @@ ASPEL proyect, index.php v1ev
                     </div>
                 </div>
                 <div class="col-md-4">
-                    <div class="card mb-4 bg-whitebg-light border-0 tarjeta noselect" id="t3" style="overflow:hidden; height:420px;border:none;" >
-                        <img src="img/productos/NONE.jpg" class="card-img-top" alt="..." style="width:100%">
+                    <div class="card mb-4 bg-whitebg-light border-0 tarjeta noselect" id="t3" style="overflow:hidden; height:420px;border:none;" onclick="location.href='pagina.php'">
+                        <img src="../img/productos/NONE.jpg" class="card-img-top" alt="..." style="width:100%">
                         <div class="card-body">
                             <h5 class="card-title">PROGRAMA</h5>
                             <p class="card-text">Breve descripción... Lorem ipsum dolor sit, amet consectetur adipisicing elit. Porro sed voluptatibus minus quo, asperiores voluptate modi corrupti </p>
@@ -163,6 +163,7 @@ ASPEL proyect, index.php v1ev
     <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
     <script src="js/preloader.js"></script>
+    <script src="js/animaciones.js"></script>
     <script src="js/jquery.superslides.js"></script>
     <script src="js/jquery.scrollUp.js"></script>
     <script src="js/header.js"></script>
