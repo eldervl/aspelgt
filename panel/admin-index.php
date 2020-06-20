@@ -1,6 +1,6 @@
-<!--
-ASPEL proyect, index.php v1ev
--->
+<?php
+	require('../action.php');
+?>
 
 <!DOCTYPE html>
 <html lang="es">

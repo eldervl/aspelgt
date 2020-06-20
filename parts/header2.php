@@ -58,13 +58,13 @@ ASPEL proyect, parts/header.php v1ev
                 </div>  
                 <div class="modal-body">  
                      <label>Nombre de usuario</label>  
-                     <input type="text" name="username" id="username" class="form-control" />  
+                     <input type="text" name="username" id="username" class="form-control" pattern="[A-Za-z0-9_-]{1,15}"/>  
                      <br />  
                      <label>Contraseña</label>  
-                     <input type="password" name="password" id="password" class="form-control" />  
+                     <input type="password" name="password" id="password" class="form-control" pattern="[A-Za-z0-9_-]{1,15}"/>  
                      <br />  
                      <button type="button" name="login_button" id="login_button" class="btn btn-primary">Ingresar</button>  
-                     <button type="button" name="login_button" id="login_button" class="btn btn-danger">Cancelar</button>  
+                     <button type="button" name="login_button" id="login_button" class="btn btn-danger" onclick="cerrarmodal();">Cancelar</button>  
                 </div>  
            </div>  
       </div>  
@@ -116,4 +116,9 @@ $(document).ready(function(){
               $('#loginModal').modal('toggle');
           }
      });
+</script>
+<script>
+function cerrarmodal(){  
+     $('#loginModal').hide(); 
+};
 </script>
