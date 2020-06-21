@@ -2,7 +2,6 @@ $(document).ready(function(){
     vacio();
     verComercial();
 })
-
 function verComercial(){ 
     vacio();
     $("#areaComercial").show();

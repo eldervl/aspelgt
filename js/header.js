@@ -13,6 +13,26 @@ $(document).ready(function(){
 });
 
 $(document).ready(function(){
+	if($page == 1){
+		$('header').addClass('header3');
+		$('.btn-header').removeClass('btn-outline-primary');
+		$('.btn-header').addClass('btn-light');
+		
+		$(window).scroll(function(){
+			if( $(this).scrollTop() > 0 ){
+				$('header').removeClass('header3');
+				$('.btn-header').addClass('btn-outline-primary');
+				$('.btn-header').removeClass('btn-light');
+			} else {
+				$('header').addClass('header3');
+				$('.btn-header').addClass('btn-light');
+				$('.btn-header').removeClass('btn-outline-primary');
+			}
+		});
+	}
+});
+
+$(document).ready(function(){
 	switch ($page) {
 		case 1:
 			recolor();

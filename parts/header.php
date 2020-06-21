@@ -17,9 +17,9 @@ ASPEL proyect, parts/header.php v1ev
                     <a class="btnheader btn" id="hp4" href="soporte.php">Soporte</a>
                     <a class="btnheader btn" id="hp5" href="nosotros.php">Nosotros</a>
                     <a class="btnheader btn" id="hp6" href="contacto.php">Contacto</a>
-                    <a class="btn btn-outline-primary" href="productos/cotizaciones.php">ADQUIRIR</a>
+                    <a class="btn btn-header btn-outline-primary" href="productos/cotizaciones.php">ADQUIRIR</a>
                     <?php  
-                if(isset($_SESSION['username']))  
+                if(isset($_SESSION['username']))
                 {  
                 ?>  
                     <a class="btn btnheader border-secondary" id="hp5" href="panel/admin.php">

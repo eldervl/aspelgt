@@ -10,7 +10,9 @@ ASPEL proyect, css/base.css v1ev
     --bgblanco5: rgb(209, 209, 209); /*Fondo pag actual*/
     --bgblanco6: rgb(204, 204, 204); /*Fondo activos*/
     --txtgris1: rgb(75, 75, 75); /*Gris para texto*/
-    --azul1: #0b7ac9; /*Azul base*/
+    --azul1: #0D47A1; /*Azul base*/
+    --azul2: #0c4396; /*Azul base*/
+    --azul3: #0b3b83; /*Azul base*/
 }
 
 /*AREA PRINCIPAL ================================================*/
@@ -18,7 +20,7 @@ ASPEL proyect, css/base.css v1ev
 *{
     margin: 0;
     padding: 0;
-    font-family: 'Titillium Web', sans-serif;
+    font-family: 'Cabin', sans-serif;
 }
 
 body{
@@ -41,7 +43,7 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: var(--bgblanco2);
+    background-color: var(--bgblanco1);
     position: fixed;
     width: 100%;
     height: 90px;
@@ -55,19 +57,21 @@ header{
 }
 .header2{
     height: 120px;
-    /*background-color: rgba(0, 0, 0, 0.300);*/
+}
+.header3{
+    background-color: rgba(0, 0, 0, 0.300);
 }
 img.logop{
-    width: 130px;
-    transition-property: width;
+    height: 60px;
+    transition-property: height;
     transition-duration: 0.5s, 0.5s;
     margin-right: 50px;
     margin-left: 10%;
 }
 .header2 img.logop{
     /*content:url("../img/logotipos/logo2.png");*/
-    width: 170px;
-    transition-property: width;
+    height: 80px;
+    transition-property: height;
     transition-duration: 0.5s, 0.5s;
 }
 nav.principal{
@@ -81,20 +85,33 @@ nav.principal a.btnheader{
     display: inline-block;
     margin: 0;
     text-decoration: none;
-    transition: background-color,color 0.1s linear;
+    transition: background-color 0.1s linear,color 0.1s linear;
     outline: none !important;
 }
+.header3 nav.principal a.btnheader{
+    color: var(--bgblanco1);
+}
 nav.principal a.btnheader:hover{
-    background-color: var(--bgblanco4);
-    transition: background-color,color 0.1s linear;
-    color: var(--azul1);
+    background-color: var(--azul1);
+    transition: background-color 0.1s linear,color 0.1s linear;
+    color: var(--bgblanco1);
 }
 nav.principal a.btnheader:active{
-    background-color: var(--bgblanco6);
-    transition: background-color,color 0.1s linear;
+    background-color: var(--azul2);
+    transition: background-color 0.1s linear,color 0.1s linear;
+    color: var(--bgblanco1) !important;
 }
 nav.principal a.btnheader.active{
-    background-color: var(--bgblanco5);
+    background-color: var(--bgblanco2);
+}
+.header3 nav.principal a.btnheader.active{
+    border: 1px solid var(--bgblanco1);
+    background-color: transparent;
+}
+nav.principal a.btnheader.active:hover{
+    background-color: var(--azul2);
+    transition: background-color 0.1s linear,color 0.1s linear;
+    color: var(--bgblanco1) !important;
 }
 nav.principal a.btnheader:focus{
     outline: none;

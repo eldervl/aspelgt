@@ -2,15 +2,6 @@
 ASPEL proyect, css/contenido.css v1td
 */
 
-:root{ 
-    --bgblanco1: rgb(255, 255, 255); /*Fondo blanco*/
-    --bgblanco2: rgb(241, 241, 241); /*Fondo header*/
-    --bgblanco3: rgb(226, 226, 226); /*Fondo nav*/
-    --bgblanco4: rgb(218, 218, 218); /*Fondo hover nav*/
-    --txtgris1: rgb(75, 75, 75); /*Gris para texto*/
-    --azul1: #0b7ac9; /*Azul base*/
-}
-
 /* GENERAL ==========================================================*/
 
 /* INDEX ==========================================================*/
@@ -30,6 +21,12 @@ section.contenedor#seccion-programas{
     background-color: rgb(209, 220, 235);
 }
 section.contenedor#seccion-programas img{
+    width: 90%;
+}
+section.contenedor#seccion-programasindx{
+    background-color: transparent;
+}
+section.contenedor#seccion-programasindx img{
     width: 90%;
 }
 

@@ -12,9 +12,10 @@ ASPEL proyect, index.php v1ev
     <link rel="icon" href="img/favicon.ico" type="image/png" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/normalize.css@8.0.1/normalize.css">
     <link rel="stylesheet" href="css/libraries/bootstrap.css">
-    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/base.css">
     <link rel="stylesheet" href="css/contenido.css">
+    <link rel="stylesheet" href="css/animaciones.css">
     <link rel="stylesheet" href="css/slider.css">
     <link rel="stylesheet" href="css/libraries/superslides.css">
 </head>
@@ -34,31 +35,10 @@ ASPEL proyect, index.php v1ev
     <div id="slides">
         <ul class="slides-container">
             <li>
-            <div class="slider-cont">
-
-                <h1 class="slidertitle" id="st1">Bienvenido a la experiencia aspel</h1>
-                <p class="sliderdesc" id="sd1">ASPEL cuentan con un servicio de capacitaciones, productos, un sistema de pólizas para la conveniencia de los clientes además de otros tipos de servicios</p>
-
-            </div>
-            <img style="text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.550)" src="img/slider/hero.jpg" alt="img">
+            <img style="text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.550)" src="img/slider/slider1.jpg" alt="img">
             </li>
             <li>
-            <div class="slider-cont">
-
-                <h1 class="slidertitle" id="st2">Expertos en administración</h1>
-                <p class="sliderdesc" id="sd2">nuestros servicios de análisis administrativos en el proceso de implementación y seguimiento de sus sistemas Administrativos contables!</p>
-
-            </div>
-            <img style="text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.550)" src="img/slider/portfolio-02.jpg" alt="img">
-            </li>
-            <li>
-            <div class="slider-cont">
-
-                <h1 class="slidertitle" id="st3">Nuestro Soporte Tecnico</h1>
-                <p class="sliderdesc" id="sd3">mantenimiento informático para su empresa, desde reparar los ordenadores hasta controlar la seguridad de los servidores, ofreciendo una revisión periódica de los equipo</p>
-
-            </div>
-            <img style="text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.550)" src="img/slider/xd.jpg" alt="img">
+            <img style="text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.550)" src="img/slider/slider2.jpg" alt="img">
             </li>
         </ul>
         <nav class="slides-navigation">
@@ -75,33 +55,24 @@ ASPEL proyect, index.php v1ev
                 style=" fill:#000000;"><g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><path d="M0,172v-172h172v172z" fill="none"></path><g fill="#ffffff"><path d="M99.5665,150.5v0c9.5245,0 15.20767,-10.61383 9.92583,-18.54017l-30.6375,-45.95983l30.6375,-45.95983c5.28183,-7.92633 -0.40133,-18.54017 -9.92583,-18.54017v0c-3.98467,0 -7.71133,1.99233 -9.92583,5.3105l-34.15633,51.24167c-3.21067,4.816 -3.21067,11.08683 0,15.90283l34.15633,51.24167c2.2145,3.311 5.94117,5.30333 9.92583,5.30333z"></path></g></g></svg>
             </a>
         </nav>
-        <button class="btn position-absolute mx-auto text-white" style="top:80%; width:120px; left: calc(50% - 60px); z-index: 5;" onclick="location.href='#sector1'"><u>Vamos!</u></button>
-    </div>
-</section>
-
-
-<section class="contenedor" id="seccion-info">
-    <div class="row">
-        <div class="col-xl-6">
-          <h3>¿Quienes somos?</h3>
-          <p>Bienvenidos a la experiencia en tecnología más revolucionaria ASPEL cuentan con un servicio de capacitaciones, productos, un sistema de pólizas para la conveniencia de los clientes además de otros tipos de servicios
-          Estamos capacitados para ofrecerles una experiencia adecuada con nuestras soluciones de desarrollo a la media además de que garantizamos nuestro trabajo con personal certificado por aspel </p>
-          <button class="btn border" onclick="location.href='nosotros.php'">Más sobre nosotros</button>
-        </div>
-        <div class="col-xl-6">
-        
+        <div class="slider-cont animar delay1">
+           <h1 class="slidertitle" id="st1">Bienvenido a la experiencia aspel</h1>
+           <p class="sliderdesc" id="sd1">ASPEL cuentan con un servicio de capacitaciones, productos, un sistema de pólizas para la conveniencia de los clientes además de otros tipos de servicios</p>
+           <div class="contbtnslider">
+                <button class="btn btn-primary btn-slider">Listo</button>
+           </div>
         </div>
     </div>
 </section>
 
-<section class="contenedor" id="seccion-programas">
+<section class="contenedor" id="seccion-programasindx">
     <div class="row">
         <div class="col-xl-6">
-            <img src="img/general/programas.png" alt="">
+            <img src="img/general/programas.png" alt="" class="animar delay1">
         </div>
         <div class="col-xl-6">
-            <h3>Nuestros Productos</h3>
-            <p>Contamos con una amplia gamade productos todo lo necesario para poder controlar, administra todas las operaciones de tu empresa tomando en cuenta que muchos de nuestros productos van a otros asociados para tener un mejor funcionamiento aumentando la eficacia de la empresa</p>
+            <h3 class="animar delay1">Nuestros Productos</h3>
+            <p class="animar delay2">Contamos con una amplia gamade productos todo lo necesario para poder controlar, administra todas las operaciones de tu empresa tomando en cuenta que muchos de nuestros productos van a otros asociados para tener un mejor funcionamiento aumentando la eficacia de la empresa</p>
         </div>
     </div>
     <div class="row">
@@ -109,7 +80,7 @@ ASPEL proyect, index.php v1ev
         <div class="col-xl-12">
             <div class="row" style="padding:0 50px">
                 <div class="col-md-4">
-                    <div class="card mb-4 bg-whitebg-light border-0 tarjeta noselect" id="t1" style="overflow:hidden; height:420px;border:none;" onclick="location.href='productos/pSAE.php'" >
+                    <div class="card mb-4 bg-whitebg-light border-0 tarjeta noselect animar" id="t1" style="overflow:hidden; height:420px;border:none;" onclick="location.href='productos/pSAE.php'" >
                         <img src="img/productos/SAE.jpg" class="card-img-top" alt="..." style="width:100%">
                         <div class="card-body">
                             <h5 class="card-title">Aspel SAE </h5>
@@ -119,7 +90,7 @@ ASPEL proyect, index.php v1ev
                     </div>
                 </div>
                 <div class="col-md-4">
-                    <div class="card mb-4 bg-whitebg-light border-0 tarjeta noselect" id="t2" style="overflow:hidden; height:420px;border:none;"onclick="location.href='productos/pCOI.php'">
+                    <div class="card mb-4 bg-whitebg-light border-0 tarjeta noselect animar delay1" id="t2" style="overflow:hidden; height:420px;border:none;"onclick="location.href='productos/pCOI.php'">
                         <img src="img/productos/COI.jpg" class="card-img-top" alt="..." style="width:100%">
                         <div class="card-body">
                             <h5 class="card-title">Aspel COI</h5>
@@ -129,7 +100,7 @@ ASPEL proyect, index.php v1ev
                     </div>
                 </div>
                 <div class="col-md-4">
-                    <div class="card mb-4 bg-whitebg-light border-0 tarjeta noselect" id="t3" style="overflow:hidden; height:420px;border:none;" onclick="location.href='productos/pCAJA.php'" >
+                    <div class="card mb-4 bg-whitebg-light border-0 tarjeta noselect animar delay2" id="t3" style="overflow:hidden; height:420px;border:none;" onclick="location.href='productos/pCAJA.php'" >
                         <img src="img/productos/CAJA.jpg" class="card-img-top" alt="..." style="width:100%">
                         <div class="card-body">
                             <h5 class="card-title">Aspel CAJA</h5>
@@ -146,13 +117,26 @@ ASPEL proyect, index.php v1ev
     </div>
 </section>
 
+<!--<section class="contenedor" id="seccion-info">
+    <div class="row">
+        <div class="col-xl-6">
+          <h3>¿Quienes somos?</h3>
+          <p>Bienvenidos a la experiencia en tecnología más revolucionaria ASPEL cuentan con un servicio de capacitaciones, productos, un sistema de pólizas para la conveniencia de los clientes además de otros tipos de servicios
+          Estamos capacitados para ofrecerles una experiencia adecuada con nuestras soluciones de desarrollo a la media además de que garantizamos nuestro trabajo con personal certificado por aspel </p>
+          <button class="btn border" onclick="location.href='nosotros.php'">Más sobre nosotros</button>
+        </div>
+        <div class="col-xl-6">
+        
+        </div>
+    </div>
+</section>-->
+
+
 <section class="contenedor">
 
-    <h2 class="text-center">Nuestros colaboradores</h2>
+    <h2 class="text-center animar">Nuestros colaboradores</h2>
 
-    <div class="contcolabs">
-        <div class="colab"><img src="img/logotipos/logo1.png" alt=""></div>
-        <div class="colab"><img src="img/logotipos/logo1.png" alt=""></div>
+    <div class="contcolabs animar delay2">
         <div class="colab"><img src="img/logotipos/logo1.png" alt=""></div>
         <div class="colab"><img src="img/logotipos/logo1.png" alt=""></div>
         <div class="colab"><img src="img/logotipos/logo1.png" alt=""></div>
@@ -178,6 +162,7 @@ ASPEL proyect, index.php v1ev
     <script src="js/jquery.superslides.js"></script>
     <script src="js/jquery.scrollUp.js"></script>
     <script src="js/header.js"></script>
+    <script src="js/animaciones.js"></script>
     <script src="js/tarjetas.js"></script>
     <script src="js/jquery.counterup.js"></script>
     <script src="js/jquery.waypoints.min.js"></script>

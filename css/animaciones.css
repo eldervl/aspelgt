@@ -1,0 +1,19 @@
+.animar{
+    opacity: 0;
+    transform: translateY(25px);
+    transition: opacity 0.8s ease-in-out, transform 0.8s ease-in-out;
+}
+.animar.delay1{
+    transition-delay: 0.1s;
+}
+.animar.delay2{
+    transition-delay: 0.3s;
+}
+.animar.delay3{
+    transition-delay: 0.5s;
+}
+
+.animar.animado {
+    transform: translateY(0);
+    opacity: 1;
+}

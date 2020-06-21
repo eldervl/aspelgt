@@ -3,7 +3,7 @@ section.slider{
 }
 #slides {
   position: relative;
-  max-height: 520px; /*EVITA PANTALLA COMPLETA*/
+  max-height: 600px; /*EVITA PANTALLA COMPLETA*/
   max-width: 100%;
   z-index: 0;
 }
@@ -33,6 +33,7 @@ section.slider{
   height: 100%; 
   margin: 0;
   padding-top: 50px;
+  background-color: rgba(0, 0, 0, 0.349);
 }
 .slides-navigation a {
   margin: 0 auto;

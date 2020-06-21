@@ -12,9 +12,10 @@ ASPEL proyect, capacitaciones.php v1er
     <link rel="icon" href="img/favicon.ico" type="image/png" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/normalize.css@8.0.1/normalize.css">
     <link rel="stylesheet" href="css/libraries/bootstrap.css">
-    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/base.css">
     <link rel="stylesheet" href="css/contenido.css">
+    <link rel="stylesheet" href="css/animaciones.css">
 </head>
 <body>
     
@@ -76,6 +77,7 @@ ASPEL proyect, capacitaciones.php v1er
     <script src="js/animaciones.js"></script>
     <script src="js/jquery.scrollUp.js"></script>
     <script src="js/header.js"></script>
+    <script src="js/animaciones.js"></script>
     <script src="js/verarea.js"></script>
     <script>
         $(function(){
