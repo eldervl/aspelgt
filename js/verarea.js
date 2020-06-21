@@ -1,36 +1,36 @@
 $(document).ready(function(){
     vacio();
-    verComercial();
+    verarea1();
 })
-function verComercial(){ 
+function verarea1(){ 
     vacio();
-    $("#areaComercial").show();
-    $("#linkComercial").addClass("active");
+    $("#area1").show();
+    $("#linkarea1").addClass("active");
 }
-function verAdmin(){ 
+function verarea2(){ 
     vacio();
-    $("#areaAdmin").show();
-    $("#linkAdmin").addClass("active");
+    $("#area2").show();
+    $("#linkarea2").addClass("active");
 }
-function verProduccion(){ 
+function verarea3(){ 
     vacio();
-    $("#areaProduccion").show();
-    $("#linkProduccion").addClass("active");
+    $("#area3").show();
+    $("#linkarea3").addClass("active");
 }
-function verOtros(){ 
+function verarea4(){ 
     vacio();
-    $("#areaOtros").show();
-    $("#linkOtros").addClass("active");
+    $("#area4").show();
+    $("#linkarea4").addClass("active");
 }
-function verNube(){ 
+function verarea5(){ 
     vacio();
-    $("#areaNube").show();
-    $("#linkNube").addClass("active");
+    $("#area5").show();
+    $("#linkarea5").addClass("active");
 }
-function verCompatibilidad(){ 
+function verarea6(){ 
     vacio();
-    $("#areaCompatibilidad").show();
-    $("#linkCompatibilidad").addClass("active");
+    $("#area6").show();
+    $("#linkarea6").addClass("active");
 }
 function vacio(){ 
     $(".cont-area").hide();

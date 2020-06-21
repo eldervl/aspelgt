@@ -3,6 +3,6 @@ $(window).on('load', function () {
     setTimeout(function () {
     $(".cont-preloader").css({visibility:"hidden",opacity:"0"})
     $("body").css({overflow:"visible"})
-}, 700);
+}, 0);
    
 });

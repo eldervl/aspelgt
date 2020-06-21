@@ -56,11 +56,15 @@ ASPEL proyect, index.php v1ev
             </a>
         </nav>
         <div class="slider-cont animar delay1">
-           <h1 class="slidertitle" id="st1">Bienvenido a la experiencia aspel</h1>
-           <p class="sliderdesc" id="sd1">ASPEL cuentan con un servicio de capacitaciones, productos, un sistema de pólizas para la conveniencia de los clientes además de otros tipos de servicios</p>
-           <div class="contbtnslider">
+            <div class="contpartsslider">
+                <h1 class="slidertitle" id="st1">Bienvenido a la experiencia de ApoyoAE</h1>
+            </div>
+            <div class="contpartsslider">
+                <p class="sliderdesc" id="sd1">Descripción breve de ApoyoAE</p>
+            </div>
+            <div class="contpartsslider">
                 <button class="btn btn-primary btn-slider">Listo</button>
-           </div>
+            </div>
         </div>
     </div>
 </section>

@@ -33,13 +33,59 @@ ASPEL proyect, productos.php v1er
     <section class="contenedor noselect">
 
         <div class="bg-light border rounded w-100 my-3 mx-auto p-4">
-        
-        <h2>Cotizaciones</h2><hr>
 
-<div class="row">
-    <div class="form-grop col-6">
-          <!--FORMULARIO DE DATOS DE COTIZACIÓN-->
-          <h6>Nombre</h6>
+    <div class="row">
+        <div class="col-md-6 p-4">
+            <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+                width="48" height="48"
+                viewBox="0 0 172 172"
+                style=" fill:#000000;"><g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><path d="M0,172v-172h172v172z" fill="none"></path><g fill="#666666"><path d="M28.73665,21.5c-7.82496,0 -14.33333,6.48572 -14.33333,14.31934l-0.06999,129.014l28.66667,-28.66667h100.33333c7.83362,0 14.33333,-6.49972 14.33333,-14.33333v-86c0,-7.83362 -6.49972,-14.33333 -14.33333,-14.33333zM28.73665,35.83333h114.59668v86h-106.26823l-8.37044,8.37044zM78.83333,50.16667v14.33333h14.33333v-14.33333zM78.83333,78.83333v28.66667h14.33333v-28.66667z"></path></g></g>
+            </svg>
+            <br>
+            <br>
+            <h3>Cotizar</h3>
+            <p>Descripción breve sobre cotizaciones Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae dicta doloribus illo inventore alias. Necessitatibus saepe error perspiciatis, quam quibusdam blanditiis ad obcaecati, ipsam fuga, beatae distinctio nesciunt laudantium nobis!</p>
+            <br><br><br>
+        </div>
+        <div class="col-md-6 p-4" >    
+    
+            <nav id="navbar-areasprogramas" class="navbar navbar-light bg-light">
+                <ul class="nav nav-pills m-auto">
+                    <li class="nav-item" onclick="verarea1();">
+                      <a class="nav-link" id="linkarea1" >Datos de contacto </a>
+                    </li>
+                    <li class="nav-item" onclick="verarea2();">
+                      <a class="nav-link" id="linkarea2" >Productos y servicios</a>
+                    </li>
+                    <li class="nav-item" onclick="verarea3();">
+                      <a class="nav-link" id="linkarea3" >Finalizar</a>
+                    </li>
+                </ul>
+            </nav>
+
+            <div class="cont-area py-4" id="area1">
+
+                Aqui va el formulario de datos, moverlo y corregir
+
+            </div>
+
+            <div class="cont-area py-4" id="area2">
+
+                aqui van los productos y/o capacitaciones para elegir con checkbox
+
+            </div>
+
+            <div class="cont-area py-4" id="area3">
+
+                Algun área para comentarios, boton de enviar
+
+            </div>
+
+
+
+    
+      <!--FORMULARIO DE DATOS DE COTIZACIÓN-->
+      <h6>Nombre</h6>
             <input class="form-control" type="text" name=""><br>
           <h6>Apellido</h6>
             <input class="form-control" type="text" name=""><br>
@@ -49,8 +95,6 @@ ASPEL proyect, productos.php v1er
             <h6>Motivo de Contacto</h6>
             <textarea id="my-textarea" class="form-control" name=""  style="height: 200px;"></textarea>
           </div>
-    </div>
-    <div class="col-6" >    
         <!--CONTENEDOR DE DATOS DE COTUZACIÓN-->
           <h6>Correo Electrónico</h6>
               <input class="form-control" type="text" name=""><br>
@@ -139,8 +183,5 @@ ASPEL proyect, productos.php v1er
         $(function(){
             $.scrollUp();
         });
-    </script> 
-    <script>
-        $page = 2;
     </script> 
 </html>
