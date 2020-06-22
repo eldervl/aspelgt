@@ -31,3 +31,11 @@
     align-items: center;
     justify-content: center;
 }
+@media only screen and (max-width: 1023px) {
+
+}
+@media only screen and (max-width: 750px) {
+    .slidertitle{
+        font-size: 2em;
+    }
+}

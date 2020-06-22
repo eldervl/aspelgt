@@ -38,7 +38,9 @@ ASPEL proyect, productos.php v1er
                 <br>
                 <br>
                 <p>Control eficiente de los ingresos y egresos de cuentas bancarias, ofreciendo informacion precisa en todo momento</p>
-                <p>Consulta más información en el <a href="https://www.aspel.com.mx/productos/banco/presentacion.html">Sitio oficial</a></p>
+                <div class="">
+                    <button class="btn btn-success d-block mx-auto">Cotizar este producto</button>
+                </div>
             </div>
             <div class="col-lg-6">
                <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/gzqTYDCduqQ?controls=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -53,7 +55,6 @@ ASPEL proyect, productos.php v1er
         <div class="col-md-3">
             <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
                 <a class="nav-link active" id="v-pills-home-tab" data-toggle="pill" href="#v-pills-home" role="tab" aria-controls="v-pills-home" aria-selected="true">Acerca de BANCO</a>
-                <a class="nav-link" id="v-pills-messages-tab" data-toggle="pill" href="#v-pills-messages" role="tab" aria-controls="v-pills-messages" aria-selected="false">Adquirir</a>
             </div>
         </div>
         <div class="col-md-9">
@@ -85,6 +86,9 @@ ASPEL proyect, productos.php v1er
                   <p style="top:right">Consulta información gráfica que permite visualizar los saldos reales y disponibles de cada cuenta.
                 </p>
                   <img src="../img/productos/prod/banco.png" width="100" height="100" alt="none">
+
+
+                  <p>Consulta más información en el <a href="https://www.aspel.com.mx/productos/banco/presentacion.html">Sitio oficial</a></p>
                 </div>
 
                 <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab">

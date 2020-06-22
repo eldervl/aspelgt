@@ -38,7 +38,10 @@ ASPEL proyect, productos.php v1er
                 <br>
                 <br>
                 <p>Genera comprobantes fiscales digitales por internet CFDI es ideal para emprendedores y profesionistas</p>
-                <p>Consulta más información en el <a href="https://www.aspel.com.mx/productos/facture/presentacion/">Sitio oficial</a></p>
+                <div class="">
+                    <button class="btn btn-success d-block mx-auto">Cotizar este producto</button>
+                </div>
+                
             </div>
             <div class="col-lg-6">
                 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/dh5Bv7n77a4?controls=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -85,6 +88,9 @@ ASPEL proyect, productos.php v1er
                   <p style="top:right">Consulta de forma inmediata información clave para tu negocio como el total de ingresos, gastos, pagos, retenciones y viáticos.
                 </p>
                   <img src="../img/productos/prod/factura 3.0.png" width="170" height="100" alt="none">
+
+
+                  <p>Consulta más información en el <a href="https://www.aspel.com.mx/productos/facture/presentacion/">Sitio oficial</a></p>
                 </div>
 
                 <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab">

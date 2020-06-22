@@ -43,7 +43,7 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: var(--bgblanco1);
+    background-color: var(--bgblanco2);
     position: fixed;
     width: 100%;
     height: 90px;
@@ -142,9 +142,6 @@ nav ul{
 }
 /*Formato para pantallas medianas*/
 @media only screen and (max-width: 1023px) {
-}
-/*Formato para pantallas pequeñas*/
-@media only screen and (max-width: 980px) {
     header{
         display: block;
         height: 90px;
@@ -170,23 +167,32 @@ nav ul{
         float: left;
         margin-top: 20px;
         margin-right: 0;
-        width: 130px;
+        height: 60px;
     }
     .header2 img.logop{
-        width: 130px;
+        height: 60px;
     }
+    nav.principal a.btnheader,nav.principal a.btn-cotizar{
+        width: 100%;
+    }
+}
+/*Formato para pantallas pequeñas*/
+@media only screen and (max-width: 750px) {
+    
 }
 
 /*AREA FOOTER ====================================================*/
 
 footer{
     background-color: var(--bgblanco2);
-    -webkit-box-shadow: inset 0px 3px 10px 0px rgba(0,0,0,0.2);
-    -moz-box-shadow: inset 0px 3px 10px 0px rgba(0,0,0,0.2);
-    box-shadow: inset 0px 3px 10px 0px rgba(0,0,0,0.2);
+    color: var(--txtgris1);
 }
-.footer-c{
-    background-color: var(--bgblanco3);
+.footer-copyright{
+    background-color: var(--azul1);
+    color: var(--bgblanco1);
+}
+.footer-copyright a{
+    color: var(--bgblanco1);
 }
 img.logof{
     margin-top: 25px;
@@ -260,34 +266,41 @@ a.btn:focus {
 
 
 .social {
+    display: block;
 	position: fixed; 
 	left: 0; 
 	top: 200px; 
 	z-index: 1000; 
 }
  
-	.social ul {
-		list-style: none;
-	}
- 
-	.social ul li a {
-		display: inline-block;
-		color:#fff;
-		background: #000;
-		padding: 10px 15px;
-		text-decoration: none;
-		-webkit-transition:all 500ms ease;
-		-o-transition:all 500ms ease;
-		transition:all 500ms ease; 
-	}
- 
-	.social ul li .icon-facebook {background:#3b5998;} 
-	.social ul li .icon-twitter {background: #00abf0;}
-	.social ul li .icon-googleplus {background: #d95232;}
-	.social ul li .icon-pinterest {background: #ae181f;}
-	.social ul li .icon-mail {background: #666666;}
- 
-	.social ul li a:hover {
-		background: #000; 
-		padding: 10px 30px; 
-	}
+.social ul {
+	list-style: none;
+}
+
+.social ul li a {
+	display: inline-block;
+	color:#fff;
+	background: #000;
+	padding: 10px 15px;
+	text-decoration: none;
+	-webkit-transition:all 500ms ease;
+	-o-transition:all 500ms ease;
+	transition:all 500ms ease; 
+}
+
+.social ul li .icon-facebook {background:#3b5998;} 
+.social ul li .icon-twitter {background: #00abf0;}
+.social ul li .icon-googleplus {background: #d95232;}
+.social ul li .icon-pinterest {background: #ae181f;}
+.social ul li .icon-mail {background: #666666;}
+
+.social ul li a:hover {
+	background: #000; 
+	padding: 10px 30px; 
+}
+    
+@media only screen and (max-width: 750px) {
+    .social {
+        display: none;
+    }
+}

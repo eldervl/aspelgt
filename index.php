@@ -63,7 +63,7 @@ ASPEL proyect, index.php v1ev
                 <p class="sliderdesc" id="sd1">Descripción breve de ApoyoAE</p>
             </div>
             <div class="contpartsslider">
-                <button class="btn btn-primary btn-slider">Listo</button>
+                <button class="btn btn-primary btn-slider m-1" onclick="location.href='nosotros.php'">Más sobre ApoyoAE</button>
             </div>
         </div>
     </div>
@@ -180,7 +180,7 @@ ASPEL proyect, index.php v1ev
     </script> 
     <script>
         $( document ).ready(function() {
-            $('#modal-inicio').modal('toggle')
+            $('#modal-login').modal('toggle')
         });
     </script>
 </html>
@@ -188,7 +188,7 @@ ASPEL proyect, index.php v1ev
 
 
 
-<div class="modal mimodal" tabindex="-1" role="dialog" id="modal-inicio">
+<div class="modal mimodal" tabindex="-1" role="dialog" id="modal-login">
   <div class="modal-dialog  modal-dialog-centered" style="overflow: hidden;">
     <div class="modal-content">
       <div class="modal-header">
@@ -202,3 +202,4 @@ ASPEL proyect, index.php v1ev
     </div>
   </div>
 </div>
+

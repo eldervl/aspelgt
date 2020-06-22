@@ -17,3 +17,15 @@
     transform: translateY(0);
     opacity: 1;
 }
+
+@media only screen and (max-width: 750px) {
+    .animar.delay1{
+        transition-delay: 0s;
+    }
+    .animar.delay2{
+        transition-delay: 0s;
+    }
+    .animar.delay3{
+        transition-delay: 0s;
+    }
+}

@@ -38,7 +38,10 @@ ASPEL proyect, productos.php v1er
                 <br>
                 <br>
                 <p>Control de todas las operaciones de un punto de venta, con solo ingresar el inventario</p>
-                <p>Consulta más información en el <a href="https://www.aspel.com.mx/productos/caja/presentacion.html">Sitio oficial</a></p>
+                <div class="">
+                    <button class="btn btn-success d-block mx-auto">Cotizar este producto</button>
+                </div>
+                
             </div>
             <div class="col-lg-6">
                 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/FQKVX53dcOs?controls=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -84,6 +87,9 @@ ASPEL proyect, productos.php v1er
                   <h4 class="font-weight-bold text-primary" style="top:right">Control de ingresos y existencias</h4>
                   <p style="top:right">La productividad de tu tienda o comercio está asegurada, porque tienes el control total de tus ingresos y existencias en las tiendas y cajas</p>
                   <img src="../img/productos/prod/caja 3.0.png" width="150" height="100" alt="none">
+
+
+                  <p>Consulta más información en el <a href="https://www.aspel.com.mx/productos/caja/presentacion.html">Sitio oficial</a></p>
                 </div>
 
                 <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab">

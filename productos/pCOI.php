@@ -38,7 +38,10 @@ ASPEL proyect, productos.php v1er
                 <br>
                 <br>
                 <p>Cumple con la contabilidad electronica y mantiene actualizada la informacion contable y fiscal de la empresa de forma segura</p>
-                <p>Consulta más información en el  <a href="https://www.aspel.com.mx/productos/coi/presentacion.html">Sitio oficial</a></p>
+                <div class="">
+                    <button class="btn btn-success d-block mx-auto">Cotizar este producto</button>
+                </div>
+                
             </div>
             <div class="col-lg-6">
                 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/-JMsk8onqkg?controls=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -88,6 +91,7 @@ ASPEL proyect, productos.php v1er
                   <p style="top:right">Intercambia información con la interfaz de los Sistemas: Aspel NOI, Aspel CAJA y Aspel BANCO.
                 </p>
                   <img src="../img/productos/prod/coi 3.0.png" width="100" height="100" alt="none">
+                  <p>Consulta más información en el  <a href="https://www.aspel.com.mx/productos/coi/presentacion.html">Sitio oficial</a></p>
                 </div>
 
                

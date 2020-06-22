@@ -37,7 +37,10 @@ ASPEL proyect, productos.php v1er
                 <img src="../img/productos/logos-prod/noi.png" alt="none">
                 <br>
                 <br>
-                <p>Automatiza el control de los aspectos mas importantes de la nomina<a href="https://www.aspel.com.mx/productos/noi/presentacion.html">Sitio oficial</a></p>
+                <p>Automatiza el control de los aspectos mas importantes de la nomina</p>
+                <div class="">
+                    <button class="btn btn-success d-block mx-auto">Cotizar este producto</button>
+                </div>
             </div>
             <div class="col-lg-6">
                <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/xWjyztj6dSU?controls=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -83,6 +86,9 @@ ASPEL proyect, productos.php v1er
                   <h4 class="font-weight-bold text-primary" style="top:right">Movimientos afiliatorios al IMSS</h4>
                   <p style="top:right">Establece comunicación directa con el IMSS para el envío de movimientos afiliatorios en línea.</p>
                   <img src="../img/productos/prod/noi 3.0.png" width="150" height="100" alt="none">
+
+
+                  <p>Consulta más información en el <a href="https://www.aspel.com.mx/productos/noi/presentacion.html">Sitio oficial</a></p>
                 </div>
 
                

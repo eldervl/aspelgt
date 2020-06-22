@@ -14,9 +14,6 @@ div.precontenedor{
 section.contenedor{
     padding: 100px 10%;
 }
-section.contenedor#seccion1{
-
-}
 section.contenedor#seccion-programas{
     background-color: rgb(209, 220, 235);
 }
@@ -40,7 +37,7 @@ section.contenedor#seccion-programasindx img{
     }
 }
 /*Formato para pantallas pequeñas*/
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 750px) {
     section.contenedor{
         padding: 40px 5%;
     }
@@ -179,7 +176,7 @@ small.texto-inferior{
     }
 }
 /*Formato para pantallas pequeñas*/
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 750px) {
     #seccion-infoprods img, #seccion-infocaps img{
         display: none;
     }

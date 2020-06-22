@@ -38,7 +38,10 @@ ASPEL proyect, productos.php v1er
                 <br>
                 <br>
                 <p>Administra todas las operaciones del ciclo de compra - venta de la empresa </p>
-                <p>Consulta más información en el <a href="https://www.aspel.com.mx/productos/sae/presentacion.html">Sitio oficial</a></p>
+                <div class="">
+                    <button class="btn btn-success d-block mx-auto">Cotizar este producto</button>
+                </div>
+                
             </div>
             <div class="col-lg-6">
                 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/iVSCG9wmhJw?controls=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -85,6 +88,9 @@ ASPEL proyect, productos.php v1er
                   <h4 class="font-weight-bold text-primary" style="top:right">Interfaces Sistemas Aspel</h4>
                   <p style="top:right">Aspel SAE 7.0 tiene interfaz con los Sistemas: Aspel COI, Aspel BANCO, Aspel PROD y Aspel CAJA. Aprovecha todas las interfaces y haz mejores negocios.</p>
                   <img src="../img/productos/prod/sae 3.0.png" width="150" height="150" alt="none">
+
+
+                  <p>Consulta más información en el <a href="https://www.aspel.com.mx/productos/sae/presentacion.html">Sitio oficial</a></p>
                 </div>
 
                 <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab">

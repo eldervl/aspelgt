@@ -42,6 +42,7 @@ ASPEL proyect, productos.php v1er
                 <img src="img/general/programas2.png" alt="">
             </div>
         </div>
+        
 
     </section>
 
@@ -50,24 +51,12 @@ ASPEL proyect, productos.php v1er
             <nav id="navbar-areasprogramas" class="navbar navbar-light bg-light">
                 <ul class="nav nav-pills">
                     <li class="nav-item" onclick="verarea1();">
-                      <a class="nav-link" id="linkarea1" >Área Comercial</a>
+                        <a class="nav-link" id="linkarea1" >Productos ASPEL</a>
                     </li>
                     <li class="nav-item" onclick="verarea2();">
-                      <a class="nav-link" id="linkarea2" >Área Administrativa</a>
+                        <a class="nav-link" id="linkarea2" >Productos de ApoyoAE</a>
                     </li>
-                    <li class="nav-item" onclick="verarea3();">
-                      <a class="nav-link" id="linkarea3" >Área Producción</a>
-                    </li>
-                    <li class="nav-item" onclick="verarea4();">
-                      <a class="nav-link" id="linkarea4" >Otros Productos</a>
-                    </li>
-                    <li class="nav-item" onclick="verarea5();">
-                      <a class="nav-link" id="linkarea5" >Servicios en la nube</a>
-                    </li>
-                    <li class="nav-item" onclick="verarea6();">
-                      <a class="nav-link" id="linkarea6" >Compatibilidad</a>
-                    </li>
-                   </ul>
+                </ul>
             </nav>
 
             <br>
@@ -75,6 +64,9 @@ ASPEL proyect, productos.php v1er
 
 
             <div class="cont-area" id="area1">
+
+               
+                <h3 class="animar my-4">Aspel Comercial</h3>
 
                 <div class="row">
                     <div class="col-lg-4">
@@ -115,9 +107,8 @@ ASPEL proyect, productos.php v1er
                     </div>
                 </div>
 
-            </div>
-
-            <div class="cont-area" id="area2">
+                <hr>
+                <h3 class="animar my-4">Aspel Administrativo</h3>
 
                 <div class="row">
                     <div class="col-lg-4">
@@ -158,14 +149,13 @@ ASPEL proyect, productos.php v1er
                     </div>
                 </div>
 
-            </div>
-
-            <div class="cont-area" id="area3">
+                <hr>
+                <h3 class="animar my-4">Aspel Producción</h3>
 
                 <div class="row">
                     <div class="col-lg-4">
                         <div class="animar delay1">
-                            <div class="card mb-4 bg-white tarjeta animar delay3" style="overflow:hidden; height:420px;" >
+                            <div class="card mb-4 bg-white tarjeta" style="overflow:hidden; height:420px;" >
                                 <img src="img/productos/PROD.jpg" class="card-img-top" alt="...">
                                 <div class="card-body">
                                     <h5 class="card-title">PROD</h5>
@@ -177,33 +167,21 @@ ASPEL proyect, productos.php v1er
                     </div>
                 </div>
 
-            </div>
-
-            <div class="cont-area" id="area4">
-
-                <div class="row">
-
-                    
-
-                </div>
+                <hr>
+                <h3 class="animar my-4">Aspel Nube</h3>
             
             </div>
 
-            <div class="cont-area" id="area5">
+            <div class="cont-area" id="area2">
 
                 <div class="row">
 
-      
+                    <!--ESPACIO PARA CONTENIDO-->
                     
                 </div>
 
             </div>
 
-            <div class="cont-area" id="area6">
-
-                
-
-            </div>
 
     </section>
 

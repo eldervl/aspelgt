@@ -38,7 +38,10 @@ ASPEL proyect, productos.php v1er
                 <br>
                 <br>
                 <p>planea y controla los procesos de fabricacion, asegurando una optima administracion de inventarios y costos</p>
-                <p>Consulta más información en el <a href="https://www.aspel.com.mx/productos/prod/presentacion.html">Sitio oficial</a></p>
+                <div class="">
+                    <button class="btn btn-success d-block mx-auto">Cotizar este producto</button>
+                </div>
+                
             </div>
             <div class="col-lg-6">
                <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/QkGFDvL3GM0?controls=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -84,6 +87,7 @@ ASPEL proyect, productos.php v1er
                   <img src="../img/productos/prod/prod 3.0.png" width="200" height="150" alt="none">
 
 
+                  <p>Consulta más información en el <a href="https://www.aspel.com.mx/productos/prod/presentacion.html">Sitio oficial</a></p>
                 </div>
 
                 <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab">

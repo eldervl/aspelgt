@@ -7,6 +7,11 @@ section.slider{
   max-width: 100%;
   z-index: 0;
 }
+@media only screen and (max-width: 750px) {
+  #slides {
+    max-height: none;
+  }
+}
 #slides .slides-container {
   display: none;
 }
@@ -33,6 +38,11 @@ section.slider{
   height: 100%; 
   margin: 0;
   background-color: rgba(0, 0, 0, 0.349);
+}
+@media only screen and (max-width: 750px) {
+  .slides-navigation {
+    padding-top: 50px;
+  }
 }
 .slides-navigation a {
   margin: 0 auto;
@@ -66,7 +76,22 @@ section.slider{
   -moz-box-shadow: inset -130px 0px 115px -66px rgba(0,0,0,0.5);
   box-shadow: inset -130px 0px 115px -66px rgba(0,0,0,0.5);
 }
-
+@media only screen and (max-width: 750px) {
+  .slides-navigation a.prev {
+    left: 0;
+  }
+  .slides-navigation a.next {
+    right: 0;
+  }
+  .slides-navigation a.prev:hover {
+    left: 0;
+    box-shadow: none;
+  }
+  .slides-navigation a.next:hover {
+    right: 0;
+    box-shadow: none;
+  }
+}
 .slides-pagination {
   position: absolute;
   z-index: 3;
