@@ -13,8 +13,8 @@ $(document).ready(function(){
 });
 
 $(document).ready(function(){
-	if($page == 1){
-		if (screen.width >= 800){
+	if (screen.width >= 800){
+		if($page == 1){
 			$('header').addClass('header3');
 			$('.btn-cotizar').removeClass('btn-outline-primary');
 			$('.btn-cotizar').addClass('btn-light');
@@ -36,8 +36,12 @@ $(document).ready(function(){
 			$('.btn-cotizar').addClass('btn-primary');
 			$('.btn-cotizar').removeClass('btn-outline-primary');
 			$('.btn-cotizar').removeClass('btn-ligh');
-		};
-	};
+		}
+	} else if (screen.width < 800){
+		$('.btn-cotizar').addClass('btn-primary');
+		$('.btn-cotizar').removeClass('btn-outline-primary');
+		$('.btn-cotizar').removeClass('btn-ligh');
+	}
 });
 
 $(document).ready(function(){

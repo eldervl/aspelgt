@@ -8,7 +8,7 @@ ASPEL proyect, capacitaciones.php v1er
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Aspel - Plantilla</title>
+    <title>ApoyoAE</title>
     <link rel="icon" href="img/favicon.ico" type="image/png" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/normalize.css@8.0.1/normalize.css">
     <link rel="stylesheet" href="css/libraries/bootstrap.css">
@@ -22,7 +22,7 @@ ASPEL proyect, capacitaciones.php v1er
 <?php
     include("parts/preloader.php");
     include("parts/header.php");
-    include("parts/social.php");
+    
 ?>
 
 <!--AREA DE CONTENIDO=====================================================-->
@@ -32,8 +32,45 @@ ASPEL proyect, capacitaciones.php v1er
 
     <section class="contenedor noselect">
     
-        
+    <h2 class="mb-5">Preguntas Frecuentes</h2>
 
+    <div class="row row-cols">
+        <div class="col-md-6 mb-4">
+            <input class="form-control" type="text" name="" placeholder="Buscar Pregunta"><br>
+        </div>
+    </div>
+    
+    <div class="row row-cols">
+
+            <div class="col-md-6 mb-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title mt-2 text-primary">Pregunta frecuente</h5>
+                        <p class="card-text">Respuesta</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-md-6 mb-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title mt-2 text-primary">Pregunta frecuente</h5>
+                        <p class="card-text">Respuesta</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6 mb-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title mt-2 text-primary">Pregunta frecuente</h5>
+                        <p class="card-text">Respuesta</p>
+                    </div>
+                </div>
+            </div>
+        
+    </div>
+    
     </section>
 
                           

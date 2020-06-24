@@ -9,7 +9,7 @@ ASPEL proyect, css/contenido.css v1td
 div.precontenedor{
     display: block;
     width: 100%;
-    height: 90px;
+    height: 100px;
 }
 section.contenedor{
     padding: 100px 10%;
@@ -197,6 +197,13 @@ small.texto-inferior{
     #seccion-infogrm iframe{
         margin-top: 20px;
         height: 100%;
+    }
+    section.contenedor#seccion1{
+        background-image: url(../img/general/12.jpg);
+        background-repeat: no-repeat;
+        background-size: 60%;
+        background-position-x: right;
+        background-position-y: -0;
     }
 }
 

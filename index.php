@@ -8,7 +8,7 @@ ASPEL proyect, index.php v1ev
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Aspel - Plantilla</title>
+    <title>ApoyoAE</title>
     <link rel="icon" href="img/favicon.ico" type="image/png" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/normalize.css@8.0.1/normalize.css">
     <link rel="stylesheet" href="css/libraries/bootstrap.css">
@@ -24,7 +24,7 @@ ASPEL proyect, index.php v1ev
 <?php
     include("parts/preloader.php");
     include("parts/header.php");
-    //include("parts/social.php");
+    //
 ?>
 
 
@@ -66,6 +66,7 @@ ASPEL proyect, index.php v1ev
                 <button class="btn btn-primary btn-slider m-1" onclick="location.href='nosotros.php'">Más sobre ApoyoAE</button>
             </div>
         </div>
+        <div class="double-stuff my-5"></div>
     </div>
 </section>
 
@@ -121,19 +122,6 @@ ASPEL proyect, index.php v1ev
     </div>
 </section>
 
-<!--<section class="contenedor" id="seccion-info">
-    <div class="row">
-        <div class="col-xl-6">
-          <h3>¿Quienes somos?</h3>
-          <p>Bienvenidos a la experiencia en tecnología más revolucionaria ASPEL cuentan con un servicio de capacitaciones, productos, un sistema de pólizas para la conveniencia de los clientes además de otros tipos de servicios
-          Estamos capacitados para ofrecerles una experiencia adecuada con nuestras soluciones de desarrollo a la media además de que garantizamos nuestro trabajo con personal certificado por aspel </p>
-          <button class="btn border" onclick="location.href='nosotros.php'">Más sobre nosotros</button>
-        </div>
-        <div class="col-xl-6">
-        
-        </div>
-    </div>
-</section>-->
 
 
 <section class="contenedor">

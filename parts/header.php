@@ -5,19 +5,48 @@ ASPEL proyect, parts/header.php v1ev
  session_start();  
  ?>  
 <header>
-    <img src="img/logotipos/logo1.png" alt="LogotipoPrincipal" class="logop">
-    
+     <div class="preheader">
+        <div>
+            <div class="float-left mt-1 mr-3">
+                <img class="header-icon" src="https://img.icons8.com/material/17/000000/email--v1.png"/>   
+                <span style="font-size:12px;"><b>Correo Electrónico:</b> <a href="mailto:info@apoyoae.com" target="_blank">info@apoyoae.com</a>, <a href="contacto.php">ver todos</a></span>
+            </div>
+            <div class="float-left mt-1 mr-3">
+                <img class="header-icon" src="https://img.icons8.com/material/17/000000/phone--v1.png"/>
+                <span style="font-size:12px;"><b>Teléfono:</b> +502 2438-0949, <a href="contacto.php">ver todos</a></span>
+            </div>
+            <div class="float-left mt-1 mr-3">
+                <img class="header-icon" src="https://img.icons8.com/material-outlined/17/000000/whatsapp.png"/>
+                <span style="font-size:12px;"><b>Whatsapp:</b> <a href="https://wa.me/50247589498" target="_blank">+502 4758-9498</a></span>
+            </div>
+        </div>
+
+        <div>
+            <div class="float-right mt-1 ml-2">
+                <span style="font-size:12px;"><b>Redes sociales:</b></span>
+                <a href="https://www.facebook.com/SistemasAspelApoyoAdministrativoEmpresarial/" target="_blank"><img class="header-icon ml-2" src="https://img.icons8.com/material/17/000000/facebook-new.png"/></a>
+            </div>
+        </div>
+     </div>
+     <div class="contheader">
+         <img src="img/logotipos/logo1.png" alt="LogotipoPrincipal" class="logop">
+
         <button class="btnmenu  border" id="btnmenu" onclick="btnmenu()"><img src="https://img.icons8.com/ios-glyphs/24/000000/menu.png"></button>
         <nav class="principal openmenu " id="nav-principal">
             <ul class="">
                 <div class="menucontent p-1">
                     <a class="btnheader btn" id="hp1" href="index.php">Inicio</a>
+                    <hr>
                     <a class="btnheader btn" id="hp2" href="productos.php">Productos</a>
+                    <hr>
                     <a class="btnheader btn" id="hp3" href="capacitaciones.php">Capacitación</a>
+                    <hr>
                     <a class="btnheader btn" id="hp4" href="soporte.php">Soporte</a>
+                    <hr>
                     <a class="btnheader btn" id="hp5" href="nosotros.php">Nosotros</a>
+                    <hr>
                     <a class="btnheader btn" id="hp6" href="contacto.php">Contacto</a>
-                    <a class="btn btn-cotizar btn-outline-primary" href="productos/cotizaciones.php">COTIZA</a>
+                    <a class="btn btn-cotizar btn-outline-primary" href="productos/cotizaciones.php">COTIZAR</a>
                     <?php  
                 if(isset($_SESSION['username']))
                 {  
@@ -40,15 +69,17 @@ ASPEL proyect, parts/header.php v1ev
                 }  
                 ?>  
                 </div>
-                
+
             </ul>
         </nav>
+    </div>
+     
         
 </header>
 
   
  <div id="loginModal" class="modal fade" role="dialog">  
-      <div class="modal-dialog">  
+      <div class="modal-dialog modal-dialog-centered">  
    <!-- Modal content-->  
            <div class="modal-content">  
                 <div class="modal-header">  

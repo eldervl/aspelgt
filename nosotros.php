@@ -1,5 +1,5 @@
 <!--
-ASPEL proyect, base-capacitacion.php v1er
+ASPEL proyect, productos.php v1er
 -->
 
 <!DOCTYPE html>
@@ -8,21 +8,20 @@ ASPEL proyect, base-capacitacion.php v1er
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Aspel - Plantilla</title>
+    <title>ApoyoAE</title>
     <link rel="icon" href="img/favicon.ico" type="image/png" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/normalize.css@8.0.1/normalize.css">
     <link rel="stylesheet" href="css/libraries/bootstrap.css">
-    <link href="https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/base.css">
     <link rel="stylesheet" href="css/contenido.css">
-    <link rel="stylesheet" href="css/animaciones.css">
 </head>
 <body>
     
 <?php
     include("parts/preloader.php");
     include("parts/header.php");
-    include("parts/social.php");
+    
 ?>
 
 <!--AREA DE CONTENIDO=====================================================-->
@@ -30,68 +29,115 @@ ASPEL proyect, base-capacitacion.php v1er
     
     <div class="precontenedor"></div>
 
-    <section class="contenedor noselect">
+    <section class="contenedor noselect" id="seccion1">
+        
+        <div class="row">
+            <div class="col-sm-6">
+                <h2>¿Quienes somos?</h2>
+                <p>En Sistemas Administrativos de Computo, S.A. (Apoyo Administrativo Empresaria, ApoyoAE),  somos un equipo de profesionales  líder en la implementación y comercialización de software y hardware, soluciones empresariales 
+                diseñadas para ayudar en el ciclo de negocios.
 
-    <div class="row">
-        <div class="col-md-3">
-            <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
-                <a class="nav-link active" id="v-pills-a1-tab" data-toggle="pill" href="#v-pills-a1" role="tab" aria-controls="v-pills-a1" aria-selected="true">Quienes somos</a>
-                <a class="nav-link" id="v-pills-a2-tab" data-toggle="pill" href="#v-pills-a2" role="tab" aria-controls="v-pills-a2" aria-selected="false">Historias de exito</a>
-                <a class="nav-link" id="v-pills-a3-tab" data-toggle="pill" href="#v-pills-a3" role="tab" aria-controls="v-pills-a3" aria-selected="false">Oficinas</a>
+                Es por lo anterior, que desde nuestra fundación en 2002, estamos comprometidos con nuestros clientes, que en su mayoría son empresas que enfrentan los retos de la nueva economía y competencia global, ofreciéndoles soluciones que generan valor, contando con el apoyo 
+                incondicional y certificación de los fabricantes líderes en el ramo (Sistemas Administrativos de cómputo ASPEL).Somos una empresa 100% guatemalteca líder en nuestro ramo
+                </p>
+            </div>
+            <div class="col-sm-6">
+                <img src="img/capacitacion/12.jpg" class="rounded d-block mx-auto" style="width:80%;" alt="">
             </div>
         </div>
-        <div class="col-md-9">
-            <div class="tab-content" id="v-pills-tabContent">
-                <div class="tab-pane fade show active" id="v-pills-a1" role="tabpanel" aria-labelledby="v-pills-a1-tab">
-                    
-                    <!--
-                        ÁREA 1
-                    -->
 
-                    <h2 class="font-weight-bold text-primary">Quienes somos</h2>
-                    <p>
-                    Aspel es una empresa 100% mexicana con 39 años de experiencia, líder en el mercado de software y soluciones administrativas. Automatiza los procesos de las micro, pequeñas y medianas empresas, favoreciendo la correcta toma de decisiones de manera sencilla, eficiente y productiva. Sus Sistemas facilitan el cumplimiento de las obligaciones fiscales electrónicas incluyendo facturación, contabilidad y nómina. Aspel actualmente atiende a más de 1 millón de empresas en México y Latinoamérica. Aspel se encuentra integrada por un equipo apasionado de colaboradores expertos en su ramo y cuenta con oficinas en las principales ciudades de la República Mexicana. Su red calificada de más de 6,500 Distribuidores garantiza un servicio profesional, de alto nivel y cercano.
-                    </p>
-                    <h2 class="font-weight-bold text-primary">Misión</h2>
-                    <p>
-                    Ser la empresa líder que soluciona las necesidades de automatización administrativa de nuestros clientes, desarrollando software de vanguardia que aporte a su éxito, gracias a nuestro equipo de profesionales apasionados por su trabajo, éticos y con alta calidad humana.
-                    </p>
-                    <h2 class="font-weight-bold text-primary">Visión</h2>
-                    <p>
-                    Automatizar la administración de las pequeñas y medianas empresas,  profesionistas y emprendedores de Latinoamérica, con los mejores Sistemas y servicios en Internet.
-                    </p>
+        <br>
+        <hr>
+        <br>
+        <br>
 
-                </div>
-
-                <div class="tab-pane fade" id="v-pills-a2" role="tabpanel" aria-labelledby="v-pills-a2-tab">
-                    
-                    <!--
-                        ÁREA 2
-                    -->
-
-                    <h2 class="font-weight-bold text-primary">Historias de exito</h2>
-                    <p>
-                    </p>
-
-                </div>
+        <nav id="navbar-areasprogramas" class="navbar navbar-light">
+            <ul class="nav nav-pills mx-auto">
+                <li class="nav-item" onclick="verarea1();">
+                  <a class="nav-link" id="linkarea1" >Vision y Mision</a>
+                </li>
+                <li class="nav-item" onclick="verarea2();">
+                  <a class="nav-link" id="linkarea2" >Acerca de ApoyoAE</a>
+                </li>
+                <li class="nav-item" onclick="verarea3();">
+                  <a class="nav-link" id="linkarea3" >Actividades de ApoyoAE</a>
+                </li>
+                <li class="nav-item" onclick="verarea4();">
+                  <a class="nav-link" id="linkarea4" >Socios</a>
+                </li>
                 
-                <div class="tab-pane fade" id="v-pills-a3" role="tabpanel" aria-labelledby="v-pills-a3-tab">
-                    
-                    <!--
-                        ÁREA 3
-                    -->
+               </ul>
+        </nav>
 
-                    <h2 class="font-weight-bold text-primary">Oficinas</h2>
-                    <p>
-                        Encuentra esta información en la sección de <a href="contacto.php">contacto</a>
+        <!---->
+        <div class="cont-area mt-5" id="area1">
+
+            <div class="row">
+                <div class="col-xl-6">
+                    <h3>VISION</h3>
+                    <p>Queremos ser una empresa en constante innovación y que este a la vanguardia de la tecnología, para solucionar de forma eficaz las necesidades de nuestros clientes; siendo siempre el apoyo que ellos requieren en el área tecnológica por medio de nuestro capital humano.  Abarcaremos los servicios que el mercado necesite según la evolución de la tecnología</p>
+                </div>
+                <div class="col-xl-6">
+                    <h3>MISION</h3>
+                    <p>Somos una empresa de servicios dedicada a la comercialización, implementación,  mantenimiento y servicios de Sistemas Administrativos de Cómputo y Hardware, actualizándonos constantemente para estar siempre a la vanguardia. Con nuestra misión buscamos facilitar la toma de decisiones administrativas a nuestros clientes</p>
+                    </div>
+                </div>
+             </div>
+
+        <!---->
+        <div class="cont-area mt-5" id="area2">
+
+            <div class="row">
+                <div class="col-xl-6">
+                    <h3>Sobre la Empresa</h3>
+                    <p>En Sistemas Administrativos de Cómputo. S.A. Apoyo Administrativo Empresaria, fue fundada el 09 de septiembre del 2008 (ApoyoAE), somos un equipo de profesionales en la implementación de soluciones Administrativo Contables que tenemos una misión muy clara: "engrandecer a Guatemala aumentando la competitividad de las empresas al integrar la tecnología y software en su estrategia de negociosDesde nuestro inicio comenzamos los trámites de certificación y desde junio de      2002 nos certificamos como Centro de Soporte Autorizado y Distribuidor Integral,Certificación que siempre hemos mantenido año con año.
+                    <p>Con la experiencia de Aspel de México con más de 35 años en el desarrollo del software y más de 850,000 instalaciones de los sistemas, decidimos emprender un camino que nos abre muchas puertas para desarrollarnos en nuestro campo</p>
                     </p>
-
+                </div>
+                <div class="col-xl-6">
+                    <img src="img/capacitacion/cap2.png" alt="">
+                    <p>En 2003 lanzamos nuestras pólizas de mantenimiento, modelo de servicio que garantiza la continuidad de operación de los negocios de nuestros clientes (con su respectiva evolución).En la actualidad seguimos innovando nuestros diferentes servicios para ser competitivos en el mercado. 2013 alianza estratégica con nuestro socio de negocios y área de desarrollos especializados Adtec, S.A</p>
+                    <p>La imagen de Aspel es uno de los principales activos de la empresa ya que representa la garantía y respaldo del software que distribuimos con 45 años de desarrollo, los cuales al permitir el uso nos presenta ante México, Centro y Sur América como Distribuidores Integrales Certificados</p>
                 </div>
             </div>
+
         </div>
-    </div>
+
+        <!---->
+        <div class="cont-area mt-5" id="area3">
+
+            <div class="row">
+                <div class="col-xl-6">
+                  <h3>Actividades a Realizar de la Empresa</h3>
+                   <ul>
+                      <li><i class="ri-check-double-line"></i>Venta y actualizaciones Sistemas Aspel</li>
+                      <li><i class="ri-check-double-line"></i>Consultorías a cargo de personal certificado</li>
+                      <li><i class="ri-check-double-line"></i>Planes de Mantenimiento Preventivo Hardware</li>
+                      <li><i class="ri-check-double-line"></i>Pólizas Soporte Aspel e ITSe</li>
+                      <li><i class="ri-check-double-line"></i>Venta y actualizaciones Sistemas Invention Tech</li>
+                      <li><i class="ri-check-double-line"></i>Diseño de Reportes Especiales</li>
+                      <li><i class="ri-check-double-line"></i>Servidores locales y en la nube</li>
+                      <li><i class="ri-check-double-line"></i>Software Inteligencia de Negocios</li>
+                      <li><i class="ri-check-double-line"></i>Venta y Actualizaciones Software Adtec</li>
+                    </ul>
+                </div>
+                <div class="col-xl-6">
+                 <ul>
+                      <li><i class="ri-check-double-line"></i>Procesos Administrativos de Re-implementación</li>
+                      <li><i class="ri-check-double-line"></i>Venta y actualizaciones Sistemas Invention Tech</li>
+                      <li><i class="ri-check-double-line"></i>Soporte e Implementación</li>
+                      <li><i class="ri-check-double-line"></i>Software para la Mediana y Gran Empresa</li>
+                      <li><i class="ri-check-double-line"></i>Antivirus,Suministros y Equipo </li>
+                      <li><i class="ri-check-double-line"></i>Alianzas y analisis estratégicos</li>
+                    </ul>
+                    <img src="img/capacitacion/cap4.jpg" alt="">
+                </div>
+            </div>
+            
+        </div>
 
     </section>
+
 
                           
   
@@ -107,7 +153,6 @@ ASPEL proyect, base-capacitacion.php v1er
     <script src="js/preloader.js"></script>
     <script src="js/jquery.scrollUp.js"></script>
     <script src="js/header.js"></script>
-    <script src="js/animaciones.js"></script>
     <script src="js/verarea.js"></script>
     <script>
         $(function(){

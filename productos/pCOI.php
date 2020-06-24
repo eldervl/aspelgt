@@ -8,7 +8,7 @@ ASPEL proyect, productos.php v1er
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Aspel - Plantilla</title>
+    <title>ApoyoAE</title>
     <link rel="icon" href="../img/favicon.ico" type="image/png" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/normalize.css@8.0.1/normalize.css">
     <link rel="stylesheet" href="../css/libraries/bootstrap.css">
@@ -22,7 +22,7 @@ ASPEL proyect, productos.php v1er
 <?php
     include("../parts/preloader.php");
     include("../parts/header2.php");
-    include("../parts/social.php");
+    
 ?>  
 
 <!--AREA DE CONTENIDO=====================================================-->

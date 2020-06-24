@@ -8,7 +8,7 @@ ASPEL proyect, capacitaciones.php v1er
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Aspel - Plantilla</title>
+    <title>ApoyoAE</title>
     <link rel="icon" href="img/favicon.ico" type="image/png" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/normalize.css@8.0.1/normalize.css">
     <link rel="stylesheet" href="css/libraries/bootstrap.css">
@@ -22,7 +22,7 @@ ASPEL proyect, capacitaciones.php v1er
 <?php
     include("parts/preloader.php");
     include("parts/header.php");
-    include("parts/social.php");
+    
 ?>
 
 <!--AREA DE CONTENIDO=====================================================-->
@@ -35,8 +35,8 @@ ASPEL proyect, capacitaciones.php v1er
         <div class="row">
             <div class="col-sm-6">
                 <br>
-                <h2>Soporte</h2>
-                <p>Nos preocupamos por mantenerte informado y de resolver tus dudas. Consulta las opciones de soporte que tenemos para ti</p>
+                <h2 class="animar">Soporte</h2>
+                <p class="animar delay1">Nos preocupamos por mantenerte informado y de resolver tus dudas. Consulta las opciones de soporte que tenemos para ti</p>
             </div>
             <div class="col-sm-6">
                 <img src="" alt="">
@@ -48,19 +48,11 @@ ASPEL proyect, capacitaciones.php v1er
     <section class="contenedor noselect">
 
         <div class="row">
-            <div class="col-lg-3">
-                <div class="card mb-4 bg-white tarjeta" style="overflow:hidden; height:420px;" >
-                    <img src="img/soporte/2.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Capacitaciones</h5>
-                        <p class="card-text">Gozamos de un exelente nivel en nuestras capacitaciones dando una asesoria perzonalizada a nuestros cientes</p>
-                        <a href="capacitaciones.php" class="btn btn-primary" style="position:absolute;bottom:20px;width:calc(100% - 40px);">Contactanos</a>
+            <div class="col-lg-4 animar">
+                <div class="card mb-4 bg-white tarjeta" style="overflow:hidden; height:420px;" >                  
+                    <div class="rounded" style="max-height:185px; overflow:hidden;">
+                        <img src="img/soporte/2.jpg" class="card-img-top" style="margin-top:-10%;" alt="...">
                     </div>
-                </div>
-            </div>
-            <div class="col-lg-3">
-                <div class="card mb-4 bg-white tarjeta" style="overflow:hidden; height:420px;" >
-                    <img src="img/soporte/3.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h5 class="card-title">Preguntas Frecuentes</h5>
                         <p class="card-text">Aquí podras resolver tus dudas acerca de nuestros servicios que tenemos para ti, contactanos</p>
@@ -68,23 +60,27 @@ ASPEL proyect, capacitaciones.php v1er
                     </div>
                 </div>
             </div>
-            <div class="col-lg-3">
+            <div class="col-lg-4 animar delay1">
                 <div class="card mb-4 bg-white tarjeta" style="overflow:hidden; height:420px;" >
-                    <img src="img/soporte/1.jpg" class="card-img-top" alt="...">
+                    <div class="rounded" style="max-height:185px; overflow:hidden;">
+                        <img src="img/soporte/3.jpg" class="card-img-top"  style="margin-top:-10%;" alt="...">
+                    </div>
                     <div class="card-body">
                         <h5 class="card-title">Contacto</h5>
                         <p class="card-text">Comunicate con nuestro directemente para obtener mayor información sobre nuestros servicios</p>
-                        <a href="Contacto.php" class="btn btn-primary" style="position:absolute;bottom:20px;width:calc(100% - 40px);">Capacitaciónes</a>
+                        <a href="Contacto.php?frmcontacto=true" class="btn btn-primary" style="position:absolute;bottom:20px;width:calc(100% - 40px);">Formulario de contacto</a>
                     </div>
                 </div>
             </div>
-            <div class="col-lg-3">
+            <div class="col-lg-4 animar delay2">
                 <div class="card mb-4 bg-white tarjeta" style="overflow:hidden; height:420px;" >
-                    <img src="img/soporte/5.jpg" class="card-img-top" alt="...">
+                    <div class="rounded" style="max-height:185px; overflow:hidden;">
+                        <img src="img/soporte/5.jpg" class="card-img-top" style="margin-top:-10%;" alt="...">
+                    </div>
                     <div class="card-body">
                         <h5 class="card-title">Suegerencias al soporte técnico</h5>
                         <p class="card-text">Ayudanos a mejorar nuestros servicios, manda tus sugerencias y con gusto las atenderemos</p>
-                        <a href="contacto.php" class="btn btn-primary" style="position:absolute;bottom:20px;width:calc(100% - 40px);">Enviar</a>
+                        <a href="contacto.php" class="btn btn-primary" style="position:absolute;bottom:20px;width:calc(100% - 40px);">Enviar sugerencia</a>
                     </div>
                 </div>
             </div>
