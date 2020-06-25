@@ -25,3 +25,57 @@ $(document).ready(function(){
       $("#ti3").hide();
   })
 })
+$(document).ready(function(){
+  $("#ti4").hide();
+  $("#t4").mouseover(function(){
+      $("#ti4").show();
+  })
+  $("#t4").mouseleave(function(){
+      $("#ti4").hide();
+  })
+})
+$(document).ready(function(){
+  $("#ti5").hide();
+  $("#t5").mouseover(function(){
+      $("#ti5").show();
+  })
+  $("#t5").mouseleave(function(){
+      $("#ti5").hide();
+  })
+})
+$(document).ready(function(){
+  $("#ti6").hide();
+  $("#t6").mouseover(function(){
+      $("#ti6").show();
+  })
+  $("#t6").mouseleave(function(){
+      $("#ti6").hide();
+  })
+})
+$(document).ready(function(){
+  $("#ti7").hide();
+  $("#t7").mouseover(function(){
+      $("#ti7").show();
+  })
+  $("#t7").mouseleave(function(){
+      $("#ti7").hide();
+  })
+})
+$(document).ready(function(){
+  $("#ti8").hide();
+  $("#t8").mouseover(function(){
+      $("#ti8").show();
+  })
+  $("#t8").mouseleave(function(){
+      $("#ti8").hide();
+  })
+})
+$(document).ready(function(){
+  $("#ti9").hide();
+  $("#t9").mouseover(function(){
+      $("#ti9").show();
+  })
+  $("#t9").mouseleave(function(){
+      $("#ti9").hide();
+  })
+})

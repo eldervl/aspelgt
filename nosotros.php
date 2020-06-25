@@ -63,7 +63,7 @@ ASPEL proyect, productos.php v1er
                   <a class="nav-link" id="linkarea3" >Actividades de ApoyoAE</a>
                 </li>
                 <li class="nav-item" onclick="verarea4();">
-                  <a class="nav-link" id="linkarea4" >Socios</a>
+                  <a class="nav-link" id="linkarea4" >Referencias Comerciales</a>
                 </li>
                 
                </ul>
@@ -132,6 +132,34 @@ ASPEL proyect, productos.php v1er
                     </ul>
                     <img src="img/capacitacion/cap4.jpg" alt="">
                 </div>
+            </div>
+            
+        </div>
+         <div class="cont-area mt-5" id="area4">
+
+            <div class="row">
+                <div class="col-xl-6">
+                  <h3>Nuestras Referencias Comerciales</h3>
+                     <div class="contcolabs animar delay2">
+                     <div class="colab"><img src="img/empresas/asobagri.png" width="90" height="100" alt=""></div>
+                     <div class="colab"><img src="img/empresas/kids.png"   width="90" height="100" alt=""></div>
+                     <div class="colab"><img src="img/empresas/ferreteria.jpg"  width="90" height="100" alt=""></div>
+                     <div class="colab"><img src="img/empresas/istore.png" width="90" height="100" alt=""></div>
+                     <div class="colab"><img src="img/empresas/kids alive.png"  width="90" height="100" alt=""></div>
+                    
+                 </div>
+                 </div>
+                 <div class="col-xl-6">
+                    <br>
+                    <br>
+                    <div class="contcolabs animar delay2">
+                        <div class="colab"><img src="img/empresas/los pinos.png"  width="90" height="110" alt=""></div>
+                     <div class="colab"><img src="img/empresas/paisa.jpg"  width="90" height="100" alt=""></div>
+                     <div class="colab"><img src="img/empresas/incep.png" alt=""></div>
+                     <div class="colab"><img src="img/empresas/grupo monge.jpg" alt=""></div>
+            
+                </div>
+                 </div>
             </div>
             
         </div>

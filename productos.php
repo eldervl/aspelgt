@@ -87,7 +87,7 @@ ASPEL proyect, productos.php v1er
                                 <img src="img/productos/CAJA.jpg" class="card-img-top" alt="...">
                                 <div class="card-body">
                                     <h5 class="card-title">CAJA</h5>
-                                    <p class="card-text">Controla, administra y agiliza las operaciones de ventas, facturación e inventarios de uno o varios comercios, convirtiendo una computadora en un punto de venta capaz de operar con impresoras de tickets tu negocio es más eficiente y productivo, ahora puedes emitir Facturas Electrónicas 3.3 en tu punto de venta.</p>
+                                    <p class="card-text">Controla, administra y agiliza las operaciones de ventas, facturación e inventarios de uno o varios comercios, convirtiendo una computadora en un punto de venta capaz de operar con impresoras de tickets tu negocio es más eficiente y productivo </p>
                                     <a href="productos/pCAJA.php" class="btn btn-primary btn-tarjeta" style="float:right;margin-right:10px;margin-bottom:10px">Mas Informacion</a>
                                 </div>
                             </div>
@@ -99,7 +99,7 @@ ASPEL proyect, productos.php v1er
                                 <img src="img/productos/FACTURE.jpg" class="card-img-top" alt="...">
                                 <div class="card-body">
                                     <h5 class="card-title">FACTURE</h5>
-                                    <p class="card-text">Genera de forma segura y en segundos Comprobantes Fiscales Digitales por Internet 3.3 (CFDI) de acuerdo con las disposiciones fiscales vigentes, independientemente de tu profesión, giro comercial o si eres persona física o moral.</p>
+                                    <p class="card-text">Genera de forma segura y en segundos Comprobantes Fiscales Digitales por Internet de acuerdo con las disposiciones fiscales vigentes, independientemente de tu profesión, giro comercial o si eres persona física o moral.</p>
                                     <a href="productos/pFACTURA.php" class="btn btn-primary btn-tarjeta" style="float:right;margin-right:10px;margin-bottom:10px">Mas Informacion</a>
                                 </div>
                             </div>
@@ -129,7 +129,7 @@ ASPEL proyect, productos.php v1er
                                 <img src="img/productos/NOI.jpg" class="card-img-top" alt="...">
                                 <div class="card-body">
                                     <h5 class="card-title">NOI</h5>
-                                    <p class="card-text">Automatiza el control de la nómina. Ofrece un cálculo exacto de las percepciones y deducciones de los trabajadores de acuerdo con las disposiciones fiscales y laborales vigentes.Genera y entrega a tus trabajadores los Comprobantes Fiscales Digitales por Internet (CFDI) de los recibos de nómina y cumple en segundos con la Reforma Fiscal vigente.</p>
+                                    <p class="card-text">Automatiza el control Ofrece un cálculo exacto de las percepciones y deducciones de los trabajadores de acuerdo con las disposiciones fiscales y laborales.Genera y entrega a tus trabajadores los Comprobantes Fiscales Digitales  de los recibos de nómina  </p>
                                    <a href="productos/pNOI.php" class="btn btn-primary btn-tarjeta"  style="float:right;margin-right:10px;margin-bottom:10px">Mas Informacion</a>
                                 </div>
                             </div>
@@ -141,7 +141,7 @@ ASPEL proyect, productos.php v1er
                                 <img src="img/productos/BANCO.jpg" class="card-img-top" alt="...">
                                 <div class="card-body">
                                     <h5 class="card-title">BANCO</h5>
-                                     <p class="card-text">Controla eficientemente los movimientos de cualquier cuenta bancaria, en moneda nacional y extranjera Todos los movimientos bancarios se contabilizan automáticamente a través de su interfaz permite la afectación simultánea de las cuentas por cobrar y/o por pagar al registrar los movimientos bancarios</p>
+                                     <p class="card-text">Controla eficientemente los movimientos de cualquier cuenta bancaria, en moneda nacional y extranjera Todos los movimientos bancarios se contabilizan automáticamente a través de su interfaz permite la afectación simultánea de las cuentas por cobrar o pagar</p>
                                     <a href="productos/pBANCO.php" class="btn btn-primary btn-tarjeta"  style="float:right;margin-right:10px;margin-bottom:10px">Mas Informacion</a>
                                 </div>
                             </div>
@@ -159,7 +159,7 @@ ASPEL proyect, productos.php v1er
                                 <img src="img/productos/PROD.jpg" class="card-img-top" alt="...">
                                 <div class="card-body">
                                     <h5 class="card-title">PROD</h5>
-                                    <p class="card-text">Es el Sistema que controla y administra los procesos de fabricación, desde materias primas hasta productos terminados permite la planeación y control de los procesos de fabricación de la empresa, asegurando una óptima administración de inventarios y costos y, posteriormente, actualizar el inventario con los productos terminados</p>
+                                    <p class="card-text">Es el Sistema que controla y administra los procesos de fabricación, desde materias primas hasta productos terminados permite la planeación y control de los procesos de fabricación de la empresa, asegurando una óptima administración de inventarios y costos </p>
                                     <a href="productos/pPROD.PHP" class="btn btn-primary btn-tarjeta"  style="float:right;margin-right:10px;margin-bottom:10px">Mas Informacion</a>
                                 </div>
                             </div>
@@ -176,8 +176,31 @@ ASPEL proyect, productos.php v1er
 
                 <div class="row">
 
-                    <!--ESPACIO PARA CONTENIDO-->
-                    
+                    <div class="col-lg-4">
+                        <div class="animar delay1">
+                            <div class="card mb-4 bg-white tarjeta" style="overflow:hidden; height:420px;" >
+                                <img src="img/productos/logos-ext/NONE.pNg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Backups </h5>
+                                    <p class="card-text">Copia de seguridad de bases de datos MySQL, MariaDB Microsoft SQL Server y servidores Exchange.Se pueden programar copias de seguridad múltiples y paralelas de servidores de bases de datos locales, en red y remotos, sin ninguna interrupción de los servicios </p>
+                                    <a href="productos/pBACKUP.php" class="btn btn-primary btn-tarjeta"  style="float:right;margin-right:10px;margin-bottom:10px">Mas Informacion</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                       
+                        <div class="animar delay2">
+                            <div class="card mb-4 bg-white tarjeta" style="overflow:hidden; height:420px;" >
+                                <img src="img/productos/logos-ext/NONE.pNg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Servidores en la nube</h5>
+                                    <p class="card-text">Nuestros servidores físicos en donde se almacenará el software y bases de datos.Todos los servidores e infraestructura trabajan con redundancia de componentes Nuestro centro de datos está físicamente instalado </p>
+                                   <a href="productos/pNUBE.php" class="btn btn-primary btn-tarjeta"  style="float:right;margin-right:10px;margin-bottom:10px">Mas Informacion</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
 
             </div>

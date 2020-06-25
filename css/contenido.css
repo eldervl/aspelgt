@@ -14,6 +14,9 @@ div.precontenedor{
 section.contenedor{
     padding: 100px 10%;
 }
+section.contenedor2{
+    padding: 100px 0;
+}
 section.contenedor#seccion-programas{
     background-color: rgb(209, 220, 235);
 }
@@ -173,6 +176,9 @@ small.texto-inferior{
     #seccion-infogrm iframe{
         width: 90%;
         margin-top: 20px;
+    }
+    .tarjeta-index{
+        height: 500px !important;
     }
 }
 /*Formato para pantallas pequeñas*/

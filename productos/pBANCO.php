@@ -22,7 +22,6 @@ ASPEL proyect, productos.php v1er
 <?php
     include("../parts/preloader.php");
     include("../parts/header2.php");
-    
 ?>
 
 <!--AREA DE CONTENIDO=====================================================-->

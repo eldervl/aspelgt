@@ -60,7 +60,7 @@ ASPEL proyect, index.php v1ev
                 <h1 class="slidertitle" id="st1">Bienvenido a la experiencia de ApoyoAE</h1>
             </div>
             <div class="contpartsslider">
-                <p class="sliderdesc" id="sd1">Descripción breve de ApoyoAE</p>
+                <p class="sliderdesc" id="sd1">somos un equipo de profesionales  líder en la implementación y comercialización de software y hardware, soluciones empresariales diseñadas para ayudar en el ciclo de negocios empresa 100% guatemalteca líder en nuestro rama </p>
             </div>
             <div class="contpartsslider">
                 <button class="btn btn-primary btn-slider m-1" onclick="location.href='nosotros.php'">Más sobre ApoyoAE</button>
@@ -80,45 +80,97 @@ ASPEL proyect, index.php v1ev
             <p class="animar delay2">Contamos con una amplia gamade productos todo lo necesario para poder controlar, administra todas las operaciones de tu empresa tomando en cuenta que muchos de nuestros productos van a otros asociados para tener un mejor funcionamiento aumentando la eficacia de la empresa</p>
         </div>
     </div>
-    <div class="row">
-        <div class="mt-5" style="width:100%;"></div>
-        <div class="col-xl-12">
-            <div class="row" style="padding:0 50px">
-                <div class="col-md-4">
-                    <div class="card mb-4 bg-whitebg-light border-0 tarjeta noselect animar" id="t1" style="overflow:hidden; height:420px;border:none;" onclick="location.href='productos/pSAE.php'" >
-                        <img src="img/productos/SAE.jpg" class="card-img-top" alt="..." style="width:100%">
-                        <div class="card-body">
-                            <h5 class="card-title">Aspel SAE </h5>
-                            <p class="card-text">Controla todo el ciclo de todas las operaciones de compra-venta de la empresa, como inventarios, clientes, facturación, cuentas por cobrar, vendedores, compras, proveedores y cuentas por pagar, automatizando eficientemente los procesos administrativos</p>
-                            <small class="texto-inferior" id="ti1">Presiona para más información</small>
-                        </div>
-                    </div>
+
+    <div class="row mt-5">
+        <div class="col-lg-3">
+            <div class="animar delay1">
+                <div class="card mb-4 bg-white tarjeta tarjeta-index border" style="overflow:hidden; height:310px;" id="t1" >
+                <div class="px-4 mt-5" style="height:100px;">                       
+                    <img src="img/productos/logos-prod/SAE.png" class="card-img-top" alt="...">
                 </div>
-                <div class="col-md-4">
-                    <div class="card mb-4 bg-whitebg-light border-0 tarjeta noselect animar delay1" id="t2" style="overflow:hidden; height:420px;border:none;"onclick="location.href='productos/pCOI.php'">
-                        <img src="img/productos/COI.jpg" class="card-img-top" alt="..." style="width:100%">
-                        <div class="card-body">
-                            <h5 class="card-title">Aspel COI</h5>
-                            <p class="card-text">Automatiza los procesos administrativos de tu empresa sin elevar los costos.Procesa, integra y mantiene actualizada la información contable y fiscal de la empresa en forma segura y confiable </p>
-                            <small class="texto-inferior" id="ti2">Presiona para más información</small>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="card mb-4 bg-whitebg-light border-0 tarjeta noselect animar delay2" id="t3" style="overflow:hidden; height:420px;border:none;" onclick="location.href='productos/pCAJA.php'" >
-                        <img src="img/productos/CAJA.jpg" class="card-img-top" alt="..." style="width:100%">
-                        <div class="card-body">
-                            <h5 class="card-title">Aspel CAJA</h5>
-                            <p class="card-text">Controla, administra y agiliza las operaciones de ventas, facturación e inventarios de uno o varios comercios, convirtiendo una computadora en un punto de venta capaz de operar con impresoras de tickets tu negocio es más eficiente y productivo, ahora puedes emitir Facturas Electrónicas 3.3 en tu punto de venta. </p>
-                            <small class="texto-inferior" id="ti3">Presiona para más información</small>
-                        </div>
+                    <div class="card-body">
+                        <h5 class="d-none card-title">SAE</h5>
+                        <p class="card-text">Controla todo el ciclo de todas las operaciones de compra-venta de la empresa</p>
+                        <small class="texto-inferior" id="ti1">Presiona para más información</small>
                     </div>
                 </div>
             </div>
-            <br>
-            <div class="text-center">
-            <button class="btn btn-primary" onclick="location.href='servicios.php'">Todos nuestros servicios</button>
         </div>
+        <div class="col-lg-3">
+            <div class="animar delay2">
+                <div class="card mb-4 bg-white tarjeta tarjeta-index border" style="overflow:hidden; height:310px;" id="t2" >
+                <div class="px-4 mt-5" style="height:100px;">                       
+                    <img src="img/productos/logos-prod/CAJA.png" class="card-img-top" alt="...">
+                </div>
+                    <div class="card-body">
+                        <h5 class="d-none card-title">CAJA</h5>
+                        <p class="card-text">Controla, administra y agiliza las operaciones de ventas, facturación e inventarios</p>
+                        <small class="texto-inferior" id="ti2">Presiona para más información</small>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-3">
+            <div class="animar delay3">
+                <div class="card mb-4 bg-white tarjeta tarjeta-index border" style="overflow:hidden; height:310px;" id="t3" >
+                <div class="px-4 mt-5" style="height:100px;">                       
+                    <img src="img/productos/logos-prod/COI.png" class="card-img-top" alt="...">
+                </div>
+                    <div class="card-body">
+                        <h5 class="d-none card-title">COI</h5>
+                        <p class="card-text">Automatiza los procesos administrativos</p>
+                        <small class="texto-inferior" id="ti3">Presiona para más información</small>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-3">
+            <div class="animar delay4">
+                <div class="card mb-4 bg-white tarjeta tarjeta-index border" style="overflow:hidden; height:310px;" id="t4" >
+                <div class="px-4 mt-5" style="height:100px;">                       
+                    <img src="img/productos/logos-prod/NOI.png" class="card-img-top" alt="...">
+                </div>
+                    <div class="card-body">
+                        <h5 class="d-none card-title">NOI</h5>
+                        <p class="card-text">Automatiza el control ofrece un cálculo exacto de las percepciones y deducciones de los trabajadores</p>
+                       <small class="texto-inferior" id="ti4">Presiona para más información</small>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-3">
+            <div class="animar">
+                <div class="card mb-4 bg-white tarjeta tarjeta-index border" style="overflow:hidden; height:310px;" id="t5" >
+                <div class="px-4 mt-5" style="height:100px;">                       
+                    <img src="img/productos/logos-prod/BANCO.png" class="card-img-top" alt="...">
+                </div>
+                    <div class="card-body">
+                        <h5 class="d-none card-title">BANCO</h5>
+                         <p class="card-text">Controla eficientemente los movimientos de cualquier cuenta bancaria</p>
+                        <small class="texto-inferior" id="ti5">Presiona para más información</small>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-3">
+            <div class="animar delay1">
+                <div class="card mb-4 bg-white tarjeta tarjeta-index border" style="overflow:hidden; height:310px;" id="t6" >
+                <div class="px-4 mt-5" style="height:100px;">                       
+                    <img src="img/productos/logos-prod/PROD.png" class="card-img-top" alt="...">
+                </div>
+                    <div class="card-body">
+                        <h5 class="d-none card-title">PROD</h5>
+                        <p class="card-text">Es el Sistema que controla y administra los procesos de fabricación</p>
+                        <small class="texto-inferior" id="ti6">Presiona para más información</small>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div>
+    <br>
+    <div class="text-center">
+        <button class="btn btn-primary" onclick="location.href='servicios.php'">Ver todos los programas</button>
     </div>
 </section>
 
@@ -126,12 +178,12 @@ ASPEL proyect, index.php v1ev
 
 <section class="contenedor">
 
-    <h2 class="text-center animar">Nuestros colaboradores</h2>
+    <h2 class="text-center animar">Empresas trabajadas</h2>
 
     <div class="contcolabs animar delay2">
-        <div class="colab"><img src="img/logotipos/logo1.png" alt=""></div>
-        <div class="colab"><img src="img/logotipos/logo1.png" alt=""></div>
-        <div class="colab"><img src="img/logotipos/logo1.png" alt=""></div>
+        <div class="colab"><img src="img/empresas/universal.png" alt=""></div>
+        <div class="colab"><img src="img/empresas/incep.png" alt=""></div>
+        <div class="colab"><img src="img/empresas/grupo monge.jpg" alt=""></div>
     </div>
 
 </section>
@@ -155,7 +207,7 @@ ASPEL proyect, index.php v1ev
     <script src="js/jquery.scrollUp.js"></script>
     <script src="js/header.js"></script>
     <script src="js/animaciones.js"></script>
-    <script src="js/tarjetas.js"></script>
+    <script src="js/tarjeta tarjeta-index borders.js"></script>
     <script src="js/jquery.counterup.js"></script>
     <script src="js/jquery.waypoints.min.js"></script>
     <script>
