@@ -12,6 +12,9 @@
 .animar.delay3{
     transition-delay: 0.5s;
 }
+.animar.delay4{
+    transition-delay: 0.7s;
+}
 
 .animar.animado {
     transform: translateY(0);

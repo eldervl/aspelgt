@@ -18,6 +18,8 @@ ASPEL proyect, index.php v1ev
     <link rel="stylesheet" href="css/animaciones.css">
     <link rel="stylesheet" href="css/slider.css">
     <link rel="stylesheet" href="css/libraries/superslides.css">
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
 </head>
 <body>
 
@@ -83,10 +85,10 @@ ASPEL proyect, index.php v1ev
 
     <div class="row mt-5">
         <div class="col-lg-3">
-            <div class="animar delay1">
+            <div class="animar delay">
                 <div class="card mb-4 bg-white tarjeta tarjeta-index border" style="overflow:hidden; height:310px;" id="t1" >
                 <div class="px-4 mt-5" style="height:100px;">                       
-                    <img src="img/productos/logos-prod/SAE.png" class="card-img-top" alt="...">
+                    <img src="img/productos/logos-prod/sae.png" class="card-img-top" alt="...">
                 </div>
                     <div class="card-body">
                         <h5 class="d-none card-title">SAE</h5>
@@ -97,10 +99,10 @@ ASPEL proyect, index.php v1ev
             </div>
         </div>
         <div class="col-lg-3">
-            <div class="animar delay2">
+            <div class="animar delay1">
                 <div class="card mb-4 bg-white tarjeta tarjeta-index border" style="overflow:hidden; height:310px;" id="t2" >
                 <div class="px-4 mt-5" style="height:100px;">                       
-                    <img src="img/productos/logos-prod/CAJA.png" class="card-img-top" alt="...">
+                    <img src="img/productos/logos-prod/caja.png" class="card-img-top" alt="...">
                 </div>
                     <div class="card-body">
                         <h5 class="d-none card-title">CAJA</h5>
@@ -111,10 +113,10 @@ ASPEL proyect, index.php v1ev
             </div>
         </div>
         <div class="col-lg-3">
-            <div class="animar delay3">
+            <div class="animar delay2">
                 <div class="card mb-4 bg-white tarjeta tarjeta-index border" style="overflow:hidden; height:310px;" id="t3" >
                 <div class="px-4 mt-5" style="height:100px;">                       
-                    <img src="img/productos/logos-prod/COI.png" class="card-img-top" alt="...">
+                    <img src="img/productos/logos-prod/coi.png" class="card-img-top" alt="...">
                 </div>
                     <div class="card-body">
                         <h5 class="d-none card-title">COI</h5>
@@ -125,10 +127,10 @@ ASPEL proyect, index.php v1ev
             </div>
         </div>
         <div class="col-lg-3">
-            <div class="animar delay4">
+            <div class="animar delay3">
                 <div class="card mb-4 bg-white tarjeta tarjeta-index border" style="overflow:hidden; height:310px;" id="t4" >
                 <div class="px-4 mt-5" style="height:100px;">                       
-                    <img src="img/productos/logos-prod/NOI.png" class="card-img-top" alt="...">
+                    <img src="img/productos/logos-prod/noi.png" class="card-img-top" alt="...">
                 </div>
                     <div class="card-body">
                         <h5 class="d-none card-title">NOI</h5>
@@ -142,7 +144,7 @@ ASPEL proyect, index.php v1ev
             <div class="animar">
                 <div class="card mb-4 bg-white tarjeta tarjeta-index border" style="overflow:hidden; height:310px;" id="t5" >
                 <div class="px-4 mt-5" style="height:100px;">                       
-                    <img src="img/productos/logos-prod/BANCO.png" class="card-img-top" alt="...">
+                    <img src="img/productos/logos-prod/banco.png" class="card-img-top" alt="...">
                 </div>
                     <div class="card-body">
                         <h5 class="d-none card-title">BANCO</h5>
@@ -156,7 +158,7 @@ ASPEL proyect, index.php v1ev
             <div class="animar delay1">
                 <div class="card mb-4 bg-white tarjeta tarjeta-index border" style="overflow:hidden; height:310px;" id="t6" >
                 <div class="px-4 mt-5" style="height:100px;">                       
-                    <img src="img/productos/logos-prod/PROD.png" class="card-img-top" alt="...">
+                    <img src="img/productos/logos-prod/prod.png" class="card-img-top" alt="...">
                 </div>
                     <div class="card-body">
                         <h5 class="d-none card-title">PROD</h5>
@@ -174,17 +176,50 @@ ASPEL proyect, index.php v1ev
     </div>
 </section>
 
+<section class="contenedor2" >
+<div class="middle">
+    <div class="counting-sec">
+      <div class="inner-width">
+        <div class="col">
+          <i class="far fa-smile-wink"></i>
+          <div class="num">1246</div>
+          Visitantes
+        </div>
 
+        <div class="col">
+          <i class="fas fa-briefcase"></i>
+          <div class="num">19</div>
+          Servicios
+        </div>
 
-<section class="contenedor">
+        <div class="col">
+          <i class="far fa-money-bill-alt"></i>
+          <div class="num">687</div>
+          Ventas
+        </div>
 
-    <h2 class="text-center animar">Empresas trabajadas</h2>
+        <div class="col">
+          <i class="far fa-object-group"></i>
+          <div class="num">87</div>
+          Templat
+        </div>
+      </div>
+    </div>
+  </div>
+
+    
+
+    <h2 class="text-center animar">Socios</h2>
 
     <div class="contcolabs animar delay2">
         <div class="colab"><img src="img/empresas/universal.png" alt=""></div>
         <div class="colab"><img src="img/empresas/incep.png" alt=""></div>
         <div class="colab"><img src="img/empresas/grupo monge.jpg" alt=""></div>
+       
     </div>
+    <div class="text-center w-100 d-block"><a href="nosotros.php">Ver más</a>
+    </div>
+    
 
 </section>
 
@@ -210,6 +245,13 @@ ASPEL proyect, index.php v1ev
     <script src="js/tarjeta tarjeta-index borders.js"></script>
     <script src="js/jquery.counterup.js"></script>
     <script src="js/jquery.waypoints.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.js"></script>
+
+
+
+
     <script>
         $(function(){
             $.scrollUp();
