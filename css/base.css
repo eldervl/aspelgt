@@ -124,7 +124,6 @@ nav.principal{
 nav.principal a.btnheader{
     font-weight: 500;
     color: var(--gris1);
-    padding: 7px 9px;
     list-style: none;
     display: inline-block;
     margin: 0;

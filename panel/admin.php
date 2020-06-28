@@ -1,5 +1,7 @@
 <?php
-	require('../action.php');
+    require('../action.php');
+    require('../sesion.php');
+    
 ?>
 
 
@@ -41,7 +43,7 @@
                 <!--<a class="nav-link" href="admin-general.php">General</a>-->
                 <a class="nav-link" href="admin-index.php">Página inicio</a>
                 <a class="nav-link" href="admin-faqs.php">Preguntas frecuentes</a>
-                <a class="nav-link" href="admin-contacto.php">Contacto</a>
+                <a class="nav-link" href="admin-datos.php">Información y contacto</a>
             </div>
         </div>
         <div class="col-md-9">
@@ -68,7 +70,7 @@
 
 
 <?php
-    include("../parts/footer.php")
+    include("../parts/footer2.php")
 ?>
 
 </body>
@@ -77,6 +79,7 @@
     <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
     <script src="../js/preloader.js"></script>
+    <script src="../js/data.js"></script>
     <script src="../js/animaciones.js"></script>
     <script src="../js/jquery.superslides.js"></script>
     <script src="../js/jquery.scrollUp.js"></script>

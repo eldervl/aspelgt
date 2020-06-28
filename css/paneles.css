@@ -3,7 +3,7 @@ div.cont-imgcard{
     overflow: hidden;
 }
 img.imgcard{
-    height: 100%;
+    width: 100%;
     display: block;
     margin: auto;
 }

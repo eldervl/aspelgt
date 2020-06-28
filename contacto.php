@@ -47,43 +47,66 @@ ASPEL proyect, contacto.php v1es
 
                 <div class="bg-light border rounded w-100 my-3 mx-auto p-4 animar delay1">
 
-                <h5 class="text-primary" style="font-weight:bold;">Apoyo Administrativo Emprearial, Guatemala</h5>
+                    <?php
 
-                <div class="my-4">
-                    <div class="my-1">
-                        <img src="https://img.icons8.com/material/17/000000/worldwide-location--v1.png"/>
-                        <span><b>Dirección:</b> Calzada San Juan 38-32 Zona 07 el Rodeo of.204 Guatemala, Guatemala</span>
-                    </div>
-                    <div class="my-1">
-                        <img src="https://img.icons8.com/material/17/000000/email--v1.png"/>   
-                        <span><b>Correos Electrónicos:</b></span><br>
-                        <span class="ml-4"><a href="mailto:julio.villagran@apoyoae.com" target="_blank">julio.villagran@apoyoae.com</a></span><br>
-                        <span class="ml-4"><a href="mailto:soporte@apoyoae.com" target="_blank">soporte@apoyoae.com</a></span><br>
-                        <span class="ml-4"><a href="mailto:info@apoyoae.comC" target="_blank">info@apoyoae.com</a></span>
-                    </div>
-                    <div class="my-1">
-                        <img src="https://img.icons8.com/material/17/000000/phone--v1.png"/>
-                        <span><b>Teléfonos:</b></span><br>
-                        <span class="ml-4">+502 2438-0949</span><br>
-                        <span class="ml-4">+502 2258-8661</span><br>
-                        <span class="ml-4">+502 2269-0953</span>
-                    </div>
-                    <div class="my-1">
-                        <img src="https://img.icons8.com/material-outlined/17/000000/whatsapp.png"/>
-                        <span><b>Whatsapp:</b> <a href="https://wa.me/50247589498" target="_blank">+502 4758-9498</a></span>
-                    </div>
-                    <div class="mt-1">
-                        <div class="d-inline mr-1">
-                            <img src="https://img.icons8.com/material-outlined/17/000000/geography.png"/>
-                            <span><b>Redes sociales:</b></span><br>
-                            <span class="ml-4"><img class="header-icon" src="https://img.icons8.com/material/17/000000/facebook-new.png"/> Facebook: <a href="https://www.facebook.com/SistemasAspelApoyoAdministrativoEmpresarial/">Apoyo Administrativo Empresarial</a></span>
+                    $resultados = mysqli_query($conexion, "SELECT * FROM $tdatoscontacto");
+                    $consulta = mysqli_fetch_array($resultados);
+
+                    $nosede=    0;
+                    $direccion= 0;
+                    $correos=   0;
+                    $telefonos= 0;
+                    $whatsapps= 0;
+                    $social=    0;
+
+                    ?>
+
+                    <?php if(!empty($consulta['nombresede'])){ ?> <h5 class="text-primary mb-3" style="font-weight:bold;"><?php echo $consulta['nombresede']?></h5> <?php $nosede=$nosede+1; } else {  }?>
+                    <?php if($nosede == 0) { ?> <h5 class="text-primary mb-3" style="font-weight:bold;">Sede desconocida</h5> <?php } else { } ?>
+
+                    <div class="border rounded bg-light3 p-3 mb-2">
+                        <div class="my-1"> 
+                            <img src="https://img.icons8.com/material/17/000000/worldwide-location--v1.png"/> <span><b>Dirección:</b></span><br>
+                            <?php if(!empty($consulta['direccion'])){ ?> <?php echo $consulta['direccion']?></span> <?php $direccion=$direccion+1; } else {  }?>
+                            <?php if($direccion == 0) { ?> <small>No hay dirección disponible</small> <?php } else { } ?>
                         </div>
+                        <div class="my-1">
+                            <img src="https://img.icons8.com/material/17/000000/email--v1.png"/> <span><b>Correos Electrónicos:</b></span><br>
+                            <?php if(!empty($consulta['email1'])){ ?> <span><a href="mailto:<?php echo $consulta['email1']?>" target="_blank"><?php echo $consulta['email1']?></a></span><br> <?php $correos = $correos+1; } else {  }?>
+                            <?php if(!empty($consulta['email2'])){ ?> <span><a href="mailto:<?php echo $consulta['email2']?>" target="_blank"><?php echo $consulta['email2']?></a></span><br> <?php $correos = $correos+1; } else {  }?>
+                            <?php if(!empty($consulta['email3'])){ ?> <span><a href="mailto:<?php echo $consulta['email3']?>" target="_blank"><?php echo $consulta['email3']?></a></span><br> <?php $correos = $correos+1; } else {  }?>
+                            <?php if(!empty($consulta['email4'])){ ?> <span><a href="mailto:<?php echo $consulta['email4']?>" target="_blank"><?php echo $consulta['email4']?></a></span><br> <?php $correos = $correos+1; } else {  }?>
+                            <?php if(!empty($consulta['email5'])){ ?> <span><a href="mailto:<?php echo $consulta['email5']?>" target="_blank"><?php echo $consulta['email5']?></a></span><br> <?php $correos = $correos+1; } else {  }?>
+                            <?php if($correos == 0) { ?> <small>No hay direcciones de correo electrónico disponibles</small> <?php } else { } ?>
+                        </div>
+                        <div class="my-1">
+                            <img src="https://img.icons8.com/material/17/000000/phone--v1.png"/> <span><b>Teléfonos:</b></span><br>
+                            <?php if(!empty($consulta['telefono1'])){ ?> <span><?php echo $consulta['telefono1']?></span><br> <?php $telefonos=$telefonos+1; } else {  }?>
+                            <?php if(!empty($consulta['telefono2'])){ ?> <span><?php echo $consulta['telefono2']?></span><br> <?php $telefonos=$telefonos+1; } else {  }?>
+                            <?php if(!empty($consulta['telefono3'])){ ?> <span><?php echo $consulta['telefono3']?></span><br> <?php $telefonos=$telefonos+1; } else {  }?>
+                            <?php if(!empty($consulta['telefono4'])){ ?> <span><?php echo $consulta['telefono4']?></span><br> <?php $telefonos=$telefonos+1; } else {  }?>
+                            <?php if(!empty($consulta['telefono5'])){ ?> <span><?php echo $consulta['telefono5']?></span><br> <?php $telefonos=$telefonos+1; } else {  }?>
+                            <?php if($telefonos == 0) { ?> <small>No hay números de teléfono disponibles</small> <?php } else { } ?>
+                        </div>
+                        <div class="my-1">
+                            <img src="https://img.icons8.com/material-outlined/17/000000/whatsapp.png"/> <span><b>Whatsapp:</b></span><br>
+                            <?php if(!empty($consulta['wspnum1'])){ ?> <span><a href="https://wa.me/502<?php echo $consulta['wspnum1']?>" target="_blank">+502<?php echo $consulta['wspnum1']?></a></span> <?php $whatsapps=$whatsapps+1; } else {  }?>
+                            <?php if(!empty($consulta['wspnum2'])){ ?> <span><a href="https://wa.me/502<?php echo $consulta['wspnum2']?>" target="_blank">+502<?php echo $consulta['wspnum3']?></a></span> <?php $whatsapps=$whatsapps+1; } else {  }?>
+                            <?php if($whatsapps == 0) { ?> <small>No hay números de whatsapp disponibles</small> <?php } else { } ?>
+                        </div>
+                        <div class="mt-1">
+                            <div class="d-inline mr-1">
+                                <img src="https://img.icons8.com/material-outlined/17/000000/geography.png"/> <span><b>Redes sociales:</b></span><br>
+                                <?php if(!empty($consulta['facebook'])) { ?> <span><img class="header-icon" src="https://img.icons8.com/material/17/000000/facebook-new.png"/> <a href="<?php echo $consulta['facebook']?>">Facebook</a></span><br>             <?php $social=$social+1; } else {  }?>
+                                <?php if(!empty($consulta['twitter']))  { ?> <span><img class="header-icon" src="https://img.icons8.com/material-sharp/17/000000/twitter-squared.png"/> <a href="<?php echo $consulta['twitter']?>">Twitter</a></span><br>      <?php $social=$social+1; } else {  }?>
+                                <?php if(!empty($consulta['instagram'])){ ?> <span><img class="header-icon" src="https://img.icons8.com/material-outlined/17/000000/instagram-new.png"/> <a href="<?php echo $consulta['instagram']?>">Instagram</a></span><br> <?php $social=$social+1; } else {  }?>
+                                <?php if(!empty($consulta['youtube']))  { ?> <span><img class="header-icon" src="https://img.icons8.com/material-rounded/17/000000/youtube-play.png"/> <a href="<?php echo $consulta['youtube']?>">Youtube</a></span><br>       <?php $social=$social+1; } else {  }?>
+                                <?php if($social == 0) { ?> <small>No hay números de whatsapp disponibles</small> <?php } else { } ?>
+                            </div>
+                        </div>
+                        <button type="button" class="btn btn-primary mt-4" data-toggle="modal" data-target="#modal-contacto">Contactar</button>
                     </div>
-                </div>
-                    
-
-                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modal-contacto">Contactar</button>
-
+                                
                 </div>
             
             </div>
@@ -117,6 +140,7 @@ ASPEL proyect, contacto.php v1es
     <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
     <script src="js/preloader.js"></script>
+    <script src="js/data.js"></script>
     <script src="js/animaciones.js"></script>
     <script src="js/jquery.scrollUp.js"></script>
 	<script src="js/header.js"></script>
@@ -188,3 +212,4 @@ ASPEL proyect, contacto.php v1es
     </div>
   </div>
 </div>
+

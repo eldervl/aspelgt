@@ -12,7 +12,10 @@ div.precontenedor{
     height: 100px;
 }
 section.contenedor{
+    display: block;
+    margin: auto;
     padding: 100px 10%;
+    max-width: 2000px;
 }
 section.contenedor2{
     padding: 100px 0;

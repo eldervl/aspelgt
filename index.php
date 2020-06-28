@@ -1,6 +1,9 @@
-<!--
-ASPEL proyect, index.php v1ev
--->
+
+<?php
+    session_start();
+    require("action.php");
+    require("sesion.php");  
+?>
 
 <!DOCTYPE html>
 <html lang="es">
@@ -26,22 +29,35 @@ ASPEL proyect, index.php v1ev
 <?php
     include("parts/preloader.php");
     include("parts/header.php");
-    //
+    require("action.php");
 ?>
 
 
 
 <!--AREA DE CONTENIDO=====================================================-->
 
+
 <section class="slider">
     <div id="slides">
         <ul class="slides-container">
-            <li>
-            <img style="text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.550)" src="img/slider/slider1.jpg" alt="img">
-            </li>
-            <li>
-            <img style="text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.550)" src="img/slider/slider2.jpg" alt="img">
-            </li>
+
+
+        <?php
+
+            $resultados = mysqli_query($conexion, "SELECT * FROM $tsliderimg");
+            while($consulta = mysqli_fetch_array($resultados))
+        
+           {
+               echo"
+               <li>
+               <img style=\"text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.550)\" src=\"data:image/jpg;base64,".base64_encode($consulta['imagen'])."\" alt=\"img\">
+               </li>
+               ";
+           }   
+  
+        
+        ?>
+
         </ul>
         <nav class="slides-navigation">
             <a href="#" class="next">
@@ -57,16 +73,40 @@ ASPEL proyect, index.php v1ev
                 style=" fill:#000000;"><g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><path d="M0,172v-172h172v172z" fill="none"></path><g fill="#ffffff"><path d="M99.5665,150.5v0c9.5245,0 15.20767,-10.61383 9.92583,-18.54017l-30.6375,-45.95983l30.6375,-45.95983c5.28183,-7.92633 -0.40133,-18.54017 -9.92583,-18.54017v0c-3.98467,0 -7.71133,1.99233 -9.92583,5.3105l-34.15633,51.24167c-3.21067,4.816 -3.21067,11.08683 0,15.90283l34.15633,51.24167c2.2145,3.311 5.94117,5.30333 9.92583,5.30333z"></path></g></g></svg>
             </a>
         </nav>
+
         <div class="slider-cont animar delay1">
-            <div class="contpartsslider">
-                <h1 class="slidertitle" id="st1">Bienvenido a la experiencia de ApoyoAE</h1>
-            </div>
-            <div class="contpartsslider">
-                <p class="sliderdesc" id="sd1">somos un equipo de profesionales  líder en la implementación y comercialización de software y hardware, soluciones empresariales diseñadas para ayudar en el ciclo de negocios empresa 100% guatemalteca líder en nuestro rama </p>
-            </div>
-            <div class="contpartsslider">
-                <button class="btn btn-primary btn-slider m-1" onclick="location.href='nosotros.php'">Más sobre ApoyoAE</button>
-            </div>
+
+        <?php
+
+            $resultados = mysqli_query($conexion, "SELECT * FROM $tsliderinfo");
+            $consulta = mysqli_fetch_array($resultados);
+
+            if(!empty($consulta['titulo'])){ ?>
+                
+                <div class="contpartsslider">
+                    <h1 class="slidertitle" id="st1"><?php echo $consulta['titulo']?></h1>
+                </div>
+
+            <?php }
+
+            if(!empty($consulta['descripcion'])){ ?>
+
+                <div class="contpartsslider">
+                    <p class="sliderdesc" id="sd1"><?php echo $consulta['descripcion']?></p>
+                </div>
+
+            <?php }
+
+            if(!empty($consulta['titulo']) || !empty($consulta['descripcion'])){ ?>
+
+                <div class="contpartsslider">
+                    <button class="btn btn-primary btn-slider m-1" onclick="location.href='nosotros.php'">Más sobre ApoyoAE</button>
+                </div>
+            
+            <?php }
+
+        ?>
+
         </div>
         <div class="double-stuff my-5"></div>
     </div>
@@ -238,16 +278,19 @@ ASPEL proyect, index.php v1ev
     <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
     <script src="js/preloader.js"></script>
+    <script src="js/data.js"></script>
     <script src="js/jquery.superslides.js"></script>
     <script src="js/jquery.scrollUp.js"></script>
     <script src="js/header.js"></script>
     <script src="js/animaciones.js"></script>
-    <script src="js/tarjeta tarjeta-index borders.js"></script>
+    <script src="js/tarjetas.js"></script>
     <script src="js/jquery.counterup.js"></script>
     <script src="js/jquery.waypoints.min.js"></script>
+    <!--
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.js"></script>
+    -->
 
 
 
@@ -262,15 +305,24 @@ ASPEL proyect, index.php v1ev
     </script> 
     <script>
         $( document ).ready(function() {
-            $('#modal-login').modal('toggle')
+            $('#modal-index').modal('toggle')
         });
     </script>
 </html>
 
 
+<?php
 
+    $resultados = mysqli_query($conexion, "SELECT * FROM $tmodalimg");
+    $consulta = mysqli_fetch_array($resultados);
 
-<div class="modal mimodal" tabindex="-1" role="dialog" id="modal-login">
+    if(empty($consulta['imagen'])){
+
+    } else {
+
+?>
+
+<div class="modal mimodal" tabindex="-1" role="dialog" id="modal-index">
   <div class="modal-dialog  modal-dialog-centered" style="overflow: hidden;">
     <div class="modal-content">
       <div class="modal-header">
@@ -279,7 +331,16 @@ ASPEL proyect, index.php v1ev
         </button>
       </div>
       <div class="modal-body m-0">
-        <img src="img/general/modal.jpeg" style="width:100%" alt="">
+
+        <?php
+
+               echo"
+               <img style=\"width:100%\" src=\"data:image/jpg;base64,".base64_encode($consulta['imagen'])."\" alt=\"img\">
+               ";
+            }   
+            
+        ?>
+
       </div>
     </div>
   </div>

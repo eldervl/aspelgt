@@ -18,19 +18,19 @@
       <h6 class="text-uppercase font-weight-bold">Información</h6>
       <hr class=" accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
       <p>
-        <a href="productos.php">Productos</a>
+        <a href="../productos.php">Productos</a>
       </p>
       <p>
-        <a href="capacitaciones.php">Capacitaciones</a>
+        <a href="../capacitaciones.php">Capacitaciones</a>
       </p>
       <p>
-        <a href="soporte.php">Soporte</a>
+        <a href="../soporte.php">Soporte</a>
       </p>
       <p>
-        <a href="nosotros.php">Nosotros</a>
+        <a href="../nosotros.php">Nosotros</a>
       </p>
       <p>
-        <a href="contacto.php">Contacto</a>
+        <a href="../contacto.php">Contacto</a>
       </p>
     </div>
     <!--Area de ayuda al publico-->
@@ -38,13 +38,13 @@
       <h6 class="text-uppercase font-weight-bold">Público</h6>
       <hr class=" accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
       <p>
-        <a href="faqs.php">FAQS</a>
+        <a href="../faqs.php">FAQS</a>
       </p>
       <p>
-        <a href="cotizaciones.php">Cotizaciones</a>
+        <a href="../cotizaciones.php">Cotizaciones</a>
       </p>
       <p>
-        <a href="contacto.php">Contacto</a>
+        <a href="../contacto.php">Contacto</a>
       </p>
     </div>
     <!--Area de contacto-->
@@ -95,6 +95,6 @@
 <br>
 <!--Area de copyright-->
 <div class="footer-copyright text-center py-3">© 2020 Copyright:
-  <a href="creditos.html">Instituto Emiliani Somascos</a>
+  <a href="../creditos.html">Instituto Emiliani Somascos</a>
 </div>
 </footer>

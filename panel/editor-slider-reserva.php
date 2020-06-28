@@ -48,26 +48,51 @@
             </svg>
             <br>
             <br>
-            <p>Las preguntas ayudan a lo usuarios a Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo distinctio temporibus corporis fugit voluptates, incidunt odio eius voluptas natus vitae beatae aliquid aperiam necessitatibus, recusandae facere ipsum id quos repellendus.</p>
+            <p>Info slider</p>
             <br><br><br>
         </div>
         <div class="col-md-6">
 
-        <h4 class="text-primary">Nueva pregunta</h4><br>
+        <h4 class="text-primary">Nuevo slider</h4><br>
 
             <form action="">
+
+                    <?php
+                        if(!empty($consulta['imagen'])){
+                    ?>
+                        <div class="row bg-light border rounded w-100 mx-auto p-3">
+                            <div class="form-group">
+                                <label for="cont-originalimg">Imagen original</label>
+                                <div class="w-100 rounded overflow-hidden" style="height:200px;">
+                                    <img src="data:image/jpg;base64,<?php echo base64_encode($consulta['imagen']);?>" class="card-img" alt="...">
+                                </div>
+                            </div>  
+                        </div> 
+                    <?php    
+                    }
+                    ?>
+                   
                 <div class="form-group">
-                    <label for="titulo">Titulo de la pregunta frecuente</label>
+                    <label for="cont-fileinput">Nueva imagen</label>
+                    <input type="file" name="imagen" id="imagen" class="form-control h-auto py-5 pl-5"> 
+                    <input type="hidden" name="MAX_FILE_SIZE" value="2000000" />
+                    <div class="bg-light w-100 p-3 mt-2 text-center">
+                      <img src="../img/infoimagen.png" class="d-inline mb-1" style="width:90px;" alt="">
+                      <small id="descripcionhp" class="form-text text-muted">Se recomienda usar imagenes a la medida, el sobrante no sera visible</small>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="titulo">Titulo principal</label>
                     <input type="text" class="form-control" name="titulo" id="titulo">
                 </div>
                 <div class="form-group">
-                    <label for="message">Respuesta de la pregunta</label>
-                    <textarea class="form-control" id="message" name="message" style="height: 200px;" maxlength="800" onkeyup="countChars(this);"></textarea>
+                    <label for="message">Breve descripcion</label>
+                    <textarea class="form-control" id="message" name="message" style="height: 200px;" maxlength="300" onkeyup="countChars(this);"></textarea>
                 </div>
             
                 <script>
                     function countChars(obj){
-                    var maxLength = 800;
+                    var maxLength = 300;
                         var strLength = obj.value.length;
                         var charRemain = (maxLength - strLength);
                     
@@ -80,7 +105,7 @@
                 </script> 
             
                   <!--contador de caracteres-->
-                  <small id="charNum">800 caracteres restantes</small>
+                  <small id="charNum">300 caracteres restantes</small>
                 
                   <button class="btn btn-primary float-right" type="button" aling="right" >Publicar</button>    
             </form>
