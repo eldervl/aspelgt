@@ -18,13 +18,11 @@ ASPEL proyect, capacitaciones.php v1er
     <link rel="stylesheet" href="css/animaciones.css">
 </head>
 <body>
-
- 
+    
 <?php
-    include 'panel/global/config.php';
-    include 'panel/global/conexion.php';
     include("parts/preloader.php");
     include("parts/header.php");
+    
 ?>
 
 <!--AREA DE CONTENIDO=====================================================-->
@@ -34,32 +32,47 @@ ASPEL proyect, capacitaciones.php v1er
 
     <section class="contenedor noselect">
     
-        <h2 class="mb-5">Preguntas Frecuentes</h2>
-        
-        <!--SELECCION-->
-        <?php
-              $sentencia=$pdo->prepare("SELECT * FROM `faqs`");
-              $sentencia->execute(); 
-              $preguntas=$sentencia->fetchAll(PDO::FETCH_ASSOC);
-        ?>
-        
-        <div class="row row-cols">
-            <!--IMPRIME LA BD-->
-            <?php foreach($preguntas as $datos){ ?>
-                <div class="col-md-6 mb-4">
-                    <div class="card">
-                        <div class="card-body">
-                            <h5 class="card-title mt-2 text-primary"><?php echo $datos['Titulo'];?></h5><hr>
-                            <p class="card-text"><?php echo $datos['Info'];?></p>
-                        </div>
+    <h2 class="mb-5">Preguntas Frecuentes</h2>
+
+    <div class="row row-cols">
+        <div class="col-md-6 mb-4">
+            <input class="form-control" type="text" name="" placeholder="Buscar Pregunta"><br>
+        </div>
+    </div>
+    
+    <div class="row row-cols">
+
+            <div class="col-md-6 mb-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title mt-2 text-primary">Pregunta frecuente</h5>
+                        <p class="card-text">Respuesta</p>
                     </div>
                 </div>
-            <?php }?> 
-        </div>
+            </div>
+            
+            <div class="col-md-6 mb-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title mt-2 text-primary">Pregunta frecuente</h5>
+                        <p class="card-text">Respuesta</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6 mb-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title mt-2 text-primary">Pregunta frecuente</h5>
+                        <p class="card-text">Respuesta</p>
+                    </div>
+                </div>
+            </div>
         
-        <div class="row row-cols"></div>
+    </div>
+    
     </section>
-<!--AREA DE CONTENIDO=====================================================-->
+
                           
   
         
@@ -72,6 +85,7 @@ ASPEL proyect, capacitaciones.php v1er
     <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
     <script src="js/preloader.js"></script>
+    <script src="js/data.js"></script>
     <script src="js/animaciones.js"></script>
     <script src="js/jquery.scrollUp.js"></script>
     <script src="js/header.js"></script>
