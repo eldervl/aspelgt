@@ -15,6 +15,7 @@ ASPEL proyect, productos.php v1er
     <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/base.css">
     <link rel="stylesheet" href="css/contenido.css">
+    <link rel="stylesheet" href="css/animaciones.css">
 </head>
 <body>
     
@@ -31,7 +32,7 @@ ASPEL proyect, productos.php v1er
 
     <section class="contenedor noselect" id="seccion1">
         
-        <div class="row">
+        <div class="row animar">
             <div class="col-sm-6">
                 <h2>¿Quienes somos?</h2>
                 <p>En Sistemas Administrativos de Computo, S.A. (Apoyo Administrativo Empresaria, ApoyoAE),  somos un equipo de profesionales  líder en la implementación y comercialización de software y hardware, soluciones empresariales 
@@ -42,7 +43,7 @@ ASPEL proyect, productos.php v1er
                 </p>
             </div>
             <div class="col-sm-6">
-                <img src="img/capacitacion/12.jpg" class="rounded d-block mx-auto" style="width:80%;" alt="">
+                <img src="img/capacitacion/12.jpg" class="rounded d-block mx-auto animar delay1" style="width:80%;" alt="">
             </div>
         </div>
 
@@ -73,11 +74,11 @@ ASPEL proyect, productos.php v1er
         <div class="cont-area mt-5" id="area1">
 
             <div class="row">
-                <div class="col-xl-6">
+                <div class="col-xl-6 animar delay2">
                     <h3>VISION</h3>
                     <p>Queremos ser una empresa en constante innovación y que este a la vanguardia de la tecnología, para solucionar de forma eficaz las necesidades de nuestros clientes; siendo siempre el apoyo que ellos requieren en el área tecnológica por medio de nuestro capital humano.  Abarcaremos los servicios que el mercado necesite según la evolución de la tecnología</p>
                 </div>
-                <div class="col-xl-6">
+                <div class="col-xl-6 animar delay3">
                     <h3>MISION</h3>
                     <p>Somos una empresa de servicios dedicada a la comercialización, implementación,  mantenimiento y servicios de Sistemas Administrativos de Cómputo y Hardware, actualizándonos constantemente para estar siempre a la vanguardia. Con nuestra misión buscamos facilitar la toma de decisiones administrativas a nuestros clientes</p>
                     </div>
@@ -170,6 +171,7 @@ ASPEL proyect, productos.php v1er
     <script src="js/data.js"></script>
     <script src="js/jquery.scrollUp.js"></script>
     <script src="js/header.js"></script>
+    <script src="js/animaciones.js"></script>
     <script src="js/verarea.js"></script>
     <script>
         $(function(){

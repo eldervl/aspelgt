@@ -31,7 +31,6 @@
         $titulo = $_POST['titulo'];
         $descripcion = $_POST['descripcion'];
 
-        $conexion->query("TRUNCATE TABLE $tsliderinfo");
         $conexion->query("INSERT INTO $tsliderinfo (titulo,descripcion) VALUES ('$titulo','$descripcion')");
 
         header("location:admin-index.php");

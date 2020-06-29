@@ -1,6 +1,7 @@
 <?php
-    require('../action.php');
-    require('../sesion.php');
+    include 'global/config.php';
+    include 'global/conexion.php';
+	require('../action.php');
 ?>
 
 <!DOCTYPE html>
@@ -37,7 +38,7 @@
 
     <button class="btn btn-light mb-2" onclick="location.href='admin-faqs.php'">
         <img src="https://img.icons8.com/ios/50/000000/left.png" style="width:20px">
-        regresar al panel (cancelar)
+        regresar al panel 
     </button>
     <div class="row bg-light border rounded w-100 mx-auto p-4">
         <div class="col-md-6">
@@ -48,22 +49,111 @@
             </svg>
             <br>
             <br>
-            <p>Las preguntas ayudan a lo usuarios a Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo distinctio temporibus corporis fugit voluptates, incidunt odio eius voluptas natus vitae beatae aliquid aperiam necessitatibus, recusandae facere ipsum id quos repellendus.</p>
+            <p>Las preguntas ayudan a los usuarios </p>
+            
+            <!--SELECCION-->
+            <?php
+              $sentencia=$pdo->prepare("SELECT * FROM `faqs`");
+              $sentencia->execute(); 
+              $preguntas=$sentencia->fetchAll(PDO::FETCH_ASSOC);
+            ?>
+            
+                            <div  class="col-md-12" style=" overflow: auto; 	height: 480px; ">
+                             <?php foreach($preguntas as $datos){ ?>
+                                <div class="col-md-12 mb-12">
+                                    <div class="card">
+                                        <div class="card-body">
+                                            <h5 class="card-title mt-2 text-primary"><?php echo $datos['Titulo'];?></h5>
+                                            <p class="card-text"><?php echo $datos['Info'];?></p>
+                                        </div>
+                                    </div>
+                                </div><br>
+                              <?php }?>  
+                            </div>
+            
             <br><br><br>
         </div>
+        
         <div class="col-md-6">
 
         <h4 class="text-primary">Nueva pregunta</h4><br>
 
-            <form action="">
+            <form class="form-group" action="editor-faqs.php" method="POST">
                 <div class="form-group">
-                    <label for="titulo">Titulo de la pregunta frecuente</label>
-                    <input type="text" class="form-control" name="titulo" id="titulo">
+                    <label for="pregunta">Titulo de la pregunta frecuente</label>
+                    <input type="text" class="form-control" name="Titulo" id="Titulo">
                 </div>
                 <div class="form-group">
-                    <label for="message">Respuesta de la pregunta</label>
-                    <textarea class="form-control" id="message" name="message" style="height: 200px;" maxlength="800" onkeyup="countChars(this);"></textarea>
+                    <label for="respuesta">Respuesta de la pregunta</label>
+                    <textarea class="form-control" id="Info" name="Info" style="height: 200px;" maxlength="800" onkeyup="countChars(this);"></textarea>
                 </div>
+            
+                <!--INICIO DE CONSULTAS-->
+                    <!--ELIMINAR-->   
+                    <?php 
+                        include("global/conection.php");
+                        
+                        if(isset($_POST['btn_eliminar']))
+                        {
+                          $Titulo = $_REQUEST['Titulo'];
+            
+                          $query = "DELETE FROM faqs  WHERE Titulo='$Titulo'";
+                          $resultado = $conexion->query($query);	
+            
+                          if ($resultado) {
+                            header("location: editor-faqs.php");
+                          }
+                          else{
+                            echo "No se ha eliminado";
+                          }
+                    }
+                    ?>   
+                    
+                    <!--ATUALIZAR-->
+                    <?php 
+                          include "global/conection.php";
+                        
+                          if(isset($_POST['btn_actualizar']))
+                          {
+                            $Titulo = $_REQUEST['Titulo'];
+                            $Info = $_POST['Info'];
+                            
+                            $query = "UPDATE faqs SET Titulo='$Titulo', Info='$Info' WHERE Titulo='$Titulo'";
+                            $resultado = $conexion->query($query);	
+                            
+                            if ($resultado) {
+                              header("location: editor-faqs.php");
+                            }
+                            else{
+                              echo "No se ha modificado nada";
+                            }
+                            }
+                    ?>
+                    <!--INSERTAR-->
+                    <?php
+                        include "global/conection.php";
+        
+                        if(isset($_POST['btn_Insertar']))
+                        {      
+                          $Titulo = $_POST['Titulo'];
+                          $Info = $_POST['Info'];
+        
+                        if($Titulo=="" || $Info=="")
+                        {
+                          echo "los campos  son obligatorios";
+                        }
+                        else
+                        {
+                          mysqli_query($conexion, " INSERT INTO $tabla_db1 
+                          (Titulo,Info) 
+                            values 
+                          ('$Titulo', '$Info')");
+                        }
+                        }
+                    
+                    ?>
+
+                <!--FIN DE CONSULTAS-->
             
                 <script>
                     function countChars(obj){
@@ -78,18 +168,25 @@
                         }
                     }   
                 </script> 
-            
-                  <!--contador de caracteres-->
-                  <small id="charNum">800 caracteres restantes</small>
+                <!--contador de caracteres-->
+                <small id="charNum">800 caracteres restantes</small>
                 
-                  <button class="btn btn-primary float-right" type="button" aling="right" >Publicar</button>    
+                <div class="form-group row col-12">
+                    <div class=" col-4">
+                         <input type="submit" value="Eliminar Pregunta" class="btn btn-danger float-right mb-3" name="btn_eliminar">
+                    </div>
+                    <div class=" col-4">
+                         <input type="submit" value="Actualizar Contenido" class="btn btn-primary float-right mb-3" name="btn_actualizar">
+                    </div>
+                    <div class=" col-4">
+                         <input type="submit" value="Publicar Contenido" class="btn btn-success float-right mb-3" name="btn_Insertar">
+                    </div>
+                </div>
             </form>
-
         </div>
     </div>
 
 </section>
-
 
 
 
@@ -98,7 +195,7 @@
 
 
 <?php
-    include("../parts/footer2.php")
+    include("../parts/footer.php")
 ?>
 
 </body>
@@ -107,7 +204,6 @@
     <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
     <script src="../js/preloader.js"></script>
-    <script src="../js/data.js"></script>
     <script src="../js/animaciones.js"></script>
     <script src="../js/jquery.superslides.js"></script>
     <script src="../js/jquery.scrollUp.js"></script>

@@ -169,47 +169,50 @@ ASPEL proyect, contacto.php v1es
       </div>
       <div class="modal-body">
         
-      <form class="" action="#!">
+
+      <form d="contactform" role="form" method="POST" action="parts/action_email.php">
+      <div class=" justify-content-center">
                     <div class="row">
                         <div class="col">
                             <div class="form-group">
                                 <label for="materialContactFormName">Nombre(s)</label>
-                                <input type="text" id="materialContactFormName" class="form-control">
+                                <input id="name" type="text" placeholder="Nombre *" class="form-control"  name="name" required>
                             </div>
                         </div>
                         <div class="col">
                             <div class="form-group">
                                 <label for="materialContactFormLastName">Apellido(s)</label>
-                                <input type="text" id="materialContactFormLastName" class="form-control">
+                                <input type="text" placeholder="Empresa " class="form-control"  name="apellido" required>
                             </div>
                         </div>
                     </div>
                     <div class="form-group">
                         <label for="materialContactFormEmail">Correo electrónico</label>
-                        <input type="email" id="materialContactFormEmail" class="form-control">
+                        <input type="email" placeholder="E-Mail *" class="form-control" name="email" required>
                     </div>
                     <div class="form-group">
                         <label for="materialContactFormEmail">Número de Teléfono</label>
-                        <input type="email" id="materialContactFormEmail" class="form-control">
+                        <input type="number" placeholder="Teléfono *" class="form-control" name="phone" required>
                     </div>
                     <label for="materialContactFormEmail">Cuerpo del mensaje:</label>
                      <div class="form-group">
-                         <textarea id="materialContactFormMessage" class="form-control md-textarea" rows="3"></textarea>
+                     <textarea class="input-message form-control" placeholder="Mensaje *"  rows="6" name="message" required></textarea>
                     </div>
-                   
 
-                </form>
+					<form onsubmit="return checkForm(this);">
+								<div class="checkbox primary line-icon on-light">
+									<input id="checkForm" type="checkbox" required name="terms">
+									<label for="checkForm">
+										Presione y valide que no es SPAM
+									</label>
+								</div>
+                    </form> 
 
-      </div>
-      <div class="modal-footer">
-        <div class="custom-control custom-checkbox" style="float:left;">
-            <input type="checkbox" class="custom-control-input" id="defaultUnchecked">
-            <label class="custom-control-label" for="defaultUnchecked">No es Spam</label>
-        </div>
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancelar</button>
-        <button type="button" class="btn btn-success">Enviar</button>
+					<button class="btn btn-primary btn-round btn-long d-block mx-auto" name="submit" type="submit" value="Send">Enviar Formulario<i class="fa fa-envelope"></i></button>
+
+                </div>
+        </form>
       </div>
     </div>
   </div>
 </div>
-

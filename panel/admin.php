@@ -44,6 +44,7 @@
                 <a class="nav-link" href="admin-index.php">Página inicio</a>
                 <a class="nav-link" href="admin-faqs.php">Preguntas frecuentes</a>
                 <a class="nav-link" href="admin-datos.php">Información y contacto</a>
+                <a class="nav-link" href="admin-usuarios.php">Usuarios</a>
             </div>
         </div>
         <div class="col-md-9">
