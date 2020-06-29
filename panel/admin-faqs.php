@@ -1,6 +1,5 @@
 <?php
-    require('../action.php');
-    require('../sesion.php');
+	require('../action.php');
 ?>
 
 <!DOCTYPE html>
@@ -23,6 +22,8 @@
 </head>
 
 <?php
+    include 'global/config.php';
+    include 'global/conexion.php';
     include("../parts/preloader.php");
     include("../parts/headermin.php");
     //
@@ -41,43 +42,49 @@
                 <!--<a class="nav-link" href="admin-general.php">General</a>-->
                 <a class="nav-link" href="admin-index.php">Página inicio</a>
                 <a class="nav-link active" href="admin-faqs.php">Preguntas frecuentes</a>
-                <a class="nav-link" href="admin-datos.php">Información y contacto</a>
+                <a class="nav-link" href="admin-contacto.php">Contacto</a>
+                <a class="nav-link" href="capacitaciones.php">Capacitaciones</a>
+                <a class="nav-link" href="capacitaciones.php">Capacitaciones</a>
+                <a class="nav-link" href="admin-usuarios.php">Usuarios</a>
             </div>
         </div>
         <div class="col-md-9">
             <div class="tab-content">
 
             <h2 class="font-weight-bold text-primary">Preguntas frecuentes</h2>
-                <div class="bg-light border rounded w-100 my-3 mx-auto p-4">
+            <!--SELECCION-->
+            <?php
+              $sentencia=$pdo->prepare("SELECT * FROM `faqs`");
+              $sentencia->execute(); 
+              $preguntas=$sentencia->fetchAll(PDO::FETCH_ASSOC);
+            ?>
+                <div class="bg-light border rounded w-100 my-3 mx-auto p-4" >
                 
                     <h4 class="float-left">Preguntas</h4>
-                    <button class="btn btn-primary float-right mb-3" onclick="location.href='editor-faqs.php'">Añadir</button>
                     
+                    <input type="submit" value="Control de Preguntas" class="btn btn-primary float-right mb-3"  onclick="location.href='editor-faqs.php'">
                     <input class="form-control" type="text" name="" placeholder="Buscar Pregunta"><br>
+                    
+                    
+                       
+                            <div  class="row row-cols" style=" overflow: auto; 	height: 480px; ">
+                             <?php foreach($preguntas as $datos){ ?>
+                                <div class="col-md-6 mb-4">
+                                    <div class="card">
+                                        <div class="card-body">
+                                            <h5 class="card-title mt-2 text-primary"><?php echo $datos['Titulo'];?></h5>
+                                            <p class="card-text"><?php echo $datos['Info'];?></p>
+                                        </div>
+                                    </div>
+                                </div><br>
+                              <?php }?>  
+                              </div>
+               
 
-                    <div class="card">
-                        <div class="card-body">
-                            <small>Identificador: x</small>
-                            <h5 class="card-title mt-2">Pregunta frecuente</h5>
-                            <p class="card-text">Respuesta</p>
-                            <a class="card-link" href="editor-faqs.php">Editar</a>
-                            <a class="card-link text-danger" href="editor-faqs.php">Eliminar</a>
-                        </div>
-                    </div>
 
-                    <script>
-                        function countChars(obj){
-                            var maxLength = 800;
-                            var strLength = obj.value.length;
-                            var charRemain = (maxLength - strLength);
 
-                            if(charRemain < 0){
-                                document.getElementById("charNum").innerHTML = '<span style="color: red;">You have exceeded the limit of '+maxLength+' characters</span>';
-                            }else{
-                                document.getElementById("charNum").innerHTML = charRemain+' caracteres restantes';
-                            }
-                        }
-                    </script>
+
+
                 </div>
              </div>
         </div>
@@ -93,7 +100,7 @@
 
 
 <?php
-    include("../parts/footer2.php")
+    include("../parts/footer.php")
 ?>
 
 </body>
@@ -102,7 +109,6 @@
     <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
     <script src="../js/preloader.js"></script>
-    <script src="../js/data.js"></script>
     <script src="../js/animaciones.js"></script>
     <script src="../js/jquery.superslides.js"></script>
     <script src="../js/jquery.scrollUp.js"></script>
